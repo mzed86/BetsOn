@@ -1,0 +1,67 @@
+# Feature engineering configuration
+
+rolling:
+  # Overall rolling windows (match-count-based)
+  windows: [5, 10]
+  # Home/away-specific rolling windows (smaller due to fewer venue-specific matches)
+  venue_windows: [3, 6]
+  # Minimum periods for rolling calculations
+  min_periods: 1
+
+elo:
+  k_factor: 20
+  initial_rating: 1500
+  home_advantage: 100
+
+odds:
+  # Primary odds columns (H/D/A triplets)
+  primary: [B365H, B365D, B365A]
+  pinnacle_opening: [PSH, PSD, PSA]
+  pinnacle_closing: [PSCH, PSCD, PSCA]
+  # Columns with >90% null to drop before feature engineering
+  drop_columns:
+    - SJH
+    - SJD
+    - SJA
+    - BFH
+    - BFD
+    - BFA
+    - 1XBH
+    - 1XBD
+    - 1XBA
+    - BFEH
+    - BFED
+    - BFEA
+    - "BFE>2.5"
+    - "BFE<2.5"
+    - BFEAHH
+    - BFEAHA
+    - BFCH
+    - BFCD
+    - BFCA
+    - 1XBCH
+    - 1XBCD
+    - 1XBCA
+    - BFECH
+    - BFECD
+    - BFECA
+    - "BFEC>2.5"
+    - "BFEC<2.5"
+    - BFECAHH
+    - BFECAHA
+    - HFKC
+    - AFKC
+
+match_context:
+  # Matches considered "early season" (limited rolling data)
+  early_season_threshold: 5
+  # Cap rest days at this value (handles summer/winter breaks)
+  summer_break_threshold: 60
+
+# Leagues with xG data from Understat
+tier1_leagues:
+  - EPL
+  - La_Liga
+  - Bundesliga
+  - Serie_A
+  - Ligue_1

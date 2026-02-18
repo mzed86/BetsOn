@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+pyarrow
+pyyaml
+aiohttp
+understat
+scikit-learn
+pytest

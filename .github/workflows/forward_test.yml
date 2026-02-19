@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   predict:
@@ -77,3 +78,65 @@ jobs:
             git commit -m "Forward test ${DATE}: ${BETS} bets recommended"
             git push
           fi
+
+      - name: Post update to tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+
+          # New bets section
+          if [ -f "outputs/predictions/forward_bets.csv" ]; then
+            NEW_BETS=$(tail -n +2 outputs/predictions/forward_bets.csv | wc -l | tr -d ' ')
+            TOTAL_STAKE=$(tail -n +2 outputs/predictions/forward_bets.csv | awk -F',' '{s+=$8} END {printf "%.2f", s}')
+            # Top 5 bets by stake
+            TOP_BETS=$(tail -n +2 outputs/predictions/forward_bets.csv | sort -t',' -k8 -nr | head -5 | awk -F',' '{printf "| %s | %s vs %s | %s | %s | %.2f | %.2f |\n", $1, $2, $3, $4, $5, $6, $8}')
+          else
+            NEW_BETS=0
+            TOTAL_STAKE="0.00"
+            TOP_BETS=""
+          fi
+
+          # Running tally section
+          if [ -f "outputs/forward_test/results/running_tally.json" ]; then
+            TOTAL=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); print(t['total_bets'])")
+            WINS=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); print(t['wins'])")
+            PNL=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); print(t['total_pnl'])")
+            ROI=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); print(t['roi_pct'])")
+            PVAL=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); s=t.get('significance',{}); print(s.get('p_value','n/a'))")
+            VERDICT=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); s=t.get('significance',{}); print(s.get('verdict','No data yet'))")
+            CI_LO=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); s=t.get('significance',{}); print(s.get('ci_lower_pct','n/a'))")
+            CI_HI=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); s=t.get('significance',{}); print(s.get('ci_upper_pct','n/a'))")
+            REMAINING=$(python3 -c "import json; t=json.load(open('outputs/forward_test/results/running_tally.json')); s=t.get('significance',{}); r=s.get('bets_remaining'); print(f'~{r} more' if r else 'n/a')")
+            TALLY_SECTION="## Cumulative Results
+          | Metric | Value |
+          |--------|-------|
+          | Resolved bets | ${TOTAL} |
+          | Wins | ${WINS} |
+          | Total P&L | ${PNL} |
+          | ROI | ${ROI}% |
+          | 95% CI | [${CI_LO}%, ${CI_HI}%] |
+          | p-value | ${PVAL} |
+          | Verdict | **${VERDICT}** |
+          | Bets to significance | ${REMAINING} |"
+          else
+            TALLY_SECTION="## Cumulative Results
+          No resolved bets yet — matches haven't been played."
+          fi
+
+          # Build comment body
+          BODY="## Forward Test Update — ${DATE}
+
+          ### New Bets: ${NEW_BETS} (total stake: ${TOTAL_STAKE})
+
+          Top bets by stake:
+          | Date | Match | Market | Outcome | Odds | Stake |
+          |------|-------|--------|---------|------|-------|
+          ${TOP_BETS}
+
+          ${TALLY_SECTION}
+
+          ---
+          [View full results](https://github.com/mzed86/BetsOn/tree/main/outputs/forward_test) | [Workflow run](https://github.com/mzed86/BetsOn/actions/runs/${{ github.run_id }})"
+
+          gh issue comment 1 --repo mzed86/BetsOn --body "${BODY}"

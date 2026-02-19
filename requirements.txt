@@ -6,6 +6,7 @@ pyarrow
 pyyaml
 aiohttp>=3.10.0
 understat
+scipy
 scikit-learn
 lightgbm
 joblib

@@ -2,17 +2,19 @@
 
 Loads past predictions from outputs/forward_test/predictions/,
 fetches actual results from football-data.co.uk current season data,
-and produces a running P&L tally.
+and produces a running P&L tally with statistical significance testing.
 
 CLI: python -m src.models.score_forward_test
 """
 
 import json
+import math
 from datetime import datetime
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy import stats
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PREDICTIONS_DIR = PROJECT_ROOT / "outputs" / "forward_test" / "predictions"
@@ -145,8 +147,91 @@ def score_predictions(predictions: pd.DataFrame, results: pd.DataFrame) -> pd.Da
     return scored
 
 
+def compute_significance(resolved: pd.DataFrame) -> dict:
+    """Compute statistical significance of forward test results.
+
+    Uses a one-sample t-test on profit-per-unit-staked to test whether
+    the mean return is significantly greater than zero.
+
+    Returns dict with p_value, t_stat, confidence interval, verdict,
+    and estimated bets remaining to reach significance.
+    """
+    if len(resolved) < 2:
+        return {
+            "n_bets": len(resolved),
+            "roi_pct": None,
+            "mean_return": None,
+            "std_return": None,
+            "t_stat": None,
+            "p_value": None,
+            "ci_lower_pct": None,
+            "ci_upper_pct": None,
+            "verdict": "Not enough data",
+            "bets_needed": None,
+            "bets_remaining": None,
+        }
+
+    # Profit per unit staked for each bet (normalise by stake to remove
+    # Kelly sizing effects — we want to test the edge, not the sizing)
+    returns = resolved["pnl"].values / resolved["stake"].values
+
+    n = len(returns)
+    mean_return = float(np.mean(returns))
+    std_return = float(np.std(returns, ddof=1))
+    roi_pct = mean_return * 100
+
+    # One-sided t-test: H0: mean_return <= 0, H1: mean_return > 0
+    if std_return == 0:
+        t_stat = float("inf") if mean_return > 0 else float("-inf")
+        p_value = 0.0 if mean_return > 0 else 1.0
+    else:
+        t_stat = mean_return / (std_return / math.sqrt(n))
+        p_value = 1 - stats.t.cdf(t_stat, df=n - 1)
+
+    # 95% confidence interval for ROI
+    se = std_return / math.sqrt(n)
+    t_crit = stats.t.ppf(0.975, df=n - 1)
+    ci_lower = (mean_return - t_crit * se) * 100
+    ci_upper = (mean_return + t_crit * se) * 100
+
+    # Estimate bets needed to reach significance at current observed ROI
+    if mean_return > 0 and std_return > 0:
+        # n needed for z=1.645 (one-sided 95%) given observed effect size
+        bets_needed = math.ceil((1.645 * std_return / mean_return) ** 2)
+        bets_remaining = max(0, bets_needed - n)
+    else:
+        bets_needed = None
+        bets_remaining = None
+
+    # Human-readable verdict
+    if p_value < 0.01:
+        verdict = "SIGNIFICANT (p < 0.01) — strong evidence of edge"
+    elif p_value < 0.05:
+        verdict = "SIGNIFICANT (p < 0.05) — evidence of edge"
+    elif p_value < 0.10:
+        verdict = "MARGINAL (p < 0.10) — weak evidence, keep going"
+    elif mean_return > 0:
+        verdict = "NOT YET SIGNIFICANT — positive but inconclusive"
+    else:
+        verdict = "NEGATIVE — no evidence of edge"
+
+    return {
+        "n_bets": n,
+        "roi_pct": round(roi_pct, 2),
+        "mean_return": round(mean_return, 4),
+        "std_return": round(std_return, 4),
+        "t_stat": round(t_stat, 3),
+        "p_value": round(p_value, 4),
+        "ci_lower_pct": round(ci_lower, 2),
+        "ci_upper_pct": round(ci_upper, 2),
+        "verdict": verdict,
+        "bets_needed": bets_needed,
+        "bets_remaining": bets_remaining,
+    }
+
+
 def print_forward_test_report(scored: pd.DataFrame) -> None:
-    """Print running forward test report."""
+    """Print running forward test report with significance testing."""
     resolved = scored[scored["won"].notna()].copy()
     pending = scored[scored["won"].isna()]
 
@@ -185,6 +270,22 @@ def print_forward_test_report(scored: pd.DataFrame) -> None:
         m_roi = m_pnl / m_staked * 100 if m_staked > 0 else 0
         print(f"  {market:<12} {len(m):>6} {int(m_wins):>6} {m_pnl:>+10.2f} {m_roi:>+7.2f}%")
 
+    # Statistical significance
+    sig = compute_significance(resolved)
+    print(f"\n  --- Statistical Significance ---")
+    print(f"  Test:              one-sided t-test (H0: mean profit <= 0)")
+    print(f"  ROI per bet:       {sig['roi_pct']:+.2f}%")
+    print(f"  95% CI:            [{sig['ci_lower_pct']:+.2f}%, {sig['ci_upper_pct']:+.2f}%]")
+    print(f"  t-statistic:       {sig['t_stat']:.3f}")
+    print(f"  p-value:           {sig['p_value']:.4f}")
+    print(f"  Verdict:           {sig['verdict']}")
+    if sig["bets_remaining"] is not None:
+        if sig["bets_remaining"] == 0:
+            print(f"  Bets to 95% sig:   already there!")
+        else:
+            weeks = math.ceil(sig["bets_remaining"] / 120)
+            print(f"  Bets to 95% sig:   ~{sig['bets_remaining']} more (~{weeks} weeks at current rate)")
+
 
 def main() -> None:
     """Score forward test predictions and print report."""
@@ -210,9 +311,10 @@ def main() -> None:
     scored.to_csv(out_path, index=False)
     print(f"\n  Saved scored results to {out_path}")
 
-    # Save running tally
+    # Save running tally (with significance stats)
     resolved = scored[scored["won"].notna()]
     if not resolved.empty:
+        sig = compute_significance(resolved)
         tally = {
             "as_of": date_str,
             "total_bets": len(resolved),
@@ -221,6 +323,7 @@ def main() -> None:
             "total_pnl": round(resolved["pnl"].sum(), 2),
             "roi_pct": round(resolved["pnl"].sum() / resolved["stake"].sum() * 100, 2)
             if resolved["stake"].sum() > 0 else 0.0,
+            "significance": sig,
         }
         tally_path = RESULTS_DIR / "running_tally.json"
         with open(tally_path, "w") as f:

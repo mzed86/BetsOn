@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+data/odds/
+
+# Trained models (binary, regenerate with training scripts)
+outputs/models/
+
+# Generated prediction parquets (regenerate with training scripts)
+outputs/predictions/*.parquet
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env

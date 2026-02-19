@@ -1,0 +1,83 @@
+# Scraping configuration for SportsBetting project
+
+football_data:
+  base_url: "https://www.football-data.co.uk/mmz4281"
+  # League code -> display name mapping
+  leagues:
+    E0: "EPL"           # English Premier League
+    E1: "EFL_Championship"  # English Championship
+    E2: "EFL_League1"   # English League 1
+    E3: "EFL_League2"   # English League 2
+    SC0: "SPL"          # Scottish Premiership
+    SC1: "Scottish_Championship"
+    D1: "Bundesliga"
+    D2: "Bundesliga2"
+    I1: "Serie_A"
+    I2: "Serie_B"
+    SP1: "La_Liga"
+    SP2: "La_Liga2"
+    F1: "Ligue_1"
+    F2: "Ligue_2"
+    N1: "Eredivisie"
+    B1: "Jupiler_League"  # Belgian Pro League
+    P1: "Liga_Portugal"
+    T1: "Super_Lig"       # Turkish Super Lig
+    G1: "Super_League"    # Greek Super League
+    # Additional leagues (football-data.co.uk codes)
+    ARG: "Argentina_Primera"  # Argentine Primera Division
+    BRA: "Brazil_Serie_A"     # Brazilian Serie A
+    CHN: "China_Super_League" # Chinese Super League
+    DNK: "Danish_Superliga"   # Denmark Superligaen
+    FIN: "Finland_Veikkausliiga"  # Finnish Veikkausliiga
+    IRL: "Ireland_Premier"    # Irish Premier Division
+    JPN: "Japan_J_League"     # Japanese J-League
+    MEX: "Mexico_Liga_MX"     # Mexican Liga MX
+    NOR: "Norway_Eliteserien" # Norwegian Eliteserien
+    POL: "Poland_Ekstraklasa" # Polish Ekstraklasa
+    ROU: "Romania_Liga_1"     # Romanian Liga I
+    RUS: "Russia_Premier"     # Russian Premier League
+    SWE: "Sweden_Allsvenskan" # Swedish Allsvenskan
+    SWZ: "Switzerland_Super"  # Swiss Super League
+    USA: "USA_MLS"            # MLS
+
+  # Season codes: two-digit start/end year (e.g., "1415" = 2014/15)
+  seasons:
+    - "1415"
+    - "1516"
+    - "1617"
+    - "1718"
+    - "1819"
+    - "1920"
+    - "2021"
+    - "2122"
+    - "2223"
+    - "2324"
+    - "2425"
+
+  request_delay_seconds: 1.0
+
+understat:
+  # League identifiers used by the understat library
+  leagues:
+    - "EPL"
+    - "La_Liga"
+    - "Bundesliga"
+    - "Serie_A"
+    - "Ligue_1"
+    - "RFPL"            # Russian Premier League
+
+  # Seasons as start year (e.g., 2014 = 2014/15 season)
+  seasons:
+    - 2014
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+
+  request_delay_seconds: 2.0

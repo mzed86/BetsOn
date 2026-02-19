@@ -29,6 +29,23 @@ class OddsConfig:
     pinnacle_opening: list[str] = field(default_factory=lambda: ["PSH", "PSD", "PSA"])
     pinnacle_closing: list[str] = field(default_factory=lambda: ["PSCH", "PSCD", "PSCA"])
     drop_columns: list[str] = field(default_factory=list)
+    additional_books: dict[str, list[str]] = field(default_factory=lambda: {
+        "bw": ["BWH", "BWD", "BWA"],
+        "wh": ["WHH", "WHD", "WHA"],
+        "vc": ["VCH", "VCD", "VCA"],
+        "iw": ["IWH", "IWD", "IWA"],
+    })
+    ou25_books: dict[str, list[str]] = field(default_factory=lambda: {
+        "b365_ou25": ["B365>2.5", "B365<2.5"],
+        "ps_ou25": ["P>2.5", "P<2.5"],
+        "max_ou25": ["Max>2.5", "Max<2.5"],
+        "avg_ou25": ["Avg>2.5", "Avg<2.5"],
+    })
+    corner_books: dict[str, list[str]] = field(default_factory=lambda: {
+        "b365_corner": ["B365CH", "B365CD", "B365CA"],
+        "max_corner": ["MaxCH", "MaxCD", "MaxCA"],
+        "avg_corner": ["AvgCH", "AvgCD", "AvgCA"],
+    })
 
 
 @dataclass(frozen=True)

@@ -1,0 +1,21 @@
+split:
+  train_seasons: [2020, 2021]
+  val_seasons: [2022]
+  test_seasons: [2023, 2024]
+
+disagreement:
+  percentiles: [1, 2, 3, 5, 7, 10, 15, 20]
+  default_percentile: 5
+  league_filter:
+    enabled: true
+    min_roi_pct: 0.0
+    min_bets: 10
+
+transaction_costs:
+  cost_pcts: [0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0]
+
+kelly:
+  fractions: [0.125, 0.25, 0.5, 1.0]
+  default_fraction: 0.25
+  max_bet_fraction: 0.05
+  bankroll: 1000.0

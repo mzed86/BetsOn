@@ -1,0 +1,177 @@
+split:
+  train_seasons: [2014, 2015, 2016, 2017, 2018]
+  val_seasons: [2019, 2020]
+  test_seasons: [2021, 2022, 2023, 2024]
+
+disagreement:
+  percentiles: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  default_percentile: 3
+  league_filter:
+    enabled: true
+    min_roi_pct: 0.0
+    min_bets: 20
+
+clv_classifier:
+  clv_thresholds: [0.005, 0.01, 0.015, 0.02, 0.025, 0.03]
+  default_clv_threshold: 0.02
+  prediction_cutoffs: [0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6]
+  default_prediction_cutoff: 0.5
+  regression_ranking:
+    enabled: true
+    top_n_pcts: [1, 2, 3, 5, 7, 10, 15, 20]
+  lgbm:
+    n_estimators: 800
+    learning_rate: 0.03
+    max_depth: 5
+    num_leaves: 31
+    min_child_samples: 50
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+    verbose: -1
+
+combination:
+  disagree_percentiles: [5, 7, 10, 12, 15]
+  clv_cutoffs: [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
+
+meta_model:
+  learner: lightgbm
+  logistic_regression:
+    C: 1.0
+    max_iter: 1000
+    solver: lbfgs
+    random_state: 42
+  lightgbm:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 3
+    num_leaves: 15
+    min_child_samples: 30
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+    verbose: -1
+
+dixon_coles:
+  enabled: true
+  max_goals: 7
+  decay_rate: 0.003
+  max_iter: 500
+  edge_thresholds: [0.02, 0.03, 0.05, 0.07, 0.10]
+
+transaction_costs:
+  cost_pcts: [0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0]
+
+kelly:
+  fractions: [0.125, 0.25, 0.5, 1.0]
+  default_fraction: 0.25
+  max_bet_fraction: 0.05
+  bankroll: 1000.0
+
+features:
+  # Opening odds from both books (available pre-match)
+  opening_odds:
+    - b365_prob_h
+    - b365_prob_d
+    - b365_prob_a
+    - ps_prob_h
+    - ps_prob_d
+    - ps_prob_a
+
+  # Odds disagreement features (computed: B365 - Pinnacle opening)
+  odds_disagreement:
+    - odds_disagree_h
+    - odds_disagree_d
+    - odds_disagree_a
+    - odds_disagree_bw_h
+    - odds_disagree_bw_d
+    - odds_disagree_bw_a
+    - odds_disagree_wh_h
+    - odds_disagree_wh_d
+    - odds_disagree_wh_a
+    - odds_disagree_vc_h
+    - odds_disagree_vc_d
+    - odds_disagree_vc_a
+    - odds_disagree_iw_h
+    - odds_disagree_iw_d
+    - odds_disagree_iw_a
+    - odds_disagree_best_h
+    - odds_disagree_best_d
+    - odds_disagree_best_a
+
+  # Multi-book cross-bookmaker features
+  multi_book:
+    - min_book_prob_h
+    - min_book_prob_d
+    - min_book_prob_a
+    - book_prob_spread_h
+    - book_prob_spread_d
+    - book_prob_spread_a
+    - max_odds_h
+    - max_odds_d
+    - max_odds_a
+
+  # Non-odds features
+  non_odds:
+    - elo_diff
+    - h_elo_expected
+    - form_diff_5
+    - form_diff_10
+    - goals_diff_5
+    - goals_diff_10
+    - sot_diff_5
+    - sot_diff_10
+    - rest_diff
+    - h_is_early_season
+    - a_is_early_season
+    - h_rolling5_ppg
+    - a_rolling5_ppg
+    - h_rolling5_goals_for
+    - a_rolling5_goals_for
+    - h_rolling5_goals_against
+    - a_rolling5_goals_against
+    - h_rolling5_win_rate
+    - a_rolling5_win_rate
+    - h_rolling5_clean_sheet_rate
+    - a_rolling5_clean_sheet_rate
+    - day_of_week
+    - is_midweek
+    - is_friday
+    - kickoff_hour
+    - is_early_kickoff
+
+  venue:
+    - h_venue_rolling3_ppg
+    - a_venue_rolling3_ppg
+    - h_venue_rolling3_goals_for
+    - a_venue_rolling3_goals_for
+    - h_venue_rolling3_goals_against
+    - a_venue_rolling3_goals_against
+    - h_venue_rolling3_goal_diff
+    - a_venue_rolling3_goal_diff
+    - h_venue_rolling3_win_rate
+    - a_venue_rolling3_win_rate
+    - h_venue_rolling3_clean_sheet_rate
+    - a_venue_rolling3_clean_sheet_rate
+
+  rolling_extended:
+    - h_rolling10_ppg
+    - a_rolling10_ppg
+    - h_rolling10_goals_for
+    - a_rolling10_goals_for
+    - h_rolling10_goals_against
+    - a_rolling10_goals_against
+    - h_rolling10_win_rate
+    - a_rolling10_win_rate
+    - h_rolling10_goal_diff
+    - a_rolling10_goal_diff
+    - h_rolling5_goal_diff
+    - a_rolling5_goal_diff
+    - h_rolling5_draw_rate
+    - a_rolling5_draw_rate
+    - h_rolling5_loss_rate
+    - a_rolling5_loss_rate

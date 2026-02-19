@@ -66,5 +66,16 @@ def compute_match_context_features(
     result["h_is_early_season"] = home_rows["is_early_season"]
     result["a_is_early_season"] = away_rows["is_early_season"]
 
+    # Market timing features (derived from Date/Time — pre-match, no leakage)
+    result["day_of_week"] = matches["Date"].dt.dayofweek       # 0=Mon..6=Sun
+    result["is_midweek"] = matches["Date"].dt.dayofweek.isin([1, 2, 3]).astype(int)
+    result["is_friday"] = (matches["Date"].dt.dayofweek == 4).astype(int)
+    if "Time" in matches.columns:
+        time_parts = matches["Time"].str.split(":", expand=True)
+        hour = pd.to_numeric(time_parts[0], errors="coerce")
+        minute = pd.to_numeric(time_parts[1], errors="coerce")
+        result["kickoff_hour"] = hour + minute / 60.0
+        result["is_early_kickoff"] = (hour <= 13).astype(float)
+
     logger.info("Match context features: %d columns", len(result.columns))
     return result

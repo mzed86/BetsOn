@@ -1,0 +1,127 @@
+split:
+  train_seasons: [2014, 2015, 2016, 2017, 2018]
+  val_seasons: [2019, 2020]
+  test_seasons: [2021, 2022, 2023, 2024]
+
+# Tier 1 leagues — have xG rolling data from Understat
+tier1_leagues:
+  - EPL
+  - La_Liga
+  - Serie_A
+  - Bundesliga
+  - Ligue_1
+
+features:
+  # --- Pre-match odds (B365 opening — available before kickoff) ---
+  odds_b365:
+    - b365_prob_h
+    - b365_prob_d
+    - b365_prob_a
+
+  # --- Pinnacle opening odds (available pre-match) ---
+  odds_pinnacle_open:
+    - ps_prob_h
+    - ps_prob_d
+    - ps_prob_a
+
+  # NOTE: Pinnacle CLOSING odds (psc_*) and CLV (close - open) are
+  # excluded because they are only known at kickoff. Using them as
+  # features while evaluating ROI at pre-match B365 odds is look-ahead bias.
+
+  # --- Core non-odds features (available for all leagues) ---
+  non_odds:
+    - elo_diff
+    - h_elo_expected
+    - form_diff_5
+    - form_diff_10
+    - goals_diff_5
+    - goals_diff_10
+    - sot_diff_5
+    - sot_diff_10
+    - rest_diff
+    - h_is_early_season
+    - a_is_early_season
+    - h_rolling5_ppg
+    - a_rolling5_ppg
+    - h_rolling5_goals_for
+    - a_rolling5_goals_for
+    - h_rolling5_goals_against
+    - a_rolling5_goals_against
+    - h_rolling5_win_rate
+    - a_rolling5_win_rate
+    - h_rolling5_clean_sheet_rate
+    - a_rolling5_clean_sheet_rate
+    - day_of_week
+    - is_midweek
+    - is_friday
+    - kickoff_hour
+    - is_early_kickoff
+
+  # --- Venue-specific rolling features ---
+  venue:
+    - h_venue_rolling3_ppg
+    - a_venue_rolling3_ppg
+    - h_venue_rolling3_goals_for
+    - a_venue_rolling3_goals_for
+    - h_venue_rolling3_goals_against
+    - a_venue_rolling3_goals_against
+    - h_venue_rolling3_goal_diff
+    - a_venue_rolling3_goal_diff
+    - h_venue_rolling3_win_rate
+    - a_venue_rolling3_win_rate
+    - h_venue_rolling3_clean_sheet_rate
+    - a_venue_rolling3_clean_sheet_rate
+
+  # --- Extended rolling (10-match + supplementary 5-match) ---
+  rolling_extended:
+    - h_rolling10_ppg
+    - a_rolling10_ppg
+    - h_rolling10_goals_for
+    - a_rolling10_goals_for
+    - h_rolling10_goals_against
+    - a_rolling10_goals_against
+    - h_rolling10_win_rate
+    - a_rolling10_win_rate
+    - h_rolling10_goal_diff
+    - a_rolling10_goal_diff
+    - h_rolling5_goal_diff
+    - a_rolling5_goal_diff
+    - h_rolling5_draw_rate
+    - a_rolling5_draw_rate
+    - h_rolling5_loss_rate
+    - a_rolling5_loss_rate
+
+  # --- Tier 1 only: xG rolling features (lagged, pre-match safe) ---
+  tier1_xg:
+    - xg_diff_5
+    - xg_diff_10
+    - h_rolling5_xg_for
+    - a_rolling5_xg_for
+    - h_rolling5_xg_against
+    - a_rolling5_xg_against
+    - h_rolling5_xg_overperf
+    - a_rolling5_xg_overperf
+
+  # NOTE: Understat match-level forecasts (forecast_w/d/l) are excluded.
+  # Investigation showed 0.95 correlation with in-match xG, meaning they
+  # are post-match xG-derived probabilities, not pre-match predictions.
+
+logistic_regression:
+  C: 1.0
+  max_iter: 1000
+  multi_class: multinomial
+  solver: lbfgs
+  random_state: 42
+
+gradient_boosting:
+  n_estimators: 800
+  learning_rate: 0.03
+  max_depth: 6
+  num_leaves: 40
+  min_child_samples: 50
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_alpha: 0.1
+  reg_lambda: 1.0
+  random_state: 42
+  verbose: -1

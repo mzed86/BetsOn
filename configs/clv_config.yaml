@@ -1,0 +1,106 @@
+split:
+  train_seasons: [2014, 2015, 2016, 2017, 2018]
+  val_seasons: [2019, 2020]
+  test_seasons: [2021, 2022, 2023, 2024]
+
+# Target: line movement per outcome (closing - opening Pinnacle prob)
+targets:
+  - clv_h   # psc_prob_h - ps_prob_h
+  - clv_d   # psc_prob_d - ps_prob_d
+  - clv_a   # psc_prob_a - ps_prob_a
+
+# Betting thresholds
+betting:
+  min_predicted_clv: 0.02     # only bet when predicted CLV > 2pp
+  min_edge_vs_b365: 0.03      # only bet when our implied prob > B365 implied by 3pp
+  min_agreement_signals: 2    # need 2+ signals agreeing to bet
+
+features:
+  # Opening odds from both books (available pre-match)
+  opening_odds:
+    - b365_prob_h
+    - b365_prob_d
+    - b365_prob_a
+    - ps_prob_h
+    - ps_prob_d
+    - ps_prob_a
+
+  # Odds disagreement features (computed: B365 - Pinnacle opening)
+  odds_disagreement:
+    - odds_disagree_h   # b365_prob_h - ps_prob_h
+    - odds_disagree_d
+    - odds_disagree_a
+
+  # Non-odds (reuse from model_config)
+  non_odds:
+    - elo_diff
+    - h_elo_expected
+    - form_diff_5
+    - form_diff_10
+    - goals_diff_5
+    - goals_diff_10
+    - sot_diff_5
+    - sot_diff_10
+    - rest_diff
+    - h_is_early_season
+    - a_is_early_season
+    - h_rolling5_ppg
+    - a_rolling5_ppg
+    - h_rolling5_goals_for
+    - a_rolling5_goals_for
+    - h_rolling5_goals_against
+    - a_rolling5_goals_against
+    - h_rolling5_win_rate
+    - a_rolling5_win_rate
+    - h_rolling5_clean_sheet_rate
+    - a_rolling5_clean_sheet_rate
+    - day_of_week
+    - is_midweek
+    - is_friday
+    - kickoff_hour
+    - is_early_kickoff
+
+  venue:
+    - h_venue_rolling3_ppg
+    - a_venue_rolling3_ppg
+    - h_venue_rolling3_goals_for
+    - a_venue_rolling3_goals_for
+    - h_venue_rolling3_goals_against
+    - a_venue_rolling3_goals_against
+    - h_venue_rolling3_goal_diff
+    - a_venue_rolling3_goal_diff
+    - h_venue_rolling3_win_rate
+    - a_venue_rolling3_win_rate
+    - h_venue_rolling3_clean_sheet_rate
+    - a_venue_rolling3_clean_sheet_rate
+
+  rolling_extended:
+    - h_rolling10_ppg
+    - a_rolling10_ppg
+    - h_rolling10_goals_for
+    - a_rolling10_goals_for
+    - h_rolling10_goals_against
+    - a_rolling10_goals_against
+    - h_rolling10_win_rate
+    - a_rolling10_win_rate
+    - h_rolling10_goal_diff
+    - a_rolling10_goal_diff
+    - h_rolling5_goal_diff
+    - a_rolling5_goal_diff
+    - h_rolling5_draw_rate
+    - a_rolling5_draw_rate
+    - h_rolling5_loss_rate
+    - a_rolling5_loss_rate
+
+gradient_boosting:
+  n_estimators: 800
+  learning_rate: 0.03
+  max_depth: 5
+  num_leaves: 31
+  min_child_samples: 50
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_alpha: 0.1
+  reg_lambda: 1.0
+  random_state: 42
+  verbose: -1

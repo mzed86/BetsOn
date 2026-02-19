@@ -1,0 +1,65 @@
+# Team name normalization mapping
+# Maps source-specific names to canonical names (Understat convention)
+# Only teams whose names differ between sources need entries
+
+EPL:
+  football_data:
+    Man City: Manchester City
+    Man United: Manchester United
+    Newcastle: Newcastle United
+    "Nott'm Forest": Nottingham Forest
+    Wolves: Wolverhampton Wanderers
+    # Historical (relegated/promoted)
+    West Brom: West Bromwich Albion
+    QPR: Queens Park Rangers
+
+La_Liga:
+  football_data:
+    Ath Bilbao: Athletic Club
+    Ath Madrid: Atletico Madrid
+    Betis: Real Betis
+    Celta: Celta Vigo
+    Vallecano: Rayo Vallecano
+    Sociedad: Real Sociedad
+    Espanol: Espanyol
+    Valladolid: Real Valladolid
+    # Historical
+    La Coruna: Deportivo La Coruna
+    Sp Gijon: Sporting Gijon
+    Huesca: SD Huesca
+
+Bundesliga:
+  football_data:
+    Dortmund: Borussia Dortmund
+    Ein Frankfurt: Eintracht Frankfurt
+    FC Koln: FC Cologne
+    Heidenheim: FC Heidenheim
+    Leverkusen: Bayer Leverkusen
+    "M'gladbach": Borussia M.Gladbach
+    Mainz: Mainz 05
+    RB Leipzig: RasenBallsport Leipzig
+    Stuttgart: VfB Stuttgart
+    St Pauli: St. Pauli
+    # Historical
+    Hamburg: Hamburger SV
+    Hannover: Hannover 96
+    Hertha: Hertha Berlin
+    Bielefeld: Arminia Bielefeld
+    Nurnberg: Nuernberg
+    Fortuna Dusseldorf: Fortuna Duesseldorf
+    Greuther Furth: Greuther Fuerth
+
+Serie_A:
+  football_data:
+    Milan: AC Milan
+    Spal: SPAL 2013
+    Parma: Parma Calcio 1913
+
+Ligue_1:
+  football_data:
+    Paris SG: Paris Saint Germain
+    Clermont: Clermont Foot
+    St Etienne: Saint-Etienne
+    # Historical
+    Bastia: SC Bastia
+    Ajaccio GFCO: GFC Ajaccio

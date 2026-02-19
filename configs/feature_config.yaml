@@ -18,6 +18,12 @@ odds:
   primary: [B365H, B365D, B365A]
   pinnacle_opening: [PSH, PSD, PSA]
   pinnacle_closing: [PSCH, PSCD, PSCA]
+  # Additional bookmakers for multi-book analysis (>85% coverage)
+  additional_books:
+    bw: [BWH, BWD, BWA]
+    wh: [WHH, WHD, WHA]
+    vc: [VCH, VCD, VCA]
+    iw: [IWH, IWD, IWA]
   # Columns with >90% null to drop before feature engineering
   drop_columns:
     - SJH
@@ -51,6 +57,19 @@ odds:
     - BFECAHA
     - HFKC
     - AFKC
+
+  # Over/Under 2.5 odds (2-way pairs)
+  ou25_books:
+    b365_ou25: ["B365>2.5", "B365<2.5"]
+    ps_ou25: ["P>2.5", "P<2.5"]
+    max_ou25: ["Max>2.5", "Max<2.5"]
+    avg_ou25: ["Avg>2.5", "Avg<2.5"]
+
+  # Corner match result odds (3-way triplets)
+  corner_books:
+    b365_corner: [B365CH, B365CD, B365CA]
+    max_corner: [MaxCH, MaxCD, MaxCA]
+    avg_corner: [AvgCH, AvgCD, AvgCA]
 
 match_context:
   # Matches considered "early season" (limited rolling data)

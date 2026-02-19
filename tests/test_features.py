@@ -333,3 +333,228 @@ class TestMatchContext:
             assert result.loc[idx, "rest_diff"] == pytest.approx(
                 result.loc[idx, "h_days_rest"] - result.loc[idx, "a_days_rest"]
             )
+
+
+# --- Market timing feature tests ---
+
+
+class TestMarketTiming:
+    def test_day_of_week_range(self, synthetic_matches, match_context_config):
+        """day_of_week should be in [0, 6]."""
+        result = compute_match_context_features(synthetic_matches, match_context_config)
+        assert "day_of_week" in result.columns
+        assert (result["day_of_week"] >= 0).all()
+        assert (result["day_of_week"] <= 6).all()
+
+    def test_is_midweek_correct(self, match_context_config):
+        """is_midweek should be 1 for Tue/Wed/Thu (dayofweek 1,2,3)."""
+        matches = pd.DataFrame({
+            "Date": pd.to_datetime([
+                "2024-01-01",  # Monday (0)
+                "2024-01-02",  # Tuesday (1) -> midweek
+                "2024-01-03",  # Wednesday (2) -> midweek
+                "2024-01-04",  # Thursday (3) -> midweek
+                "2024-01-05",  # Friday (4)
+                "2024-01-06",  # Saturday (5)
+                "2024-01-07",  # Sunday (6)
+            ]),
+            "home_team": ["A", "A", "A", "A", "A", "A", "A"],
+            "away_team": ["B", "B", "B", "B", "B", "B", "B"],
+            "FTHG": [1, 1, 1, 1, 1, 1, 1],
+            "FTAG": [0, 0, 0, 0, 0, 0, 0],
+            "FTR": ["H", "H", "H", "H", "H", "H", "H"],
+            "league": ["EPL"] * 7,
+            "season": [2024] * 7,
+        })
+        result = compute_match_context_features(matches, match_context_config)
+        assert result.loc[0, "is_midweek"] == 0  # Monday
+        assert result.loc[1, "is_midweek"] == 1  # Tuesday
+        assert result.loc[2, "is_midweek"] == 1  # Wednesday
+        assert result.loc[3, "is_midweek"] == 1  # Thursday
+        assert result.loc[4, "is_midweek"] == 0  # Friday
+        assert result.loc[5, "is_midweek"] == 0  # Saturday
+        assert result.loc[6, "is_midweek"] == 0  # Sunday
+
+    def test_is_friday(self, match_context_config):
+        """is_friday should be 1 only for Friday."""
+        matches = pd.DataFrame({
+            "Date": pd.to_datetime(["2024-01-05", "2024-01-06"]),  # Fri, Sat
+            "home_team": ["A", "A"],
+            "away_team": ["B", "B"],
+            "FTHG": [1, 1],
+            "FTAG": [0, 0],
+            "FTR": ["H", "H"],
+            "league": ["EPL", "EPL"],
+            "season": [2024, 2024],
+        })
+        result = compute_match_context_features(matches, match_context_config)
+        assert result.loc[0, "is_friday"] == 1
+        assert result.loc[1, "is_friday"] == 0
+
+    def test_kickoff_hour_with_time(self, match_context_config):
+        """kickoff_hour should parse from Time column."""
+        matches = pd.DataFrame({
+            "Date": pd.to_datetime(["2024-01-06", "2024-01-06", "2024-01-06"]),
+            "Time": ["15:00", "12:30", np.nan],
+            "home_team": ["A", "B", "C"],
+            "away_team": ["D", "E", "F"],
+            "FTHG": [1, 0, 1],
+            "FTAG": [0, 0, 0],
+            "FTR": ["H", "D", "H"],
+            "league": ["EPL", "EPL", "EPL"],
+            "season": [2024, 2024, 2024],
+        })
+        result = compute_match_context_features(matches, match_context_config)
+        assert result.loc[0, "kickoff_hour"] == pytest.approx(15.0)
+        assert result.loc[1, "kickoff_hour"] == pytest.approx(12.5)
+        assert pd.isna(result.loc[2, "kickoff_hour"])
+
+    def test_is_early_kickoff(self, match_context_config):
+        """is_early_kickoff should be 1 when hour <= 13."""
+        matches = pd.DataFrame({
+            "Date": pd.to_datetime(["2024-01-06", "2024-01-06", "2024-01-06"]),
+            "Time": ["12:30", "13:00", "15:00"],
+            "home_team": ["A", "B", "C"],
+            "away_team": ["D", "E", "F"],
+            "FTHG": [1, 0, 1],
+            "FTAG": [0, 0, 0],
+            "FTR": ["H", "D", "H"],
+            "league": ["EPL", "EPL", "EPL"],
+            "season": [2024, 2024, 2024],
+        })
+        result = compute_match_context_features(matches, match_context_config)
+        assert result.loc[0, "is_early_kickoff"] == 1.0  # 12:30 <= 13
+        assert result.loc[1, "is_early_kickoff"] == 1.0  # 13:00 <= 13
+        assert result.loc[2, "is_early_kickoff"] == 0.0  # 15:00 > 13
+
+    def test_no_time_column(self, synthetic_matches, match_context_config):
+        """When Time column is absent, kickoff features should not be created."""
+        assert "Time" not in synthetic_matches.columns
+        result = compute_match_context_features(synthetic_matches, match_context_config)
+        assert "kickoff_hour" not in result.columns
+        assert "is_early_kickoff" not in result.columns
+        # But day_of_week features should still exist
+        assert "day_of_week" in result.columns
+        assert "is_midweek" in result.columns
+        assert "is_friday" in result.columns
+
+
+# --- Multi-book odds tests ---
+
+
+class TestMultiBookOdds:
+    def test_additional_book_probs(self):
+        """Additional book implied probs should be computed when columns exist."""
+        from src.features.config import OddsConfig
+        config = OddsConfig(
+            primary=["B365H", "B365D", "B365A"],
+            pinnacle_opening=["PSH", "PSD", "PSA"],
+            pinnacle_closing=["PSCH", "PSCD", "PSCA"],
+            drop_columns=[],
+            additional_books={"bw": ["BWH", "BWD", "BWA"]},
+        )
+        matches = pd.DataFrame({
+            "B365H": [1.8, 2.5],
+            "B365D": [3.5, 3.2],
+            "B365A": [4.5, 2.8],
+            "PSH": [1.85, 2.55],
+            "PSD": [3.55, 3.25],
+            "PSA": [4.55, 2.85],
+            "PSCH": [1.82, 2.48],
+            "PSCD": [3.52, 3.22],
+            "PSCA": [4.52, 2.82],
+            "BWH": [1.82, 2.52],
+            "BWD": [3.52, 3.20],
+            "BWA": [4.52, 2.82],
+        })
+        result = compute_odds_features(matches, config)
+        assert "bw_prob_h" in result.columns
+        assert "bw_prob_d" in result.columns
+        assert "bw_prob_a" in result.columns
+        # Probs should sum to ~1
+        bw_sum = result["bw_prob_h"] + result["bw_prob_d"] + result["bw_prob_a"]
+        np.testing.assert_allclose(bw_sum.values, 1.0, atol=1e-10)
+
+    def test_max_odds_gte_each_book(self):
+        """max_odds should be >= each individual book's odds."""
+        from src.features.config import OddsConfig
+        config = OddsConfig(
+            primary=["B365H", "B365D", "B365A"],
+            pinnacle_opening=["PSH", "PSD", "PSA"],
+            pinnacle_closing=["PSCH", "PSCD", "PSCA"],
+            drop_columns=[],
+            additional_books={"bw": ["BWH", "BWD", "BWA"]},
+        )
+        matches = pd.DataFrame({
+            "B365H": [1.8, 2.5],
+            "B365D": [3.5, 3.2],
+            "B365A": [4.5, 2.8],
+            "PSH": [1.85, 2.55],
+            "PSD": [3.55, 3.25],
+            "PSA": [4.55, 2.85],
+            "PSCH": [1.82, 2.48],
+            "PSCD": [3.52, 3.22],
+            "PSCA": [4.52, 2.82],
+            "BWH": [1.90, 2.45],
+            "BWD": [3.60, 3.10],
+            "BWA": [4.40, 2.90],
+        })
+        result = compute_odds_features(matches, config)
+        assert "max_odds_h" in result.columns
+        assert (result["max_odds_h"] >= matches["B365H"]).all()
+        assert (result["max_odds_h"] >= matches["BWH"]).all()
+
+    def test_min_book_prob_lte_each_book(self):
+        """min_book_prob should be <= each book's normalized prob."""
+        from src.features.config import OddsConfig
+        config = OddsConfig(
+            primary=["B365H", "B365D", "B365A"],
+            pinnacle_opening=["PSH", "PSD", "PSA"],
+            pinnacle_closing=["PSCH", "PSCD", "PSCA"],
+            drop_columns=[],
+            additional_books={"bw": ["BWH", "BWD", "BWA"]},
+        )
+        matches = pd.DataFrame({
+            "B365H": [1.8, 2.5],
+            "B365D": [3.5, 3.2],
+            "B365A": [4.5, 2.8],
+            "PSH": [1.85, 2.55],
+            "PSD": [3.55, 3.25],
+            "PSA": [4.55, 2.85],
+            "PSCH": [1.82, 2.48],
+            "PSCD": [3.52, 3.22],
+            "PSCA": [4.52, 2.82],
+            "BWH": [1.82, 2.52],
+            "BWD": [3.52, 3.20],
+            "BWA": [4.52, 2.82],
+        })
+        result = compute_odds_features(matches, config)
+        assert "min_book_prob_h" in result.columns
+        assert (result["min_book_prob_h"] <= result["b365_prob_h"] + 1e-10).all()
+        assert (result["min_book_prob_h"] <= result["bw_prob_h"] + 1e-10).all()
+
+    def test_missing_book_handled(self):
+        """Missing additional book columns should not cause errors."""
+        from src.features.config import OddsConfig
+        config = OddsConfig(
+            primary=["B365H", "B365D", "B365A"],
+            pinnacle_opening=["PSH", "PSD", "PSA"],
+            pinnacle_closing=["PSCH", "PSCD", "PSCA"],
+            drop_columns=[],
+            additional_books={"bw": ["BWH", "BWD", "BWA"], "wh": ["WHH", "WHD", "WHA"]},
+        )
+        # Only B365 and PS columns — no BW or WH
+        matches = pd.DataFrame({
+            "B365H": [1.8],
+            "B365D": [3.5],
+            "B365A": [4.5],
+            "PSH": [1.85],
+            "PSD": [3.55],
+            "PSA": [4.55],
+            "PSCH": [1.82],
+            "PSCD": [3.52],
+            "PSCA": [4.52],
+        })
+        result = compute_odds_features(matches, config)
+        assert "bw_prob_h" not in result.columns
+        assert "wh_prob_h" not in result.columns

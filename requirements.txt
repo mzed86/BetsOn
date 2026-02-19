@@ -4,7 +4,7 @@ pandas
 numpy
 pyarrow
 pyyaml
-aiohttp
+aiohttp>=3.10.0
 understat
 scikit-learn
 lightgbm

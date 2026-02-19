@@ -1,0 +1,61 @@
+date,home_team,away_team,market,outcome,odds,kelly_pct,stake,league
+2026-02-20,Çaykur Rizespor,Kocaelispor,O/U,Over,2.0893333333333333,1.01,10.14,Super_Lig
+2026-02-20,CF Estrela,Tondela,O/U,Over,2.1893333333333334,0.25,2.47,Liga_Portugal
+2026-02-20,Sassuolo,Hellas Verona,O/U,Over,2.170625,0.49,4.9,Serie_A
+2026-02-21,Gillingham,Oldham Athletic,O/U,Over,2.075333333333333,0.29,2.86,EFL_League2
+2026-02-21,Accrington Stanley,Shrewsbury Town,O/U,Over,2.092857142857143,0.48,4.81,EFL_League2
+2026-02-21,Padova,Bari,O/U,Over,2.2333333333333334,3.58,35.8,Serie_B
+2026-02-21,Mantova,Sampdoria,O/U,Over,2.1293333333333333,0.24,2.44,Serie_B
+2026-02-21,Venezia,Pescara,O/U,Over,2.062857142857143,1.81,18.12,Serie_B
+2026-02-21,Virtus Entella,US Catanzaro 1929,O/U,Over,2.1853333333333333,0.56,5.6,Serie_B
+2026-02-21,Cesena FC,Spezia,O/U,Over,2.0900000000000003,0.13,1.33,Serie_B
+2026-02-21,Carrarese,Monza,O/U,Over,2.0826666666666664,1.77,17.74,Serie_B
+2026-02-21,Lecce,Inter Milan,O/U,Over,2.02375,1.1,11.0,Serie_A
+2026-02-21,Wrexham AFC,Ipswich Town,O/U,Over,2.015625,0.63,6.28,EFL_Championship
+2026-02-21,Watford,Derby County,O/U,Over,2.099333333333334,1.0,9.98,EFL_Championship
+2026-02-21,Stoke City,Leicester City,O/U,Over,1.974375,0.71,7.08,EFL_Championship
+2026-02-21,Millwall,Portsmouth,O/U,Over,2.013333333333333,0.73,7.32,EFL_Championship
+2026-02-21,Cagliari,Lazio,O/U,Over,2.2717647058823527,3.91,39.14,Serie_A
+2026-02-21,Toulouse,Paris FC,O/U,Over,2.1873333333333336,1.38,13.76,Ligue_1
+2026-02-22,Atalanta BC,Napoli,O/U,Over,2.087647058823529,1.5,14.96,Serie_A
+2026-02-22,Juve Stabia,Modena,O/U,Over,2.271428571428572,3.35,33.45,Serie_B
+2026-02-22,Reggiana,Avellino,O/U,Over,2.2616666666666667,1.08,10.76,Serie_B
+2026-02-22,Nantes,Le Havre,O/U,Over,2.099375,1.12,11.18,Ligue_1
+2026-02-22,Genoa,Torino,O/U,Over,2.281176470588235,1.2,11.97,Serie_A
+2026-02-22,Fatih Karagümrük,Samsunspor,O/U,Over,1.955833333333333,0.4,4.01,Super_Lig
+2026-02-23,Walsall,Milton Keynes Dons,O/U,Over,2.020769230769231,0.1,1.03,EFL_League2
+2026-02-23,Bologna,Udinese,O/U,Over,2.1029411764705888,1.28,12.81,Serie_A
+2026-02-27,Parma,Cagliari,O/U,Over,2.3791666666666664,4.83,48.35,Serie_A
+2026-02-28,Le Havre,Paris Saint Germain,O/U,Over,2.025454545454545,0.22,2.24,Ligue_1
+2026-02-28,Hellas Verona,Napoli,O/U,Over,2.27,0.67,6.75,Serie_A
+2026-03-01,Lorient,Auxerre,O/U,Over,2.234545454545454,0.9,8.96,Ligue_1
+2026-03-01,AS Roma,Juventus,O/U,Over,2.273333333333333,1.59,15.86,Serie_A
+2026-03-01,Torino,Lazio,O/U,Over,2.395,4.72,47.15,Serie_A
+2026-03-02,Pisa,Bologna,O/U,Over,2.045833333333333,0.92,9.22,Serie_A
+2026-02-20,VfL Bochum,1. FC Nürnberg,O/U,Under,2.007142857142857,0.78,7.77,Bundesliga2
+2026-02-20,Greuther Fürth,Arminia Bielefeld,O/U,Under,1.9707142857142856,0.32,3.15,Bundesliga2
+2026-02-20,Brest,Marseille,O/U,Under,2.0699999999999994,0.67,6.73,Ligue_1
+2026-02-21,FC Schalke 04,1. FC Magdeburg,O/U,Under,2.058666666666667,0.87,8.71,Bundesliga2
+2026-02-21,Karlsruher SC,Holstein Kiel,O/U,Under,2.106666666666667,0.32,3.16,Bundesliga2
+2026-02-21,SV Darmstadt 98,Fortuna Düsseldorf,O/U,Under,2.080714285714285,0.67,6.69,Bundesliga2
+2026-02-21,Elversberg,Eintracht Braunschweig,O/U,Under,2.107333333333333,1.08,10.82,Bundesliga2
+2026-02-21,Middlesbrough,Oxford United,O/U,Under,2.246,1.0,9.97,EFL_Championship
+2026-02-21,Southampton,Charlton Athletic,O/U,Under,1.99375,0.55,5.54,EFL_Championship
+2026-02-21,Alverca,Santa Clara,O/U,Under,2.2340000000000004,3.35,33.46,Liga_Portugal
+2026-02-21,Torku Konyaspor,Galatasaray,O/U,Under,2.23,2.72,27.19,Super_Lig
+2026-02-21,PSV Eindhoven,Heerenveen,O/U,Under,2.7333333333333334,4.27,42.75,Eredivisie
+2026-02-21,Paris Saint Germain,Metz,O/U,Under,2.2353333333333336,1.09,10.89,Ligue_1
+2026-02-21,NAC Breda,FC Volendam,O/U,Under,2.067333333333333,0.33,3.26,Eredivisie
+2026-02-22,Gazişehir Gaziantep,Trabzonspor,O/U,Under,2.080833333333334,0.16,1.58,Super_Lig
+2026-02-22,Strasbourg,Lyon,O/U,Under,1.99375,0.41,4.11,Ligue_1
+2026-02-22,AZ Alkmaar,Sparta Rotterdam,O/U,Under,2.226428571428572,2.52,25.19,Eredivisie
+2026-02-22,FC Utrecht,FC Zwolle,O/U,Under,2.040714285714286,1.06,10.56,Eredivisie
+2026-02-22,Hannover 96,Dynamo Dresden,O/U,Under,2.1646666666666667,2.63,26.34,Bundesliga2
+2026-02-22,SC Paderborn,Hertha Berlin,O/U,Under,2.1386666666666665,0.84,8.38,Bundesliga2
+2026-02-22,SC Preußen Münster,1. FC Kaiserslautern,O/U,Under,2.022666666666667,1.11,11.07,Bundesliga2
+2026-02-23,Fiorentina,Pisa,O/U,Under,2.011176470588236,0.63,6.27,Serie_A
+2026-02-27,Strasbourg,RC Lens,O/U,Under,2.3063636363636366,3.61,36.06,Ligue_1
+2026-02-28,Inter Milan,Genoa,O/U,Under,2.1991666666666667,0.69,6.92,Serie_A
+2026-02-28,AS Monaco,Angers,O/U,Under,2.212727272727273,1.79,17.86,Ligue_1
+2026-03-01,Marseille,Lyon,O/U,Under,2.114545454545455,0.97,9.67,Ligue_1
+2026-03-01,Lille,Nantes,O/U,Under,2.0545454545454542,0.63,6.32,Ligue_1

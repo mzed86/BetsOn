@@ -196,39 +196,57 @@ def events_to_fixtures_df(
         }
 
         # --- 1X2 (h2h) ---
-        for bm_key, prefix in BOOKMAKER_MAP.items():
-            h2h = _extract_bookmaker_odds(bookmakers, bm_key, "h2h")
-            if h2h:
-                # Map team names to H/D/A
-                row[f"{prefix}H"] = h2h.get(home)
-                row[f"{prefix}D"] = h2h.get("Draw")
-                row[f"{prefix}A"] = h2h.get(away)
+        # Pinnacle (sharp reference)
+        ps_h2h = _extract_bookmaker_odds(bookmakers, "pinnacle", "h2h")
+        if ps_h2h:
+            row["PSH"] = ps_h2h.get(home)
+            row["PSD"] = ps_h2h.get("Draw")
+            row["PSA"] = ps_h2h.get(away)
+
+        # B365 if available; otherwise use average of soft books as proxy
+        b365_h2h = _extract_bookmaker_odds(bookmakers, "bet365", "h2h")
+        if b365_h2h:
+            row["B365H"] = b365_h2h.get(home)
+            row["B365D"] = b365_h2h.get("Draw")
+            row["B365A"] = b365_h2h.get(away)
+        else:
+            avg_h2h = _compute_avg_odds(bookmakers, "h2h", exclude_keys={"pinnacle"})
+            if avg_h2h:
+                row["B365H"] = avg_h2h.get(home)
+                row["B365D"] = avg_h2h.get("Draw")
+                row["B365A"] = avg_h2h.get(away)
 
         # --- O/U 2.5 (totals) ---
-        for bm_key, prefix in BOOKMAKER_MAP.items():
-            totals = _extract_bookmaker_odds(bookmakers, bm_key, "totals")
-            if totals:
-                if prefix == "B365":
-                    row["B365>2.5"] = totals.get("Over")
-                    row["B365<2.5"] = totals.get("Under")
-                elif prefix == "PS":
-                    row["P>2.5"] = totals.get("Over")
-                    row["P<2.5"] = totals.get("Under")
+        ps_totals = _extract_bookmaker_odds(bookmakers, "pinnacle", "totals")
+        if ps_totals:
+            row["P>2.5"] = ps_totals.get("Over")
+            row["P<2.5"] = ps_totals.get("Under")
 
-        # --- Corner odds (not available via The Odds API, use averages if available) ---
-        # The Odds API doesn't carry corner match result markets, so we compute
-        # average h2h as a proxy for AvgCH/CD/CA if we have enough bookmakers
-        avg_h2h = _compute_avg_odds(bookmakers, "h2h", exclude_keys={"bet365", "pinnacle"})
-        if avg_h2h:
-            row["AvgCH"] = avg_h2h.get(home)
-            row["AvgCD"] = avg_h2h.get("Draw")
-            row["AvgCA"] = avg_h2h.get(away)
-            # Also need B365 corner odds — use B365 h2h as proxy
-            b365_h2h = _extract_bookmaker_odds(bookmakers, "bet365", "h2h")
-            if b365_h2h:
-                row["B365CH"] = b365_h2h.get(home)
-                row["B365CD"] = b365_h2h.get("Draw")
-                row["B365CA"] = b365_h2h.get(away)
+        b365_totals = _extract_bookmaker_odds(bookmakers, "bet365", "totals")
+        if b365_totals:
+            row["B365>2.5"] = b365_totals.get("Over")
+            row["B365<2.5"] = b365_totals.get("Under")
+        else:
+            avg_totals = _compute_avg_odds(bookmakers, "totals", exclude_keys={"pinnacle"})
+            if avg_totals:
+                row["B365>2.5"] = avg_totals.get("Over")
+                row["B365<2.5"] = avg_totals.get("Under")
+
+        # --- Corner odds ---
+        # The Odds API doesn't carry corner markets.
+        # Use avg soft-book h2h as proxy for corner odds (AvgCH/CD/CA)
+        # and B365/avg h2h as proxy for B365CH/CD/CA.
+        avg_h2h_for_corners = _compute_avg_odds(bookmakers, "h2h", exclude_keys={"pinnacle"})
+        if avg_h2h_for_corners:
+            row["AvgCH"] = avg_h2h_for_corners.get(home)
+            row["AvgCD"] = avg_h2h_for_corners.get("Draw")
+            row["AvgCA"] = avg_h2h_for_corners.get(away)
+        # Use B365 (or avg) for B365 corner columns too
+        b365_for_corners = b365_h2h or avg_h2h_for_corners
+        if b365_for_corners:
+            row["B365CH"] = b365_for_corners.get(home)
+            row["B365CD"] = b365_for_corners.get("Draw")
+            row["B365CA"] = b365_for_corners.get(away)
 
         rows.append(row)
 

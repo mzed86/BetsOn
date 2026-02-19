@@ -1,0 +1,71 @@
+name: Forward Test
+
+on:
+  # Run every Wednesday and Saturday at 10:00 UTC
+  # Wednesday: catches midweek European fixtures
+  # Saturday: catches weekend fixtures
+  schedule:
+    - cron: '0 10 * * 3,6'
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch upcoming fixture odds
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: python -m scrapers.odds_api
+
+      - name: Run forward test
+        run: |
+          FIXTURES="outputs/predictions/upcoming_fixtures.csv"
+          if [ -f "$FIXTURES" ]; then
+            python -m src.models.forward_test \
+              --fixtures "$FIXTURES" \
+              --config configs/forward_test_config.yaml \
+              --bankroll 1000
+            # Save dated prediction copy
+            DATE=$(date +%Y%m%d)
+            mkdir -p outputs/forward_test/predictions
+            if [ -f "outputs/predictions/forward_bets.csv" ]; then
+              cp outputs/predictions/forward_bets.csv \
+                 "outputs/forward_test/predictions/bets_${DATE}.csv"
+            fi
+          else
+            echo "No fixtures file found — no upcoming matches"
+          fi
+
+      - name: Update current season results
+        run: |
+          python -m scrapers.football_data --seasons 2526 || true
+
+      - name: Score past predictions
+        run: python -m src.models.score_forward_test || true
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A outputs/forward_test/ outputs/predictions/forward_bets.csv || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            DATE=$(date +%Y-%m-%d)
+            git commit -m "Forward test: ${DATE} predictions and scoring"
+            git push
+          fi

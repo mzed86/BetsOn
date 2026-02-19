@@ -1,9 +1,13 @@
 requests
 beautifulsoup4
 pandas
+numpy
 pyarrow
 pyyaml
 aiohttp
 understat
 scikit-learn
+lightgbm
+joblib
+matplotlib
 pytest

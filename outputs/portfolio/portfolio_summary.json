@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "n_bets": 917,
+    "starting_bankroll": 1000.0,
+    "ending_bankroll": 1326.73,
+    "profit": 326.73,
+    "roi_pct": 15.36,
+    "max_drawdown_pct": 12.14,
+    "total_staked": 2127.33,
+    "months": 46.3,
+    "bets_per_month": 19.8
+  },
+  "per_market": {
+    "Corners": {
+      "n_bets": 398,
+      "staked": 718.32,
+      "pnl": 56.74,
+      "wins": 83,
+      "roi_pct": 7.9,
+      "win_rate": 20.9
+    },
+    "1X2": {
+      "n_bets": 472,
+      "staked": 1026.92,
+      "pnl": 70.4,
+      "wins": 125,
+      "roi_pct": 6.86,
+      "win_rate": 26.5
+    },
+    "O/U": {
+      "n_bets": 47,
+      "staked": 382.09,
+      "pnl": 199.59,
+      "wins": 21,
+      "roi_pct": 52.24,
+      "win_rate": 44.7
+    }
+  }
+}

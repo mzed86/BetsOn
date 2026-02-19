@@ -1,0 +1,26 @@
+split:
+  test_seasons: [2021, 2022, 2023, 2024]
+
+strategies:
+  1x2_disagree:
+    enabled: true
+    percentile: 7
+    use_league_filter: true
+  ou_disagree:
+    enabled: true
+    percentile: 3
+    use_league_filter: true
+  corner_disagree:
+    enabled: true
+    percentile: 15
+    use_league_filter: true
+
+commission_pct: 3.8
+
+kelly:
+  fraction: 0.25
+  max_bet_fraction: 0.05
+  bankroll: 1000.0
+
+revenue_projections:
+  bankroll_levels: [1000, 5000, 10000, 25000]

@@ -13,6 +13,10 @@ data/odds/
 
 # Trained models (binary, regenerate with training scripts)
 outputs/models/
+# Except the selectors needed for forward test (tiny, <4KB each)
+!outputs/models/disagreement_selector.pkl
+!outputs/models/ou25_disagreement_selector.pkl
+!outputs/models/corner_disagreement_selector.pkl
 
 # Generated prediction parquets (regenerate with training scripts)
 outputs/predictions/*.parquet

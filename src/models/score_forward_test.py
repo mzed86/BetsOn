@@ -160,6 +160,7 @@ def compute_significance(resolved: pd.DataFrame) -> dict:
         return {
             "n_bets": len(resolved),
             "roi_pct": None,
+            "weighted_roi_pct": None,
             "mean_return": None,
             "std_return": None,
             "t_stat": None,
@@ -179,6 +180,11 @@ def compute_significance(resolved: pd.DataFrame) -> dict:
     mean_return = float(np.mean(returns))
     std_return = float(np.std(returns, ddof=1))
     roi_pct = mean_return * 100
+
+    # Stake-weighted ROI reflects actual cash flow
+    total_staked = float(resolved["stake"].sum())
+    total_pnl = float(resolved["pnl"].sum())
+    weighted_roi_pct = (total_pnl / total_staked * 100) if total_staked > 0 else 0.0
 
     # One-sided t-test: H0: mean_return <= 0, H1: mean_return > 0
     if std_return == 0:
@@ -203,14 +209,15 @@ def compute_significance(resolved: pd.DataFrame) -> dict:
         bets_needed = None
         bets_remaining = None
 
-    # Human-readable verdict
-    if p_value < 0.01:
+    # Human-readable verdict — use stake-weighted ROI so the verdict
+    # reflects actual cash-flow reality, not the unweighted per-bet mean
+    if p_value < 0.01 and weighted_roi_pct > 0:
         verdict = "SIGNIFICANT (p < 0.01) — strong evidence of edge"
-    elif p_value < 0.05:
+    elif p_value < 0.05 and weighted_roi_pct > 0:
         verdict = "SIGNIFICANT (p < 0.05) — evidence of edge"
-    elif p_value < 0.10:
+    elif p_value < 0.10 and weighted_roi_pct > 0:
         verdict = "MARGINAL (p < 0.10) — weak evidence, keep going"
-    elif mean_return > 0:
+    elif weighted_roi_pct > 0:
         verdict = "NOT YET SIGNIFICANT — positive but inconclusive"
     else:
         verdict = "NEGATIVE — no evidence of edge"
@@ -218,6 +225,7 @@ def compute_significance(resolved: pd.DataFrame) -> dict:
     return {
         "n_bets": n,
         "roi_pct": round(roi_pct, 2),
+        "weighted_roi_pct": round(weighted_roi_pct, 2),
         "mean_return": round(mean_return, 4),
         "std_return": round(std_return, 4),
         "t_stat": round(t_stat, 3),

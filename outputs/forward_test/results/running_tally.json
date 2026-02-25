@@ -1,0 +1,21 @@
+{
+  "as_of": "20260225",
+  "total_bets": 32,
+  "wins": 16,
+  "total_staked": 364.85,
+  "total_pnl": -43.49,
+  "roi_pct": -11.92,
+  "significance": {
+    "n_bets": 32,
+    "roi_pct": 2.89,
+    "mean_return": 0.0289,
+    "std_return": 1.0474,
+    "t_stat": 0.156,
+    "p_value": 0.4385,
+    "ci_lower_pct": -34.87,
+    "ci_upper_pct": 40.65,
+    "verdict": "NOT YET SIGNIFICANT \u2014 positive but inconclusive",
+    "bets_needed": 3559,
+    "bets_remaining": 3527
+  }
+}

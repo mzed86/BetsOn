@@ -1,21 +1,22 @@
 {
-  "as_of": "20260225",
-  "total_bets": 32,
+  "as_of": "20260228",
+  "total_bets": 33,
   "wins": 16,
-  "total_staked": 364.85,
-  "total_pnl": -43.49,
-  "roi_pct": -11.92,
+  "total_staked": 377.88,
+  "total_pnl": -56.52,
+  "roi_pct": -14.96,
   "significance": {
-    "n_bets": 32,
-    "roi_pct": 2.89,
-    "mean_return": 0.0289,
-    "std_return": 1.0474,
-    "t_stat": 0.156,
-    "p_value": 0.4385,
-    "ci_lower_pct": -34.87,
-    "ci_upper_pct": 40.65,
-    "verdict": "NOT YET SIGNIFICANT \u2014 positive but inconclusive",
-    "bets_needed": 3559,
-    "bets_remaining": 3527
+    "n_bets": 33,
+    "roi_pct": -0.23,
+    "weighted_roi_pct": -14.96,
+    "mean_return": -0.0023,
+    "std_return": 1.0464,
+    "t_stat": -0.013,
+    "p_value": 0.505,
+    "ci_lower_pct": -37.33,
+    "ci_upper_pct": 36.87,
+    "verdict": "NEGATIVE \u2014 no evidence of edge",
+    "bets_needed": null,
+    "bets_remaining": null
   }
 }

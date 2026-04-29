@@ -1,0 +1,44 @@
+date,home_team,away_team,market,outcome,odds,kelly_pct,stake,league
+2026-04-25,Middlesbrough,Watford,O/U,Over,2.028666666666667,1.1,10.96,EFL_Championship
+2026-04-25,Shrewsbury Town,Fleetwood Town,O/U,Over,2.0735714285714284,0.97,9.75,EFL_League2
+2026-04-25,Karlsruher SC,Hannover 96,O/U,Over,2.0326666666666666,1.27,12.71,Bundesliga2
+2026-04-25,Bologna,AS Roma,O/U,Over,2.06,1.06,10.65,Serie_A
+2026-04-25,Südtirol,Mantova,O/U,Over,2.044,1.14,11.44,Serie_B
+2026-04-25,Cesena FC,Sampdoria,O/U,Over,2.0546666666666664,0.75,7.54,Serie_B
+2026-04-25,Feyenoord,Groningen,O/U,Over,2.11625,1.61,16.06,Eredivisie
+2026-04-26,1. FC Nürnberg,1. FC Magdeburg,O/U,Over,2.023333333333333,0.78,7.84,Bundesliga2
+2026-04-27,Lazio,Udinese,O/U,Over,2.14,0.36,3.63,Serie_A
+2026-04-27,Gil Vicente,Casa Pia,O/U,Over,1.9913333333333332,0.79,7.89,Liga_Portugal
+2026-05-01,Pisa,Lecce,O/U,Over,2.3469230769230767,4.41,44.06,Serie_A
+2026-05-02,Udinese,Torino,O/U,Over,2.1250000000000004,0.76,7.62,Serie_A
+2026-05-02,Como,Napoli,O/U,Over,2.105,1.31,13.11,Serie_A
+2026-05-02,Metz,AS Monaco,O/U,Over,2.1,0.24,2.43,Ligue_1
+2026-05-03,Bologna,Cagliari,O/U,Over,2.003333333333334,0.48,4.77,Serie_A
+2026-05-03,Inter Milan,Parma,O/U,Over,2.055,0.57,5.73,Serie_A
+2026-05-03,Auxerre,Angers,O/U,Over,2.261111111111111,0.72,7.16,Ligue_1
+2026-05-04,Cremonese,Lazio,O/U,Over,2.0283333333333333,0.06,0.61,Serie_A
+2026-04-25,Norwich City,Swansea City,O/U,Under,2.091333333333333,1.1,10.97,EFL_Championship
+2026-04-25,Sheffield United,Preston North End,O/U,Under,2.2431250000000005,2.58,25.81,EFL_Championship
+2026-04-25,Milton Keynes Dons,Tranmere Rovers,O/U,Under,2.0471428571428576,0.68,6.77,EFL_League2
+2026-04-25,Hertha Berlin,Holstein Kiel,O/U,Under,2.152666666666667,1.84,18.4,Bundesliga2
+2026-04-25,SV Darmstadt 98,Elversberg,O/U,Under,2.102,2.15,21.45,Bundesliga2
+2026-04-25,Lyon,Auxerre,O/U,Under,2.0050000000000003,0.94,9.37,Ligue_1
+2026-04-25,Toulouse,AS Monaco,O/U,Under,2.173333333333333,2.45,24.51,Ligue_1
+2026-04-25,Heerenveen,Fortuna Sittard,O/U,Under,2.0124999999999997,0.84,8.36,Eredivisie
+2026-04-25,NAC Breda,Ajax,O/U,Under,2.115,0.97,9.71,Eredivisie
+2026-04-25,Kayserispor,Çaykur Rizespor,O/U,Under,2.035333333333333,1.17,11.73,Super_Lig
+2026-04-26,Coventry City,Wrexham AFC,O/U,Under,2.056,1.09,10.95,EFL_Championship
+2026-04-26,SC Paderborn,FC Schalke 04,O/U,Under,2.03,1.06,10.56,Bundesliga2
+2026-04-26,VfL Bochum,Greuther Fürth,O/U,Under,2.089285714285714,0.0,0.0,Bundesliga2
+2026-04-26,Torino,Inter Milan,O/U,Under,2.15,0.04,0.39,Serie_A
+2026-04-26,Lorient,Strasbourg,O/U,Under,1.976,0.11,1.13,Ligue_1
+2026-04-26,Rennes,Nantes,O/U,Under,2.2293333333333334,0.51,5.11,Ligue_1
+2026-04-26,Excelsior,FC Utrecht,O/U,Under,2.0280000000000005,0.45,4.48,Eredivisie
+2026-04-26,Heracles Almelo,FC Volendam,O/U,Under,2.182,2.85,28.46,Eredivisie
+2026-04-26,AVS Futebol SAD,Sporting Lisbon,O/U,Under,2.2723076923076926,1.17,11.66,Liga_Portugal
+2026-04-26,Galatasaray,Fenerbahce,O/U,Under,2.0828571428571427,1.64,16.43,Super_Lig
+2026-05-02,Nantes,Marseille,O/U,Under,2.245555555555556,0.82,8.17,Ligue_1
+2026-05-02,Nice,RC Lens,O/U,Under,2.1933333333333334,1.43,14.28,Ligue_1
+2026-05-03,Sassuolo,AC Milan,O/U,Under,2.1475000000000004,0.43,4.32,Serie_A
+2026-05-03,Juventus,Hellas Verona,O/U,Under,2.0958333333333337,0.2,1.97,Serie_A
+2026-05-03,Lyon,Rennes,O/U,Under,2.1,0.69,6.87,Ligue_1

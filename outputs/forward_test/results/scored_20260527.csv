@@ -1,0 +1,1137 @@
+date,home_team,away_team,market,outcome,odds,kelly_pct,stake,league,prediction_file,actual_result,won,pnl
+2026-02-20,Blackburn Rovers,Preston North End,O/U,Over,2.1656249999999995,0.44,4.36,EFL_Championship,bets_20260219.csv,,,
+2026-02-20,CF Estrela,Tondela,O/U,Over,2.1940000000000004,0.29,2.92,Liga_Portugal,bets_20260219.csv,,,
+2026-02-21,Stoke City,Leicester City,O/U,Over,1.971875,0.68,6.76,EFL_Championship,bets_20260219.csv,,,
+2026-02-21,Watford,Derby County,O/U,Over,2.099333333333334,1.0,9.98,EFL_Championship,bets_20260219.csv,Under,False,-9.98
+2026-02-21,Wrexham AFC,Ipswich Town,O/U,Over,2.016875,0.64,6.43,EFL_Championship,bets_20260219.csv,,,
+2026-02-21,Millwall,Portsmouth,O/U,Over,2.013333333333333,0.73,7.32,EFL_Championship,bets_20260219.csv,Over,True,7.14
+2026-02-21,Accrington Stanley,Shrewsbury Town,O/U,Over,2.092857142857143,0.48,4.81,EFL_League2,bets_20260219.csv,,,
+2026-02-21,Gillingham,Oldham Athletic,O/U,Over,2.075333333333333,0.29,2.86,EFL_League2,bets_20260219.csv,Over,True,2.96
+2026-02-21,Toulouse,Paris FC,O/U,Over,2.1873333333333336,1.38,13.76,Ligue_1,bets_20260219.csv,Under,False,-13.76
+2026-02-22,Nantes,Le Havre,O/U,Over,2.1,1.12,11.25,Ligue_1,bets_20260219.csv,Under,False,-11.25
+2026-02-23,Walsall,Milton Keynes Dons,O/U,Over,2.020769230769231,0.1,1.03,EFL_League2,bets_20260219.csv,Under,False,-1.03
+2026-02-28,Le Havre,Paris Saint Germain,O/U,Over,2.025454545454545,0.22,2.24,Ligue_1,bets_20260219.csv,Under,False,-2.24
+2026-03-01,Lorient,Auxerre,O/U,Over,2.234545454545454,0.9,8.96,Ligue_1,bets_20260219.csv,Over,True,10.64
+2026-02-20,VfL Bochum,1. FC Nürnberg,O/U,Under,2.007142857142857,0.78,7.77,Bundesliga2,bets_20260219.csv,,,
+2026-02-20,Greuther Fürth,Arminia Bielefeld,O/U,Under,1.9707142857142856,0.25,2.51,Bundesliga2,bets_20260219.csv,,,
+2026-02-20,Brest,Marseille,O/U,Under,2.0699999999999994,0.67,6.73,Ligue_1,bets_20260219.csv,Under,True,6.93
+2026-02-21,Southampton,Charlton Athletic,O/U,Under,1.97,0.25,2.48,EFL_Championship,bets_20260219.csv,Under,True,2.31
+2026-02-21,Middlesbrough,Oxford United,O/U,Under,2.2453333333333334,0.99,9.91,EFL_Championship,bets_20260219.csv,Under,True,11.87
+2026-02-21,Elversberg,Eintracht Braunschweig,O/U,Under,2.108,1.09,10.89,Bundesliga2,bets_20260219.csv,Over,False,-10.89
+2026-02-21,SV Darmstadt 98,Fortuna Düsseldorf,O/U,Under,2.080714285714285,0.67,6.69,Bundesliga2,bets_20260219.csv,,,
+2026-02-21,Karlsruher SC,Holstein Kiel,O/U,Under,2.106666666666667,0.32,3.16,Bundesliga2,bets_20260219.csv,,,
+2026-02-21,FC Schalke 04,1. FC Magdeburg,O/U,Under,2.0580000000000003,0.86,8.64,Bundesliga2,bets_20260219.csv,,,
+2026-02-21,Paris Saint Germain,Metz,O/U,Under,2.2353333333333336,1.09,10.89,Ligue_1,bets_20260219.csv,,,
+2026-02-21,PSV Eindhoven,Heerenveen,O/U,Under,2.7333333333333334,4.27,42.75,Eredivisie,bets_20260219.csv,Over,False,-42.75
+2026-02-21,NAC Breda,FC Volendam,O/U,Under,2.067333333333333,0.33,3.26,Eredivisie,bets_20260219.csv,Under,True,3.35
+2026-02-21,Alverca,Santa Clara,O/U,Under,2.240666666666667,3.4,33.99,Liga_Portugal,bets_20260219.csv,Under,True,40.57
+2026-02-22,SC Preußen Münster,1. FC Kaiserslautern,O/U,Under,2.022666666666667,1.11,11.07,Bundesliga2,bets_20260219.csv,,,
+2026-02-22,Hannover 96,Dynamo Dresden,O/U,Under,2.1646666666666667,2.63,26.34,Bundesliga2,bets_20260219.csv,,,
+2026-02-22,SC Paderborn,Hertha Berlin,O/U,Under,2.1386666666666665,0.84,8.38,Bundesliga2,bets_20260219.csv,,,
+2026-02-22,Strasbourg,Lyon,O/U,Under,1.99375,0.41,4.11,Ligue_1,bets_20260219.csv,Over,False,-4.11
+2026-02-22,FC Twente Enschede,Groningen,O/U,Under,2.1150000000000007,0.09,0.92,Eredivisie,bets_20260219.csv,,,
+2026-02-22,FC Utrecht,FC Zwolle,O/U,Under,2.040714285714286,1.06,10.56,Eredivisie,bets_20260219.csv,,,
+2026-02-22,AZ Alkmaar,Sparta Rotterdam,O/U,Under,2.226428571428572,2.52,25.19,Eredivisie,bets_20260219.csv,Over,False,-25.19
+2026-02-27,Strasbourg,RC Lens,O/U,Under,2.3063636363636366,3.61,36.06,Ligue_1,bets_20260219.csv,Under,True,45.32
+2026-02-28,AS Monaco,Angers,O/U,Under,2.212727272727273,1.79,17.86,Ligue_1,bets_20260219.csv,,,
+2026-03-01,Lille,Nantes,O/U,Under,2.0545454545454542,0.63,6.32,Ligue_1,bets_20260219.csv,Under,True,6.41
+2026-03-01,Marseille,Lyon,O/U,Under,2.114545454545455,0.97,9.67,Ligue_1,bets_20260219.csv,Over,False,-9.67
+2026-02-21,Stoke City,Leicester City,O/U,Over,2.00125,0.83,8.29,EFL_Championship,bets_20260221.csv,,,
+2026-02-21,Watford,Derby County,O/U,Over,2.0653333333333337,0.94,9.4,EFL_Championship,bets_20260221.csv,Under,False,-9.4
+2026-02-21,Wrexham AFC,Ipswich Town,O/U,Over,1.9925,1.04,10.44,EFL_Championship,bets_20260221.csv,,,
+2026-02-21,Millwall,Portsmouth,O/U,Over,2.091333333333333,0.28,2.8,EFL_Championship,bets_20260221.csv,Over,True,2.94
+2026-02-21,Colchester United,Barnet,O/U,Over,1.9486666666666668,0.37,3.68,EFL_League2,bets_20260221.csv,,,
+2026-02-21,Gillingham,Oldham Athletic,O/U,Over,2.083333333333333,0.95,9.53,EFL_League2,bets_20260221.csv,Over,True,9.93
+2026-02-21,RC Lens,AS Monaco,O/U,Over,2.162666666666666,1.93,19.31,Ligue_1,bets_20260221.csv,,,
+2026-02-21,Toulouse,Paris FC,O/U,Over,2.172,1.11,11.12,Ligue_1,bets_20260221.csv,Under,False,-11.12
+2026-02-22,Genoa,Torino,O/U,Over,2.244705882352941,0.65,6.49,Serie_A,bets_20260221.csv,Over,True,7.77
+2026-02-22,Atalanta BC,Napoli,O/U,Over,2.0976470588235294,1.29,12.89,Serie_A,bets_20260221.csv,,,
+2026-02-22,Angers,Lille,O/U,Over,2.039375,1.41,14.09,Ligue_1,bets_20260221.csv,Under,False,-14.09
+2026-02-22,Nantes,Le Havre,O/U,Over,2.0900000000000003,0.96,9.57,Ligue_1,bets_20260221.csv,Under,False,-9.57
+2026-02-23,Bologna,Udinese,O/U,Over,2.0937500000000004,1.06,10.59,Serie_A,bets_20260221.csv,Under,False,-10.59
+2026-02-27,Parma,Cagliari,O/U,Over,2.378461538461538,4.83,48.3,Serie_A,bets_20260221.csv,Under,False,-48.3
+2026-02-28,Hellas Verona,Napoli,O/U,Over,2.26,1.0,9.99,Serie_A,bets_20260221.csv,,,
+2026-03-01,Torino,Lazio,O/U,Over,2.395,4.72,47.15,Serie_A,bets_20260221.csv,Under,False,-47.15
+2026-03-01,AS Roma,Juventus,O/U,Over,2.273333333333333,1.59,15.86,Serie_A,bets_20260221.csv,,,
+2026-03-01,Lorient,Auxerre,O/U,Over,2.248181818181818,1.02,10.16,Ligue_1,bets_20260221.csv,Over,True,12.2
+2026-03-02,Pisa,Bologna,O/U,Over,2.045833333333333,0.92,9.22,Serie_A,bets_20260221.csv,Under,False,-9.22
+2026-02-21,Southampton,Charlton Athletic,O/U,Under,1.95875,0.42,4.17,EFL_Championship,bets_20260221.csv,Under,True,3.85
+2026-02-21,Middlesbrough,Oxford United,O/U,Under,2.093333333333334,0.74,7.41,EFL_Championship,bets_20260221.csv,Under,True,7.79
+2026-02-21,Crawley Town,Chesterfield FC,O/U,Under,2.037333333333333,0.89,8.86,EFL_League2,bets_20260221.csv,Under,True,8.84
+2026-02-21,SV Darmstadt 98,Fortuna Düsseldorf,O/U,Under,2.107142857142857,0.01,0.14,Bundesliga2,bets_20260221.csv,,,
+2026-02-21,Karlsruher SC,Holstein Kiel,O/U,Under,2.145714285714285,0.36,3.62,Bundesliga2,bets_20260221.csv,,,
+2026-02-21,FC Schalke 04,1. FC Magdeburg,O/U,Under,2.0573333333333337,1.29,12.94,Bundesliga2,bets_20260221.csv,,,
+2026-02-21,PSV Eindhoven,Heerenveen,O/U,Under,2.07125,1.07,10.67,Eredivisie,bets_20260221.csv,Over,False,-10.67
+2026-02-21,NAC Breda,FC Volendam,O/U,Under,2.125,0.09,0.87,Eredivisie,bets_20260221.csv,Under,True,0.94
+2026-02-21,Alverca,Santa Clara,O/U,Under,2.2578571428571426,3.63,36.3,Liga_Portugal,bets_20260221.csv,Under,True,43.93
+2026-02-22,Hannover 96,Dynamo Dresden,O/U,Under,2.186,2.76,27.59,Bundesliga2,bets_20260221.csv,,,
+2026-02-22,SC Paderborn,Hertha Berlin,O/U,Under,2.138,0.83,8.33,Bundesliga2,bets_20260221.csv,,,
+2026-02-22,Strasbourg,Lyon,O/U,Under,2.0125,0.51,5.13,Ligue_1,bets_20260221.csv,Over,False,-5.13
+2026-02-22,FC Twente Enschede,Groningen,O/U,Under,2.119333333333333,0.2,2.03,Eredivisie,bets_20260221.csv,,,
+2026-02-22,FC Utrecht,FC Zwolle,O/U,Under,2.030666666666667,0.74,7.41,Eredivisie,bets_20260221.csv,,,
+2026-02-22,AZ Alkmaar,Sparta Rotterdam,O/U,Under,2.2100000000000004,2.36,23.63,Eredivisie,bets_20260221.csv,Over,False,-23.63
+2026-02-23,Fiorentina,Pisa,O/U,Under,2.0205882352941176,0.87,8.71,Serie_A,bets_20260221.csv,Under,True,8.55
+2026-02-27,Strasbourg,RC Lens,O/U,Under,2.3033333333333337,3.58,35.84,Ligue_1,bets_20260221.csv,Under,True,44.94
+2026-02-28,Inter Milan,Genoa,O/U,Under,2.1991666666666667,0.69,6.92,Serie_A,bets_20260221.csv,,,
+2026-02-28,AS Monaco,Angers,O/U,Under,2.212727272727273,1.79,17.86,Ligue_1,bets_20260221.csv,,,
+2026-03-01,Lille,Nantes,O/U,Under,2.053636363636364,0.62,6.22,Ligue_1,bets_20260221.csv,Under,True,6.3
+2026-03-01,Marseille,Lyon,O/U,Under,2.114545454545455,1.16,11.57,Ligue_1,bets_20260221.csv,Over,False,-11.57
+2026-02-25,Stoke City,Oxford United,O/U,Over,2.176,0.42,4.22,EFL_Championship,bets_20260225.csv,,,
+2026-02-27,Harrogate Town,Cheltenham Town,O/U,Over,1.9607142857142856,0.21,2.08,EFL_League2,bets_20260225.csv,,,
+2026-02-28,Portsmouth,Hull City,O/U,Over,1.9507142857142856,0.53,5.32,EFL_Championship,bets_20260225.csv,Under,False,-5.32
+2026-02-28,Charlton Athletic,Wrexham AFC,O/U,Over,2.072142857142857,0.83,8.31,EFL_Championship,bets_20260225.csv,,,
+2026-02-28,Shrewsbury Town,Walsall,O/U,Over,2.2530769230769225,2.86,28.57,EFL_League2,bets_20260225.csv,,,
+2026-02-28,Barrow,Gillingham,O/U,Over,1.98,0.19,1.9,EFL_League2,bets_20260225.csv,Under,False,-1.9
+2026-02-28,Hellas Verona,Napoli,O/U,Over,2.165,0.19,1.91,Serie_A,bets_20260225.csv,,,
+2026-03-01,Torino,Lazio,O/U,Over,2.345294117647059,3.81,38.1,Serie_A,bets_20260225.csv,Under,False,-38.1
+2026-03-01,AS Roma,Juventus,O/U,Over,2.2264705882352938,0.9,8.96,Serie_A,bets_20260225.csv,,,
+2026-03-01,FC Zwolle,Ajax,O/U,Over,2.1415384615384614,2.24,22.37,Eredivisie,bets_20260225.csv,,,
+2026-03-02,Pisa,Bologna,O/U,Over,2.0623529411764707,0.71,7.14,Serie_A,bets_20260225.csv,Under,False,-7.14
+2026-03-08,Genoa,AS Roma,O/U,Over,2.37,4.44,44.43,Serie_A,bets_20260225.csv,Over,True,58.56
+2026-03-08,Lazio,Sassuolo,O/U,Over,2.123333333333333,0.81,8.08,Serie_A,bets_20260225.csv,,,
+2026-02-25,Sheffield United,Coventry City,O/U,Under,2.1293750000000005,1.3,13.03,EFL_Championship,bets_20260225.csv,Over,False,-13.03
+2026-02-27,Fortuna Düsseldorf,VfL Bochum,O/U,Under,2.066428571428572,0.64,6.38,Bundesliga2,bets_20260225.csv,,,
+2026-02-27,SC Telstar,NAC Breda,O/U,Under,1.9928571428571435,0.01,0.14,Eredivisie,bets_20260225.csv,,,
+2026-02-28,Barnet,Chesterfield FC,O/U,Under,2.0330769230769232,0.05,0.55,EFL_League2,bets_20260225.csv,Under,True,0.55
+2026-02-28,1. FC Kaiserslautern,SC Paderborn,O/U,Under,2.236923076923077,3.07,30.73,Bundesliga2,bets_20260225.csv,,,
+2026-02-28,Holstein Kiel,Elversberg,O/U,Under,2.055384615384616,1.22,12.22,Bundesliga2,bets_20260225.csv,Under,True,12.41
+2026-02-28,Greuther Fürth,FC Schalke 04,O/U,Under,1.973846153846154,0.1,0.99,Bundesliga2,bets_20260225.csv,,,
+2026-02-28,Inter Milan,Genoa,O/U,Under,2.135625,0.38,3.81,Serie_A,bets_20260225.csv,,,
+2026-02-28,Heerenveen,Sparta Rotterdam,O/U,Under,2.263846153846154,2.99,29.92,Eredivisie,bets_20260225.csv,Over,False,-29.92
+2026-03-01,Hertha Berlin,1. FC Nürnberg,O/U,Under,2.053846153846154,0.95,9.46,Bundesliga2,bets_20260225.csv,,,
+2026-03-01,FC Twente Enschede,Feyenoord,O/U,Under,2.2746153846153847,3.13,31.33,Eredivisie,bets_20260225.csv,,,
+2026-03-01,FC Volendam,Groningen,O/U,Under,2.0307692307692307,0.02,0.25,Eredivisie,bets_20260225.csv,,,
+2026-03-01,FC Utrecht,AZ Alkmaar,O/U,Under,2.058461538461539,1.26,12.56,Eredivisie,bets_20260225.csv,,,
+2026-03-01,Excelsior,Go Ahead Eagles,O/U,Under,2.0992307692307697,0.49,4.89,Eredivisie,bets_20260225.csv,Under,True,5.17
+2026-03-08,Lecce,Cremonese,O/U,Under,2.0966666666666662,1.1,10.97,Serie_A,bets_20260225.csv,Over,False,-10.97
+2026-03-08,Juventus,Pisa,O/U,Under,2.193333333333333,0.64,6.37,Serie_A,bets_20260225.csv,,,
+2026-02-28,Derby County,Blackburn Rovers,O/U,Over,2.2300000000000004,0.34,3.43,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Portsmouth,Hull City,O/U,Over,1.96375,0.75,7.5,EFL_Championship,bets_20260228.csv,Under,False,-7.5
+2026-02-28,Charlton Athletic,Wrexham AFC,O/U,Over,2.0362500000000003,0.8,7.98,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Preston North End,Millwall,O/U,Over,2.025,0.66,6.65,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Oxford United,West Bromwich Albion,O/U,Over,2.1875000000000004,0.12,1.15,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Cambridge United,Milton Keynes Dons,O/U,Over,2.2173333333333334,2.61,26.13,EFL_League2,bets_20260228.csv,,,
+2026-02-28,Shrewsbury Town,Walsall,O/U,Over,2.1986666666666665,1.84,18.43,EFL_League2,bets_20260228.csv,,,
+2026-02-28,Barrow,Gillingham,O/U,Over,1.9813333333333327,0.2,1.98,EFL_League2,bets_20260228.csv,Under,False,-1.98
+2026-02-28,Avellino,Juve Stabia,O/U,Over,2.29,3.41,34.14,Serie_B,bets_20260228.csv,Under,False,-34.14
+2026-02-28,Vitória SC,Alverca,O/U,Over,2.016,1.46,14.57,Liga_Portugal,bets_20260228.csv,,,
+2026-03-01,Lorient,Auxerre,O/U,Over,2.2,0.65,6.52,Ligue_1,bets_20260228.csv,Over,True,7.53
+2026-03-01,FC Zwolle,Ajax,O/U,Over,2.107333333333333,1.9,18.96,Eredivisie,bets_20260228.csv,,,
+2026-03-01,Casa Pia,Moreirense FC,O/U,Over,2.35,3.39,33.92,Liga_Portugal,bets_20260228.csv,Under,False,-33.92
+2026-03-02,Gil Vicente,Benfica,O/U,Over,1.9826666666666664,0.68,6.8,Liga_Portugal,bets_20260228.csv,Over,True,6.43
+2026-03-07,Nantes,Angers,O/U,Over,2.27,1.15,11.47,Ligue_1,bets_20260228.csv,Under,False,-11.47
+2026-03-08,Brest,Le Havre,O/U,Over,1.9481818181818185,0.57,5.7,Ligue_1,bets_20260228.csv,Under,False,-5.7
+2026-02-28,Coventry City,Stoke City,O/U,Under,2.151875,0.91,9.14,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Sheffield Wednesday,Southampton,O/U,Under,2.200769230769231,2.22,22.24,EFL_Championship,bets_20260228.csv,,,
+2026-02-28,Barnet,Chesterfield FC,O/U,Under,1.986,0.26,2.58,EFL_League2,bets_20260228.csv,Under,True,2.45
+2026-02-28,1. FC Kaiserslautern,SC Paderborn,O/U,Under,2.1821428571428574,0.6,6.02,Bundesliga2,bets_20260228.csv,,,
+2026-02-28,Arminia Bielefeld,Hannover 96,O/U,Under,2.044,0.5,5.03,Bundesliga2,bets_20260228.csv,,,
+2026-02-28,Holstein Kiel,Elversberg,O/U,Under,2.092142857142857,1.04,10.42,Bundesliga2,bets_20260228.csv,Under,True,10.95
+2026-02-28,Rennes,Toulouse,O/U,Under,1.9526666666666668,0.13,1.31,Ligue_1,bets_20260228.csv,Under,True,1.2
+2026-02-28,AS Monaco,Angers,O/U,Under,2.1025,1.27,12.73,Ligue_1,bets_20260228.csv,,,
+2026-02-28,Heracles Almelo,PSV Eindhoven,O/U,Under,2.0093750000000004,0.61,6.1,Eredivisie,bets_20260228.csv,,,
+2026-03-01,Pescara,Palermo,O/U,Under,1.9906666666666664,0.71,7.11,Serie_B,bets_20260228.csv,Over,False,-7.11
+2026-03-01,Lille,Nantes,O/U,Under,2.026875,1.07,10.75,Ligue_1,bets_20260228.csv,Under,True,10.62
+2026-03-01,Marseille,Lyon,O/U,Under,2.094666666666667,0.07,0.66,Ligue_1,bets_20260228.csv,Over,False,-0.66
+2026-03-01,FC Twente Enschede,Feyenoord,O/U,Under,2.228,2.76,27.56,Eredivisie,bets_20260228.csv,,,
+2026-03-01,FC Volendam,Groningen,O/U,Under,2.0846666666666662,0.58,5.84,Eredivisie,bets_20260228.csv,,,
+2026-03-01,FC Utrecht,AZ Alkmaar,O/U,Under,2.027333333333334,1.02,10.25,Eredivisie,bets_20260228.csv,,,
+2026-03-01,Excelsior,Go Ahead Eagles,O/U,Under,2.074666666666667,0.35,3.45,Eredivisie,bets_20260228.csv,Under,True,3.57
+2026-03-01,Tondela,Santa Clara,O/U,Under,2.308,3.15,31.47,Liga_Portugal,bets_20260228.csv,Over,False,-31.47
+2026-03-06,Paris Saint Germain,AS Monaco,O/U,Under,2.2116666666666664,2.69,26.86,Ligue_1,bets_20260228.csv,,,
+2026-03-08,Nice,Rennes,O/U,Under,2.2509090909090905,0.86,8.64,Ligue_1,bets_20260228.csv,Over,False,-8.64
+2026-03-04,Carrarese,US Catanzaro 1929,O/U,Over,2.067333333333333,1.21,12.12,Serie_B,bets_20260304.csv,Over,True,12.44
+2026-03-04,Bari,Empoli,O/U,Over,2.0733333333333333,1.6,15.96,Serie_B,bets_20260304.csv,Over,True,16.48
+2026-03-04,Juve Stabia,Sampdoria,O/U,Over,2.2506666666666666,2.23,22.29,Serie_B,bets_20260304.csv,Under,False,-22.29
+2026-03-06,Preston North End,Oxford United,O/U,Over,2.124375,0.25,2.53,EFL_Championship,bets_20260304.csv,,,
+2026-03-06,Elversberg,1. FC Magdeburg,O/U,Over,2.075,1.37,13.71,Bundesliga2,bets_20260304.csv,Under,False,-13.71
+2026-03-07,Blackburn Rovers,Portsmouth,O/U,Over,2.2786666666666666,3.81,38.1,EFL_Championship,bets_20260304.csv,,,
+2026-03-07,Hull City,Millwall,O/U,Over,1.961333333333333,0.54,5.38,EFL_Championship,bets_20260304.csv,,,
+2026-03-07,Charlton Athletic,Birmingham City,O/U,Over,2.0373333333333337,0.3,3.01,EFL_Championship,bets_20260304.csv,,,
+2026-03-07,Swansea City,Stoke City,O/U,Over,2.042666666666667,0.49,4.94,EFL_Championship,bets_20260304.csv,,,
+2026-03-07,Accrington Stanley,Cambridge United,O/U,Over,2.1507692307692308,2.71,27.11,EFL_League2,bets_20260304.csv,,,
+2026-03-07,Milton Keynes Dons,Harrogate Town,O/U,Over,1.9992307692307687,0.64,6.4,EFL_League2,bets_20260304.csv,Over,True,6.15
+2026-03-07,Walsall,Notts County,O/U,Over,2.093076923076924,0.61,6.13,EFL_League2,bets_20260304.csv,Over,True,6.45
+2026-03-07,Spezia,Monza,O/U,Over,2.1572727272727272,0.78,7.78,Serie_B,bets_20260304.csv,Over,True,8.66
+2026-03-07,Südtirol,Virtus Entella,O/U,Over,2.109090909090909,2.85,28.49,Serie_B,bets_20260304.csv,,,
+2026-03-07,Moreirense FC,Nacional,O/U,Over,2.083076923076923,0.95,9.51,Liga_Portugal,bets_20260304.csv,,,
+2026-03-08,Hannover 96,Greuther Fürth,O/U,Over,2.0584615384615383,1.0,9.98,Bundesliga2,bets_20260304.csv,,,
+2026-03-08,Sparta Rotterdam,FC Zwolle,O/U,Over,2.224615384615385,2.31,23.12,Eredivisie,bets_20260304.csv,Under,False,-23.12
+2026-03-08,Benfica,FC Porto,O/U,Over,2.0984615384615384,0.99,9.89,Liga_Portugal,bets_20260304.csv,Over,True,10.45
+2026-03-08,Santa Clara,Vitória SC,O/U,Over,2.3415384615384616,3.74,37.39,Liga_Portugal,bets_20260304.csv,Under,False,-37.39
+2026-03-09,Tondela,Rio Ave FC,O/U,Over,1.9715384615384608,0.4,4.02,Liga_Portugal,bets_20260304.csv,Under,False,-4.02
+2026-03-04,Palermo,Mantova,O/U,Under,2.0053333333333336,0.62,6.18,Serie_B,bets_20260304.csv,Over,False,-6.18
+2026-03-06,Heracles Almelo,FC Utrecht,O/U,Under,2.0307142857142857,1.2,12.01,Eredivisie,bets_20260304.csv,,,
+2026-03-07,Bristol City,Coventry City,O/U,Under,2.1086666666666662,1.22,12.22,EFL_Championship,bets_20260304.csv,Under,True,13.03
+2026-03-07,Ipswich Town,Leicester City,O/U,Under,2.0853333333333337,0.72,7.2,EFL_Championship,bets_20260304.csv,,,
+2026-03-07,SC Paderborn,Eintracht Braunschweig,O/U,Under,2.1071428571428577,0.19,1.94,Bundesliga2,bets_20260304.csv,,,
+2026-03-07,SV Darmstadt 98,Holstein Kiel,O/U,Under,2.107142857142857,0.57,5.74,Bundesliga2,bets_20260304.csv,,,
+2026-03-07,VfL Bochum,1. FC Kaiserslautern,O/U,Under,2.1014285714285714,0.39,3.86,Bundesliga2,bets_20260304.csv,,,
+2026-03-07,Venezia,Reggiana,O/U,Under,2.0881818181818184,0.75,7.51,Serie_B,bets_20260304.csv,Under,True,7.86
+2026-03-07,Groningen,Ajax,O/U,Under,2.143846153846153,0.27,2.7,Eredivisie,bets_20260304.csv,Over,False,-2.7
+2026-03-07,Excelsior,Heerenveen,O/U,Under,2.225384615384616,0.57,5.73,Eredivisie,bets_20260304.csv,Over,False,-5.73
+2026-03-08,Karlsruher SC,Dynamo Dresden,O/U,Under,2.168461538461538,0.58,5.78,Bundesliga2,bets_20260304.csv,,,
+2026-03-08,Fortuna Sittard,SC Telstar,O/U,Under,2.125833333333333,0.33,3.32,Eredivisie,bets_20260304.csv,,,
+2026-03-08,NAC Breda,Feyenoord,O/U,Under,2.169230769230769,0.28,2.8,Eredivisie,bets_20260304.csv,Over,False,-2.8
+2026-03-07,Blackburn Rovers,Portsmouth,O/U,Over,2.131875,0.71,7.12,EFL_Championship,bets_20260307.csv,,,
+2026-03-07,Hull City,Millwall,O/U,Over,2.050625,0.58,5.8,EFL_Championship,bets_20260307.csv,,,
+2026-03-07,Charlton Athletic,Birmingham City,O/U,Over,2.075,0.73,7.29,EFL_Championship,bets_20260307.csv,,,
+2026-03-07,Swansea City,Stoke City,O/U,Over,2.04125,1.11,11.13,EFL_Championship,bets_20260307.csv,,,
+2026-03-07,Accrington Stanley,Cambridge United,O/U,Over,2.2407142857142857,2.98,29.84,EFL_League2,bets_20260307.csv,,,
+2026-03-07,Newport County,Colchester United,O/U,Over,2.0042857142857144,0.75,7.54,EFL_League2,bets_20260307.csv,Over,True,7.28
+2026-03-07,Gillingham,Fleetwood Town,O/U,Over,2.029285714285714,0.79,7.92,EFL_League2,bets_20260307.csv,Under,False,-7.92
+2026-03-07,Milton Keynes Dons,Harrogate Town,O/U,Over,1.9721428571428568,0.08,0.77,EFL_League2,bets_20260307.csv,Over,True,0.72
+2026-03-07,Walsall,Notts County,O/U,Over,2.097857142857144,0.22,2.2,EFL_League2,bets_20260307.csv,Over,True,2.32
+2026-03-07,Spezia,Monza,O/U,Over,2.106666666666667,1.19,11.95,Serie_B,bets_20260307.csv,Over,True,12.72
+2026-03-07,Moreirense FC,Nacional,O/U,Over,2.130714285714286,1.01,10.08,Liga_Portugal,bets_20260307.csv,,,
+2026-03-08,Hannover 96,Greuther Fürth,O/U,Over,2.097142857142857,2.1,21.03,Bundesliga2,bets_20260307.csv,,,
+2026-03-08,Bologna,Hellas Verona,O/U,Over,1.9726666666666663,0.47,4.67,Serie_A,bets_20260307.csv,Over,True,4.37
+2026-03-08,Genoa,AS Roma,O/U,Over,2.2626666666666666,1.21,12.13,Serie_A,bets_20260307.csv,Over,True,14.73
+2026-03-08,Mantova,Juve Stabia,O/U,Over,2.055333333333333,0.19,1.88,Serie_B,bets_20260307.csv,Under,False,-1.88
+2026-03-08,RC Lens,Metz,O/U,Over,2.136,2.54,25.43,Ligue_1,bets_20260307.csv,,,
+2026-03-08,CF Estrela,Gil Vicente,O/U,Over,2.0907692307692307,0.65,6.51,Liga_Portugal,bets_20260307.csv,,,
+2026-03-08,Benfica,FC Porto,O/U,Over,2.1585714285714284,0.48,4.84,Liga_Portugal,bets_20260307.csv,Over,True,5.39
+2026-03-08,Santa Clara,Vitória SC,O/U,Over,2.37,3.93,39.27,Liga_Portugal,bets_20260307.csv,Under,False,-39.27
+2026-03-09,Lazio,Sassuolo,O/U,Over,2.179375,1.0,9.98,Serie_A,bets_20260307.csv,Over,True,11.32
+2026-03-09,Tondela,Rio Ave FC,O/U,Over,1.956428571428572,0.34,3.37,Liga_Portugal,bets_20260307.csv,Under,False,-3.37
+2026-03-13,Torino,Parma,O/U,Over,2.2123076923076925,1.3,12.98,Serie_A,bets_20260307.csv,Over,True,15.14
+2026-03-14,Napoli,Lecce,O/U,Over,2.1916666666666664,0.62,6.21,Serie_A,bets_20260307.csv,Over,True,7.12
+2026-03-14,Udinese,Juventus,O/U,Over,1.9991666666666668,1.15,11.52,Serie_A,bets_20260307.csv,Under,False,-11.52
+2026-03-14,AS Monaco,Brest,O/U,Over,2.2777777777777777,3.57,35.67,Ligue_1,bets_20260307.csv,,,
+2026-03-15,Sassuolo,Bologna,O/U,Over,2.0216666666666665,1.29,12.88,Serie_A,bets_20260307.csv,Under,False,-12.88
+2026-03-15,Pisa,Cagliari,O/U,Over,2.35,4.2,41.97,Serie_A,bets_20260307.csv,Over,True,54.51
+2026-03-15,Como,AS Roma,O/U,Over,2.1083333333333334,1.28,12.81,Serie_A,bets_20260307.csv,Over,True,13.66
+2026-03-15,Lazio,AC Milan,O/U,Over,2.168333333333333,1.19,11.93,Serie_A,bets_20260307.csv,Under,False,-11.93
+2026-03-15,Metz,Toulouse,O/U,Over,2.136666666666667,1.19,11.93,Ligue_1,bets_20260307.csv,Over,True,13.05
+2026-03-07,Bristol City,Coventry City,O/U,Under,2.112666666666667,0.51,5.11,EFL_Championship,bets_20260307.csv,Under,True,5.47
+2026-03-07,Derby County,Sheffield Wednesday,O/U,Under,2.0807692307692305,0.41,4.14,EFL_Championship,bets_20260307.csv,,,
+2026-03-07,Crawley Town,Swindon Town,O/U,Under,2.0585714285714283,0.35,3.54,EFL_League2,bets_20260307.csv,Over,False,-3.54
+2026-03-07,1. FC Nürnberg,Fortuna Düsseldorf,O/U,Under,2.0571428571428565,0.53,5.27,Bundesliga2,bets_20260307.csv,,,
+2026-03-07,SC Paderborn,Eintracht Braunschweig,O/U,Under,2.1942857142857144,0.54,5.35,Bundesliga2,bets_20260307.csv,,,
+2026-03-07,SV Darmstadt 98,Holstein Kiel,O/U,Under,2.126153846153846,0.22,2.18,Bundesliga2,bets_20260307.csv,,,
+2026-03-07,VfL Bochum,1. FC Kaiserslautern,O/U,Under,2.1769230769230767,0.31,3.1,Bundesliga2,bets_20260307.csv,,,
+2026-03-07,Juventus,Pisa,O/U,Under,2.2273333333333336,3.1,30.97,Serie_A,bets_20260307.csv,Over,False,-30.97
+2026-03-07,Venezia,Reggiana,O/U,Under,2.095,1.82,18.24,Serie_B,bets_20260307.csv,Under,True,19.21
+2026-03-07,Nantes,Angers,O/U,Under,2.222,2.4,23.99,Ligue_1,bets_20260307.csv,Under,True,28.2
+2026-03-07,Toulouse,Marseille,O/U,Under,2.033333333333333,0.63,6.31,Ligue_1,bets_20260307.csv,Under,True,6.27
+2026-03-07,Groningen,Ajax,O/U,Under,2.242,3.16,31.6,Eredivisie,bets_20260307.csv,Over,False,-31.6
+2026-03-07,Excelsior,Heerenveen,O/U,Under,2.1586666666666665,0.55,5.52,Eredivisie,bets_20260307.csv,Over,False,-5.52
+2026-03-08,Karlsruher SC,Dynamo Dresden,O/U,Under,2.124285714285714,1.13,11.3,Bundesliga2,bets_20260307.csv,,,
+2026-03-08,Lecce,Cremonese,O/U,Under,2.312,3.52,35.15,Serie_A,bets_20260307.csv,Over,False,-35.15
+2026-03-08,Nice,Rennes,O/U,Under,2.148,2.53,25.25,Ligue_1,bets_20260307.csv,Over,False,-25.25
+2026-03-08,Sparta Rotterdam,FC Zwolle,O/U,Under,2.211428571428572,1.59,15.93,Eredivisie,bets_20260307.csv,Under,True,18.56
+2026-03-08,Fortuna Sittard,SC Telstar,O/U,Under,2.135,0.18,1.83,Eredivisie,bets_20260307.csv,,,
+2026-03-08,NAC Breda,Feyenoord,O/U,Under,2.142857142857143,0.82,8.2,Eredivisie,bets_20260307.csv,Over,False,-8.2
+2026-03-13,Marseille,Auxerre,O/U,Under,2.0930000000000004,1.06,10.58,Ligue_1,bets_20260307.csv,Under,True,11.12
+2026-03-14,Inter Milan,Atalanta BC,O/U,Under,2.1308333333333334,1.76,17.59,Serie_A,bets_20260307.csv,,,
+2026-03-15,Hellas Verona,Genoa,O/U,Under,2.2325000000000004,1.84,18.37,Serie_A,bets_20260307.csv,,,
+2026-03-15,Strasbourg,Paris FC,O/U,Under,2.013333333333333,1.0,9.96,Ligue_1,bets_20260307.csv,Under,True,9.71
+2026-03-15,Rennes,Lille,O/U,Under,2.0522222222222224,1.06,10.57,Ligue_1,bets_20260307.csv,Over,False,-10.57
+2026-03-21,Parma,Cremonese,1X2,D,3.0554545454545448,0.02,0.18,Serie_A,bets_20260311.csv,A,False,-0.18
+2026-03-11,Oxford United,Blackburn Rovers,O/U,Over,2.2393749999999994,3.55,35.48,EFL_Championship,bets_20260311.csv,,,
+2026-03-11,Coventry City,Preston North End,O/U,Over,2.0206666666666666,0.35,3.53,EFL_Championship,bets_20260311.csv,,,
+2026-03-13,Torino,Parma,O/U,Over,2.1805882352941177,0.29,2.88,Serie_A,bets_20260311.csv,Over,True,3.27
+2026-03-14,Stoke City,Watford,O/U,Over,2.028461538461539,0.33,3.25,EFL_Championship,bets_20260311.csv,,,
+2026-03-14,Barnet,Newport County,O/U,Over,2.056923076923077,1.38,13.8,EFL_League2,bets_20260311.csv,Over,True,14.03
+2026-03-14,Cambridge United,Gillingham,O/U,Over,2.034615384615385,0.14,1.39,EFL_League2,bets_20260311.csv,,,
+2026-03-14,Shrewsbury Town,Cheltenham Town,O/U,Over,1.993846153846154,0.17,1.68,EFL_League2,bets_20260311.csv,,,
+2026-03-14,Crewe Alexandra,Walsall,O/U,Over,1.9892307692307687,0.38,3.79,EFL_League2,bets_20260311.csv,,,
+2026-03-14,Napoli,Lecce,O/U,Over,2.132941176470588,1.22,12.16,Serie_A,bets_20260311.csv,Over,True,13.25
+2026-03-14,Padova,US Catanzaro 1929,O/U,Over,2.1115384615384616,0.68,6.84,Serie_B,bets_20260311.csv,Over,True,7.31
+2026-03-14,Angers,Nice,O/U,Over,2.029375,1.29,12.94,Ligue_1,bets_20260311.csv,Under,False,-12.94
+2026-03-14,PSV Eindhoven,NEC Nijmegen,O/U,Over,2.598461538461538,4.53,45.33,Eredivisie,bets_20260311.csv,Over,True,69.7
+2026-03-14,Ajax,Sparta Rotterdam,O/U,Over,2.111538461538461,2.13,21.3,Eredivisie,bets_20260311.csv,Over,True,22.78
+2026-03-14,Vitória SC,Famalicão,O/U,Over,2.013076923076923,0.53,5.34,Liga_Portugal,bets_20260311.csv,,,
+2026-03-14,Galatasaray,Basaksehir,O/U,Over,2.153076923076924,2.47,24.69,Super_Lig,bets_20260311.csv,Over,True,27.39
+2026-03-15,Pisa,Cagliari,O/U,Over,2.291874999999999,3.48,34.83,Serie_A,bets_20260311.csv,Over,True,43.29
+2026-03-15,Como,AS Roma,O/U,Over,2.0988235294117645,0.86,8.62,Serie_A,bets_20260311.csv,Over,True,9.11
+2026-03-15,Lazio,AC Milan,O/U,Over,2.1725000000000003,0.93,9.32,Serie_A,bets_20260311.csv,Under,False,-9.32
+2026-03-15,Le Havre,Lyon,O/U,Over,2.0675000000000003,1.09,10.91,Ligue_1,bets_20260311.csv,Under,False,-10.91
+2026-03-15,Metz,Toulouse,O/U,Over,2.1343749999999995,1.17,11.69,Ligue_1,bets_20260311.csv,Over,True,12.76
+2026-03-15,AZ Alkmaar,Heracles Almelo,O/U,Over,2.123846153846154,1.82,18.15,Eredivisie,bets_20260311.csv,Over,True,19.62
+2026-03-15,Feyenoord,Excelsior,O/U,Over,1.972307692307692,0.22,2.19,Eredivisie,bets_20260311.csv,Over,True,2.05
+2026-03-15,Rio Ave FC,CF Estrela,O/U,Over,1.9338461538461544,0.16,1.64,Liga_Portugal,bets_20260311.csv,,,
+2026-03-20,Cagliari,Napoli,O/U,Over,2.232,0.46,4.57,Serie_A,bets_20260311.csv,Under,False,-4.57
+2026-03-21,Parma,Cremonese,O/U,Over,2.196,1.51,15.14,Serie_A,bets_20260311.csv,Under,False,-15.14
+2026-03-21,Toulouse,Lorient,O/U,Over,2.2411111111111115,1.25,12.51,Ligue_1,bets_20260311.csv,Under,False,-12.51
+2026-03-21,Auxerre,Brest,O/U,Over,2.086666666666667,1.12,11.17,Ligue_1,bets_20260311.csv,Over,True,11.68
+2026-03-22,Bologna,Lazio,O/U,Over,2.373,4.63,46.29,Serie_A,bets_20260311.csv,Under,False,-46.29
+2026-03-22,Rennes,Metz,O/U,Over,2.197777777777778,1.23,12.25,Ligue_1,bets_20260311.csv,Under,False,-12.25
+2026-03-11,Middlesbrough,Charlton Athletic,O/U,Under,2.0860000000000003,0.41,4.09,EFL_Championship,bets_20260311.csv,Under,True,4.27
+2026-03-13,Marseille,Auxerre,O/U,Under,2.11125,0.5,4.96,Ligue_1,bets_20260311.csv,Under,True,5.3
+2026-03-13,FC Zwolle,Groningen,O/U,Under,2.1614285714285706,2.85,28.5,Eredivisie,bets_20260311.csv,,,
+2026-03-14,Sheffield Wednesday,Ipswich Town,O/U,Under,2.341,3.1,31.02,EFL_Championship,bets_20260311.csv,,,
+2026-03-14,Harrogate Town,Salford City,O/U,Under,2.023846153846154,0.94,9.39,EFL_League2,bets_20260311.csv,,,
+2026-03-14,Fleetwood Town,Tranmere Rovers,O/U,Under,1.9507692307692304,0.01,0.07,EFL_League2,bets_20260311.csv,Under,True,0.06
+2026-03-14,Arminia Bielefeld,SC Paderborn,O/U,Under,2.141428571428572,1.24,12.41,Bundesliga2,bets_20260311.csv,,,
+2026-03-14,Hertha Berlin,VfL Bochum,O/U,Under,2.149285714285715,1.19,11.94,Bundesliga2,bets_20260311.csv,,,
+2026-03-14,Inter Milan,Atalanta BC,O/U,Under,2.11,1.11,11.05,Serie_A,bets_20260311.csv,,,
+2026-03-14,AS Monaco,Brest,O/U,Under,2.23125,0.65,6.46,Ligue_1,bets_20260311.csv,,,
+2026-03-14,FC Volendam,Fortuna Sittard,O/U,Under,2.21,2.73,27.3,Eredivisie,bets_20260311.csv,,,
+2026-03-14,Arouca,Benfica,O/U,Under,2.1315384615384616,2.2,22.0,Liga_Portugal,bets_20260311.csv,Over,False,-22.0
+2026-03-14,Trabzonspor,Çaykur Rizespor,O/U,Under,2.131538461538462,0.02,0.17,Super_Lig,bets_20260311.csv,Under,True,0.19
+2026-03-15,Dynamo Dresden,SC Preußen Münster,O/U,Under,2.015384615384616,0.3,2.98,Bundesliga2,bets_20260311.csv,,,
+2026-03-15,FC Schalke 04,Hannover 96,O/U,Under,1.9807692307692308,0.13,1.25,Bundesliga2,bets_20260311.csv,,,
+2026-03-15,Hellas Verona,Genoa,O/U,Under,2.1968750000000004,1.34,13.43,Serie_A,bets_20260311.csv,,,
+2026-03-15,FC Twente Enschede,FC Utrecht,O/U,Under,2.225384615384615,1.47,14.74,Eredivisie,bets_20260311.csv,,,
+2026-03-15,Go Ahead Eagles,NAC Breda,O/U,Under,2.1953846153846155,2.6,26.04,Eredivisie,bets_20260311.csv,Over,False,-26.04
+2026-03-15,FC Porto,Moreirense FC,O/U,Under,2.06,1.34,13.41,Liga_Portugal,bets_20260311.csv,,,
+2026-03-15,Genclerbirligi SK,Besiktas JK,O/U,Under,2.082307692307692,1.26,12.6,Super_Lig,bets_20260311.csv,,,
+2026-03-20,Genoa,Udinese,O/U,Under,2.24,1.3,13.03,Serie_A,bets_20260311.csv,Under,True,15.54
+2026-03-20,RC Lens,Angers,O/U,Under,2.1611111111111114,0.88,8.76,Ligue_1,bets_20260311.csv,,,
+2026-03-21,AC Milan,Torino,O/U,Under,2.039,1.17,11.66,Serie_A,bets_20260311.csv,,,
+2026-03-21,Juventus,Sassuolo,O/U,Under,2.0569999999999995,0.79,7.9,Serie_A,bets_20260311.csv,Under,True,8.03
+2026-03-21,Nice,Paris Saint Germain,O/U,Under,1.9622222222222216,0.28,2.79,Ligue_1,bets_20260311.csv,Over,False,-2.79
+2026-03-22,Como,Pisa,O/U,Under,2.109,0.47,4.67,Serie_A,bets_20260311.csv,Over,False,-4.67
+2026-03-22,Fiorentina,Inter Milan,O/U,Under,1.9839999999999995,0.37,3.66,Serie_A,bets_20260311.csv,Under,True,3.46
+2026-03-22,Lyon,AS Monaco,O/U,Under,2.1411111111111114,1.42,14.25,Ligue_1,bets_20260311.csv,Over,False,-14.25
+2026-03-22,Marseille,Lille,O/U,Under,2.0500000000000003,0.9,9.02,Ligue_1,bets_20260311.csv,Over,False,-9.02
+2026-03-22,Real Madrid,Atlético Madrid,1X2,A,3.701428571428571,0.01,0.14,La_Liga,bets_20260314.csv,H,False,-0.14
+2026-03-14,Sheffield Wednesday,Ipswich Town,O/U,Over,2.026153846153846,1.4,14.02,EFL_Championship,bets_20260314.csv,,,
+2026-03-14,Stoke City,Watford,O/U,Over,2.026875,0.75,7.49,EFL_Championship,bets_20260314.csv,,,
+2026-03-14,Shrewsbury Town,Cheltenham Town,O/U,Over,2.1766666666666667,3.29,32.87,EFL_League2,bets_20260314.csv,,,
+2026-03-14,Napoli,Lecce,O/U,Over,2.086,0.97,9.73,Serie_A,bets_20260314.csv,Over,True,10.17
+2026-03-14,Bari,Reggiana,O/U,Over,2.135333333333333,0.38,3.78,Serie_B,bets_20260314.csv,Over,True,4.13
+2026-03-14,Juve Stabia,Carrarese,O/U,Over,2.159333333333333,3.17,31.72,Serie_B,bets_20260314.csv,Under,False,-31.72
+2026-03-14,Padova,US Catanzaro 1929,O/U,Over,2.072,1.33,13.28,Serie_B,bets_20260314.csv,Over,True,13.7
+2026-03-14,Monza,Palermo,O/U,Over,1.987333333333333,0.98,9.8,Serie_B,bets_20260314.csv,Over,True,9.31
+2026-03-14,Angers,Nice,O/U,Over,2.1793750000000003,1.06,10.61,Ligue_1,bets_20260314.csv,Under,False,-10.61
+2026-03-14,Heerenveen,SC Telstar,O/U,Over,2.045625,0.27,2.65,Eredivisie,bets_20260314.csv,Over,True,2.67
+2026-03-14,Ajax,Sparta Rotterdam,O/U,Over,2.101875,2.2,22.03,Eredivisie,bets_20260314.csv,Over,True,23.35
+2026-03-14,Vitória SC,Famalicão,O/U,Over,2.048666666666667,1.2,11.97,Liga_Portugal,bets_20260314.csv,,,
+2026-03-14,Gil Vicente,Alverca,O/U,Over,2.0385714285714287,0.44,4.39,Liga_Portugal,bets_20260314.csv,Over,True,4.39
+2026-03-14,Kocaelispor,Torku Konyaspor,O/U,Over,2.274666666666667,3.18,31.81,Super_Lig,bets_20260314.csv,Over,True,39.01
+2026-03-15,1. FC Kaiserslautern,Karlsruher SC,O/U,Over,2.125714285714286,1.89,18.94,Bundesliga2,bets_20260314.csv,,,
+2026-03-15,Hellas Verona,Genoa,O/U,Over,2.031176470588235,0.61,6.09,Serie_A,bets_20260314.csv,,,
+2026-03-15,Pisa,Cagliari,O/U,Over,2.331176470588235,2.91,29.11,Serie_A,bets_20260314.csv,Over,True,37.28
+2026-03-15,Como,AS Roma,O/U,Over,2.1029411764705888,0.91,9.06,Serie_A,bets_20260314.csv,Over,True,9.61
+2026-03-15,Lazio,AC Milan,O/U,Over,2.1411764705882352,1.3,12.98,Serie_A,bets_20260314.csv,Under,False,-12.98
+2026-03-15,Le Havre,Lyon,O/U,Over,2.076875,1.13,11.28,Ligue_1,bets_20260314.csv,Under,False,-11.28
+2026-03-15,Metz,Toulouse,O/U,Over,2.133125,1.16,11.56,Ligue_1,bets_20260314.csv,Over,True,12.6
+2026-03-15,AZ Alkmaar,Heracles Almelo,O/U,Over,2.064,0.29,2.88,Eredivisie,bets_20260314.csv,Over,True,2.95
+2026-03-15,Rio Ave FC,CF Estrela,O/U,Over,2.003333333333333,0.34,3.41,Liga_Portugal,bets_20260314.csv,,,
+2026-03-16,Portsmouth,Derby County,O/U,Over,2.134375,0.23,2.32,EFL_Championship,bets_20260314.csv,Under,False,-2.32
+2026-03-20,Cagliari,Napoli,O/U,Over,2.233076923076923,0.47,4.66,Serie_A,bets_20260314.csv,Under,False,-4.66
+2026-03-21,Parma,Cremonese,O/U,Over,2.169166666666667,1.26,12.63,Serie_A,bets_20260314.csv,Under,False,-12.63
+2026-03-21,Toulouse,Lorient,O/U,Over,2.2544444444444447,1.37,13.66,Ligue_1,bets_20260314.csv,Under,False,-13.66
+2026-03-21,Auxerre,Brest,O/U,Over,2.077777777777777,1.08,10.83,Ligue_1,bets_20260314.csv,Over,True,11.23
+2026-03-22,Bologna,Lazio,O/U,Over,2.3880000000000003,4.67,46.72,Serie_A,bets_20260314.csv,Under,False,-46.72
+2026-03-22,Rennes,Metz,O/U,Over,2.1777777777777776,1.04,10.37,Ligue_1,bets_20260314.csv,Under,False,-10.37
+2026-03-14,Coventry City,Southampton,O/U,Under,2.1666666666666665,0.39,3.93,EFL_Championship,bets_20260314.csv,,,
+2026-03-14,Norwich City,Preston North End,O/U,Under,2.050625,0.96,9.63,EFL_Championship,bets_20260314.csv,,,
+2026-03-14,Fleetwood Town,Tranmere Rovers,O/U,Under,1.9806666666666664,0.32,3.23,EFL_League2,bets_20260314.csv,Under,True,3.05
+2026-03-14,Holstein Kiel,1. FC Nürnberg,O/U,Under,2.0335714285714284,0.7,7.04,Bundesliga2,bets_20260314.csv,Over,False,-7.04
+2026-03-14,Arminia Bielefeld,SC Paderborn,O/U,Under,2.079285714285714,1.22,12.2,Bundesliga2,bets_20260314.csv,,,
+2026-03-14,Hertha Berlin,VfL Bochum,O/U,Under,2.09,1.21,12.09,Bundesliga2,bets_20260314.csv,,,
+2026-03-14,Inter Milan,Atalanta BC,O/U,Under,2.212941176470588,2.56,25.59,Serie_A,bets_20260314.csv,,,
+2026-03-14,Cesena FC,Frosinone,O/U,Under,2.060714285714285,1.77,17.73,Serie_B,bets_20260314.csv,,,
+2026-03-14,AS Monaco,Brest,O/U,Under,2.1906250000000003,1.05,10.48,Ligue_1,bets_20260314.csv,,,
+2026-03-14,PSV Eindhoven,NEC Nijmegen,O/U,Under,2.149375,0.28,2.77,Eredivisie,bets_20260314.csv,Over,False,-2.77
+2026-03-14,Arouca,Benfica,O/U,Under,2.043846153846153,0.24,2.44,Liga_Portugal,bets_20260314.csv,Over,False,-2.44
+2026-03-14,Trabzonspor,Çaykur Rizespor,O/U,Under,2.170666666666667,2.49,24.9,Super_Lig,bets_20260314.csv,Under,True,28.04
+2026-03-15,Dynamo Dresden,SC Preußen Münster,O/U,Under,1.9992857142857143,0.09,0.93,Bundesliga2,bets_20260314.csv,,,
+2026-03-15,FC Schalke 04,Hannover 96,O/U,Under,1.9728571428571424,0.02,0.17,Bundesliga2,bets_20260314.csv,,,
+2026-03-15,FC Twente Enschede,FC Utrecht,O/U,Under,2.197857142857143,1.23,12.28,Eredivisie,bets_20260314.csv,,,
+2026-03-15,Go Ahead Eagles,NAC Breda,O/U,Under,2.1053333333333333,0.18,1.77,Eredivisie,bets_20260314.csv,Over,False,-1.77
+2026-03-15,FC Porto,Moreirense FC,O/U,Under,2.064285714285714,0.74,7.43,Liga_Portugal,bets_20260314.csv,,,
+2026-03-15,Genclerbirligi SK,Besiktas JK,O/U,Under,2.072857142857143,0.84,8.36,Super_Lig,bets_20260314.csv,,,
+2026-03-20,RC Lens,Angers,O/U,Under,2.162,0.88,8.85,Ligue_1,bets_20260314.csv,,,
+2026-03-21,AC Milan,Torino,O/U,Under,2.035833333333333,1.13,11.3,Serie_A,bets_20260314.csv,,,
+2026-03-21,Juventus,Sassuolo,O/U,Under,2.060833333333333,0.83,8.33,Serie_A,bets_20260314.csv,Under,True,8.5
+2026-03-21,Nice,Paris Saint Germain,O/U,Under,1.9777777777777767,0.35,3.5,Ligue_1,bets_20260314.csv,Over,False,-3.5
+2026-03-22,Como,Pisa,O/U,Under,2.1325,1.15,11.51,Serie_A,bets_20260314.csv,Over,False,-11.51
+2026-03-22,Fiorentina,Inter Milan,O/U,Under,2.0016666666666665,0.59,5.89,Serie_A,bets_20260314.csv,Under,True,5.68
+2026-03-22,Lyon,AS Monaco,O/U,Under,2.1388888888888893,1.4,14.03,Ligue_1,bets_20260314.csv,Over,False,-14.03
+2026-03-22,Marseille,Lille,O/U,Under,2.0444444444444443,0.84,8.39,Ligue_1,bets_20260314.csv,Over,False,-8.39
+2026-03-18,Milton Keynes Dons,Colchester United,O/U,Over,1.9773333333333327,0.01,0.11,EFL_League2,bets_20260318.csv,Under,False,-0.11
+2026-03-18,Carrarese,Sampdoria,O/U,Over,2.2573333333333334,1.11,11.12,Serie_B,bets_20260318.csv,Under,False,-11.12
+2026-03-19,Torku Konyaspor,Genclerbirligi SK,O/U,Over,1.9357142857142853,0.32,3.18,Super_Lig,bets_20260318.csv,,,
+2026-03-20,Cagliari,Napoli,O/U,Over,2.190625,0.15,1.46,Serie_A,bets_20260318.csv,Under,False,-1.46
+2026-03-20,Genoa,Udinese,O/U,Over,2.330625,3.31,33.09,Serie_A,bets_20260318.csv,Under,False,-33.09
+2026-03-21,Bristol City,West Bromwich Albion,O/U,Over,1.9873333333333327,0.28,2.75,EFL_Championship,bets_20260318.csv,Under,False,-2.75
+2026-03-21,Parma,Cremonese,O/U,Over,2.167058823529412,1.37,13.66,Serie_A,bets_20260318.csv,Under,False,-13.66
+2026-03-21,Padova,Palermo,O/U,Over,1.9641666666666664,0.24,2.41,Serie_B,bets_20260318.csv,Under,False,-2.41
+2026-03-21,Toulouse,Lorient,O/U,Over,2.149375,1.81,18.08,Ligue_1,bets_20260318.csv,Under,False,-18.08
+2026-03-21,Auxerre,Brest,O/U,Over,2.12625,0.16,1.6,Ligue_1,bets_20260318.csv,Over,True,1.73
+2026-03-21,Fortuna Sittard,FC Twente Enschede,O/U,Over,2.190909090909092,1.59,15.89,Eredivisie,bets_20260318.csv,,,
+2026-03-21,Sparta Rotterdam,FC Volendam,O/U,Over,2.1345454545454547,2.17,21.7,Eredivisie,bets_20260318.csv,Under,False,-21.7
+2026-03-21,Moreirense FC,Arouca,O/U,Over,2.089230769230769,1.02,10.17,Liga_Portugal,bets_20260318.csv,,,
+2026-03-21,Tondela,AVS Futebol SAD,O/U,Over,1.9925,0.34,3.41,Liga_Portugal,bets_20260318.csv,Under,False,-3.41
+2026-03-22,Bologna,Lazio,O/U,Over,2.300588235294118,1.13,11.25,Serie_A,bets_20260318.csv,Under,False,-11.25
+2026-03-22,AS Roma,Lecce,O/U,Over,1.9823529411764709,0.86,8.56,Serie_A,bets_20260318.csv,,,
+2026-03-22,Paris FC,Le Havre,O/U,Over,2.0375,0.62,6.21,Ligue_1,bets_20260318.csv,Over,True,6.2
+2026-03-22,Feyenoord,Ajax,O/U,Over,2.112727272727273,2.02,20.16,Eredivisie,bets_20260318.csv,Under,False,-20.16
+2026-03-22,Alverca,Sporting Lisbon,O/U,Over,1.9708333333333328,0.8,7.97,Liga_Portugal,bets_20260318.csv,Over,True,7.44
+2026-03-22,Braga,FC Porto,O/U,Over,2.210769230769231,0.5,5.01,Liga_Portugal,bets_20260318.csv,,,
+2026-04-03,Paris Saint Germain,Toulouse,O/U,Over,2.083636363636364,0.51,5.09,Ligue_1,bets_20260318.csv,,,
+2026-04-04,Sassuolo,Cagliari,O/U,Over,2.1958333333333333,1.27,12.67,Serie_A,bets_20260318.csv,Over,True,14.58
+2026-04-04,Hellas Verona,Fiorentina,O/U,Over,2.1,0.24,2.43,Serie_A,bets_20260318.csv,,,
+2026-04-04,Lazio,Parma,O/U,Over,2.2691666666666666,1.08,10.78,Serie_A,bets_20260318.csv,Under,False,-10.78
+2026-04-05,Pisa,Torino,O/U,Over,2.1758333333333333,1.02,10.19,Serie_A,bets_20260318.csv,Under,False,-10.19
+2026-04-05,Angers,Lyon,O/U,Over,2.09,0.9,8.98,Ligue_1,bets_20260318.csv,Under,False,-8.98
+2026-04-05,Le Havre,Auxerre,O/U,Over,2.193636363636364,0.64,6.4,Ligue_1,bets_20260318.csv,Under,False,-6.4
+2026-04-05,Lorient,Paris FC,O/U,Over,2.1772727272727272,1.03,10.33,Ligue_1,bets_20260318.csv,Under,False,-10.33
+2026-04-05,Metz,Nantes,O/U,Over,2.141818181818182,1.62,16.18,Ligue_1,bets_20260318.csv,Under,False,-16.18
+2026-04-05,AS Monaco,Marseille,O/U,Over,2.24,2.5,25.0,Ligue_1,bets_20260318.csv,,,
+2026-04-06,Udinese,Como,O/U,Over,1.9966666666666664,1.12,11.21,Serie_A,bets_20260318.csv,Under,False,-11.21
+2026-04-06,Napoli,AC Milan,O/U,Over,2.248333333333333,0.96,9.61,Serie_A,bets_20260318.csv,Under,False,-9.61
+2026-03-18,Southampton,Norwich City,O/U,Under,2.0926666666666667,0.42,4.2,EFL_Championship,bets_20260318.csv,Under,True,4.41
+2026-03-18,Frosinone,Bari,O/U,Under,2.087142857142857,0.86,8.62,Serie_B,bets_20260318.csv,Over,False,-8.62
+2026-03-18,Basaksehir,Antalyaspor,O/U,Under,2.1613333333333333,1.31,13.11,Super_Lig,bets_20260318.csv,,,
+2026-03-18,Eyüpspor,Trabzonspor,O/U,Under,2.086,1.41,14.13,Super_Lig,bets_20260318.csv,,,
+2026-03-20,RC Lens,Angers,O/U,Under,2.087333333333334,0.05,0.46,Ligue_1,bets_20260318.csv,,,
+2026-03-21,Hull City,Sheffield Wednesday,O/U,Under,2.252307692307693,3.62,36.17,EFL_Championship,bets_20260318.csv,,,
+2026-03-21,Sheffield United,Wrexham AFC,O/U,Under,2.026,1.28,12.77,EFL_Championship,bets_20260318.csv,Over,False,-12.77
+2026-03-21,Tranmere Rovers,Swindon Town,O/U,Under,1.9530769230769232,0.1,1.04,EFL_League2,bets_20260318.csv,,,
+2026-03-21,1. FC Nürnberg,1. FC Kaiserslautern,O/U,Under,2.167857142857143,2.6,26.04,Bundesliga2,bets_20260318.csv,,,
+2026-03-21,Elversberg,Arminia Bielefeld,O/U,Under,2.224285714285714,2.61,26.09,Bundesliga2,bets_20260318.csv,Over,False,-26.09
+2026-03-21,SC Paderborn,Dynamo Dresden,O/U,Under,2.195,0.29,2.87,Bundesliga2,bets_20260318.csv,,,
+2026-03-21,AC Milan,Torino,O/U,Under,2.0205882352941176,1.19,11.92,Serie_A,bets_20260318.csv,,,
+2026-03-21,Juventus,Sassuolo,O/U,Under,2.108235294117648,0.21,2.15,Serie_A,bets_20260318.csv,Under,True,2.29
+2026-03-21,FC Zwolle,NAC Breda,O/U,Under,2.1727272727272724,0.01,0.11,Eredivisie,bets_20260318.csv,,,
+2026-03-21,Benfica,Vitória SC,O/U,Under,2.233076923076923,2.92,29.22,Liga_Portugal,bets_20260318.csv,Over,False,-29.22
+2026-03-22,Fortuna Düsseldorf,Hertha Berlin,O/U,Under,2.157692307692308,0.16,1.64,Bundesliga2,bets_20260318.csv,,,
+2026-03-22,VfL Bochum,Holstein Kiel,O/U,Under,2.134615384615385,0.61,6.1,Bundesliga2,bets_20260318.csv,,,
+2026-03-22,Como,Pisa,O/U,Under,2.078823529411765,0.39,3.92,Serie_A,bets_20260318.csv,Over,False,-3.92
+2026-03-22,Fiorentina,Inter Milan,O/U,Under,2.0164705882352942,0.17,1.72,Serie_A,bets_20260318.csv,Under,True,1.68
+2026-03-22,Lyon,AS Monaco,O/U,Under,2.119375,0.71,7.06,Ligue_1,bets_20260318.csv,Over,False,-7.06
+2026-03-22,Marseille,Lille,O/U,Under,2.024375,1.05,10.46,Ligue_1,bets_20260318.csv,Over,False,-10.46
+2026-03-22,Rennes,Metz,O/U,Under,2.175,1.26,12.6,Ligue_1,bets_20260318.csv,Under,True,14.24
+2026-03-22,FC Utrecht,Go Ahead Eagles,O/U,Under,2.1481818181818184,2.42,24.24,Eredivisie,bets_20260318.csv,,,
+2026-03-22,Groningen,AZ Alkmaar,O/U,Under,2.1772727272727272,2.87,28.69,Eredivisie,bets_20260318.csv,Over,False,-28.69
+2026-04-04,Strasbourg,Nice,O/U,Under,2.053636363636364,0.69,6.85,Ligue_1,bets_20260318.csv,Over,False,-6.85
+2026-04-04,Brest,Rennes,O/U,Under,2.018181818181818,0.53,5.28,Ligue_1,bets_20260318.csv,Over,False,-5.28
+2026-03-21,Bristol City,West Bromwich Albion,O/U,Over,2.00625,0.89,8.9,EFL_Championship,bets_20260321.csv,Under,False,-8.9
+2026-03-21,Charlton Athletic,Norwich City,O/U,Over,2.0743750000000003,0.53,5.33,EFL_Championship,bets_20260321.csv,,,
+2026-03-21,Queens Park Rangers,Portsmouth,O/U,Over,2.198125,3.63,36.25,EFL_Championship,bets_20260321.csv,,,
+2026-03-21,Cambridge United,Salford City,O/U,Over,2.074666666666667,0.28,2.81,EFL_League2,bets_20260321.csv,,,
+2026-03-21,Shrewsbury Town,Crewe Alexandra,O/U,Over,1.9946666666666668,0.63,6.35,EFL_League2,bets_20260321.csv,,,
+2026-03-21,Parma,Cremonese,O/U,Over,2.1641176470588235,1.22,12.17,Serie_A,bets_20260321.csv,Under,False,-12.17
+2026-03-21,Fortuna Sittard,FC Twente Enschede,O/U,Over,2.140625,2.09,20.88,Eredivisie,bets_20260321.csv,,,
+2026-03-21,Sparta Rotterdam,FC Volendam,O/U,Over,2.099375,2.05,20.53,Eredivisie,bets_20260321.csv,Under,False,-20.53
+2026-03-21,Moreirense FC,Arouca,O/U,Over,2.086666666666667,1.23,12.34,Liga_Portugal,bets_20260321.csv,,,
+2026-03-21,Tondela,AVS Futebol SAD,O/U,Over,2.013571428571429,0.27,2.66,Liga_Portugal,bets_20260321.csv,Under,False,-2.66
+2026-03-22,Bologna,Lazio,O/U,Over,2.274705882352941,0.91,9.1,Serie_A,bets_20260321.csv,Under,False,-9.1
+2026-03-22,AS Roma,Lecce,O/U,Over,2.06875,1.23,12.27,Serie_A,bets_20260321.csv,,,
+2026-03-22,Virtus Entella,Reggiana,O/U,Over,2.1964285714285707,2.91,29.07,Serie_B,bets_20260321.csv,Over,True,33.46
+2026-03-22,Braga,FC Porto,O/U,Over,2.2266666666666666,0.65,6.54,Liga_Portugal,bets_20260321.csv,,,
+2026-04-04,Sassuolo,Cagliari,O/U,Over,2.1791666666666667,1.17,11.74,Serie_A,bets_20260321.csv,Over,True,13.32
+2026-04-04,Hellas Verona,Fiorentina,O/U,Over,2.1133333333333333,0.2,2.0,Serie_A,bets_20260321.csv,,,
+2026-04-04,Lazio,Parma,O/U,Over,2.273333333333333,1.11,11.13,Serie_A,bets_20260321.csv,Under,False,-11.13
+2026-04-05,Pisa,Torino,O/U,Over,2.16,1.11,11.13,Serie_A,bets_20260321.csv,Under,False,-11.13
+2026-04-06,Napoli,AC Milan,O/U,Over,2.2675000000000005,1.13,11.26,Serie_A,bets_20260321.csv,Under,False,-11.26
+2026-03-21,Hull City,Sheffield Wednesday,O/U,Under,2.2061538461538457,0.23,2.31,EFL_Championship,bets_20260321.csv,,,
+2026-03-21,1. FC Nürnberg,1. FC Kaiserslautern,O/U,Under,2.1607142857142856,2.76,27.64,Bundesliga2,bets_20260321.csv,,,
+2026-03-21,Elversberg,Arminia Bielefeld,O/U,Under,2.162142857142857,0.04,0.41,Bundesliga2,bets_20260321.csv,Over,False,-0.41
+2026-03-21,SC Paderborn,Dynamo Dresden,O/U,Under,2.145,0.54,5.37,Bundesliga2,bets_20260321.csv,,,
+2026-03-21,FC Zwolle,NAC Breda,O/U,Under,1.99375,0.41,4.11,Eredivisie,bets_20260321.csv,,,
+2026-03-21,Benfica,Vitória SC,O/U,Under,2.046428571428572,1.24,12.39,Liga_Portugal,bets_20260321.csv,Over,False,-12.39
+2026-03-21,Santa Clara,Gil Vicente,O/U,Under,2.2885714285714287,0.63,6.26,Liga_Portugal,bets_20260321.csv,Under,True,7.76
+2026-03-22,Fortuna Düsseldorf,Hertha Berlin,O/U,Under,2.112,0.5,5.01,Bundesliga2,bets_20260321.csv,,,
+2026-03-22,VfL Bochum,Holstein Kiel,O/U,Under,2.126666666666667,0.78,7.8,Bundesliga2,bets_20260321.csv,,,
+2026-03-22,Como,Pisa,O/U,Under,2.0806250000000004,0.48,4.76,Serie_A,bets_20260321.csv,Over,False,-4.76
+2026-03-22,Fiorentina,Inter Milan,O/U,Under,2.051176470588235,0.84,8.42,Serie_A,bets_20260321.csv,Under,True,8.51
+2026-03-22,Groningen,AZ Alkmaar,O/U,Under,2.1526666666666667,2.46,24.59,Eredivisie,bets_20260321.csv,Over,False,-24.59
+2026-04-04,Real Betis,Espanyol,1X2,A,4.620645161290322,0.02,0.23,La_Liga,bets_20260325.csv,,,
+2026-04-05,Heerenveen,Heracles Almelo,1X2,A,4.935862068965518,0.09,0.88,Eredivisie,bets_20260325.csv,H,False,-0.88
+2026-04-12,Celta Vigo,Oviedo,1X2,A,4.702941176470588,0.08,0.84,La_Liga,bets_20260325.csv,,,
+2026-03-28,Barnet,Cambridge United,O/U,Over,2.15,2.58,25.79,EFL_League2,bets_20260325.csv,Under,False,-25.79
+2026-03-28,Colchester United,Walsall,O/U,Over,2.159230769230769,3.22,32.2,EFL_League2,bets_20260325.csv,,,
+2026-03-28,Newport County,Shrewsbury Town,O/U,Over,2.090769230769231,0.59,5.88,EFL_League2,bets_20260325.csv,Under,False,-5.88
+2026-04-04,Sassuolo,Cagliari,O/U,Over,2.162142857142857,1.13,11.34,Serie_A,bets_20260325.csv,Over,True,12.68
+2026-04-04,Hellas Verona,Fiorentina,O/U,Over,2.1214285714285714,0.29,2.86,Serie_A,bets_20260325.csv,,,
+2026-04-04,Lazio,Parma,O/U,Over,2.2035714285714287,0.55,5.54,Serie_A,bets_20260325.csv,Under,False,-5.54
+2026-04-04,PSV Eindhoven,FC Utrecht,O/U,Over,2.057272727272728,0.21,2.1,Eredivisie,bets_20260325.csv,Over,True,2.14
+2026-04-04,Ajax,FC Twente Enschede,O/U,Over,2.1872727272727275,1.74,17.39,Eredivisie,bets_20260325.csv,Over,True,19.86
+2026-04-05,Pisa,Torino,O/U,Over,2.1635714285714287,1.15,11.47,Serie_A,bets_20260325.csv,Under,False,-11.47
+2026-04-05,FC Volendam,Feyenoord,O/U,Over,2.0081818181818183,0.41,4.05,Eredivisie,bets_20260325.csv,,,
+2026-04-06,Napoli,AC Milan,O/U,Over,2.232142857142857,0.82,8.17,Serie_A,bets_20260325.csv,Under,False,-8.17
+2026-04-11,Cagliari,Cremonese,O/U,Over,2.2790909090909093,1.22,12.23,Serie_A,bets_20260325.csv,Under,False,-12.23
+2026-04-11,Torino,Hellas Verona,O/U,Over,2.3318181818181816,1.3,12.98,Serie_A,bets_20260325.csv,Over,True,16.63
+2026-04-12,Genoa,Sassuolo,O/U,Over,2.1390909090909096,1.22,12.17,Serie_A,bets_20260325.csv,Over,True,13.34
+2026-04-12,Parma,Napoli,O/U,Over,2.0645454545454545,1.32,13.23,Serie_A,bets_20260325.csv,Under,False,-13.23
+2026-04-12,Bologna,Lecce,O/U,Over,2.0809090909090906,0.99,9.9,Serie_A,bets_20260325.csv,Under,False,-9.9
+2026-04-13,Fiorentina,Lazio,O/U,Over,2.1355555555555554,1.18,11.82,Serie_A,bets_20260325.csv,Under,False,-11.82
+2026-04-03,Middlesbrough,Millwall,O/U,Under,2.1466666666666665,0.55,5.48,EFL_Championship,bets_20260325.csv,Over,False,-5.48
+2026-04-03,Stoke City,Sheffield Wednesday,O/U,Under,2.152,1.78,17.82,EFL_Championship,bets_20260325.csv,,,
+2026-04-03,Coventry City,Derby County,O/U,Under,2.1425,0.94,9.4,EFL_Championship,bets_20260325.csv,,,
+2026-04-04,1. FC Kaiserslautern,Fortuna Düsseldorf,O/U,Under,2.25,2.58,25.82,Bundesliga2,bets_20260325.csv,,,
+2026-04-04,Arminia Bielefeld,SV Darmstadt 98,O/U,Under,2.192,0.2,2.01,Bundesliga2,bets_20260325.csv,,,
+2026-04-04,Dynamo Dresden,Hertha Berlin,O/U,Under,2.2466666666666666,2.91,29.13,Bundesliga2,bets_20260325.csv,,,
+2026-04-04,SC Telstar,Groningen,O/U,Under,2.206363636363636,2.88,28.77,Eredivisie,bets_20260325.csv,,,
+2026-04-05,Eintracht Braunschweig,1. FC Nürnberg,O/U,Under,2.0316666666666667,0.43,4.28,Bundesliga2,bets_20260325.csv,,,
+2026-04-05,Hannover 96,Elversberg,O/U,Under,2.11,0.29,2.9,Bundesliga2,bets_20260325.csv,,,
+2026-04-05,FC Schalke 04,Karlsruher SC,O/U,Under,2.303333333333333,3.35,33.5,Bundesliga2,bets_20260325.csv,,,
+2026-04-05,Greuther Fürth,SC Paderborn,O/U,Under,2.311666666666666,2.71,27.1,Bundesliga2,bets_20260325.csv,,,
+2026-04-05,Holstein Kiel,SC Preußen Münster,O/U,Under,2.036666666666666,0.1,0.96,Bundesliga2,bets_20260325.csv,Under,True,0.96
+2026-04-11,AC Milan,Udinese,O/U,Under,2.028181818181818,0.78,7.79,Serie_A,bets_20260325.csv,,,
+2026-04-12,Celta Vigo,Oviedo,1X2,A,4.703333333333332,0.06,0.55,La_Liga,bets_20260328.csv,,,
+2026-03-28,Barnet,Cambridge United,O/U,Over,2.2613333333333334,2.67,26.73,EFL_League2,bets_20260328.csv,Under,False,-26.73
+2026-03-28,Barrow,Bromley FC,O/U,Over,1.954,0.5,5.04,EFL_League2,bets_20260328.csv,Over,True,4.63
+2026-03-28,Salford City,Milton Keynes Dons,O/U,Over,1.924,0.09,0.89,EFL_League2,bets_20260328.csv,,,
+2026-03-28,Newport County,Shrewsbury Town,O/U,Over,2.111333333333334,1.0,9.97,EFL_League2,bets_20260328.csv,Under,False,-9.97
+2026-04-03,Charlton Athletic,Bristol City,O/U,Over,2.0540000000000003,0.3,3.01,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,Oxford United,Hull City,O/U,Over,2.002,0.46,4.61,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,Norwich City,Portsmouth,O/U,Over,1.976,0.19,1.92,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,West Bromwich Albion,Wrexham AFC,O/U,Over,2.0200000000000005,0.74,7.44,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,Paris Saint Germain,Toulouse,O/U,Over,2.0806666666666667,0.48,4.76,Ligue_1,bets_20260328.csv,,,
+2026-04-04,Rio Ave FC,Alverca,O/U,Over,2.026,1.08,10.77,Liga_Portugal,bets_20260328.csv,,,
+2026-04-04,Genclerbirligi SK,Goztepe,O/U,Over,3.034,4.79,47.87,Super_Lig,bets_20260328.csv,,,
+2026-04-04,Kasimpasa SK,Kayserispor,O/U,Over,2.352,3.35,33.5,Super_Lig,bets_20260328.csv,,,
+2026-04-04,Trabzonspor,Galatasaray,O/U,Over,2.008,0.67,6.67,Super_Lig,bets_20260328.csv,Over,True,6.47
+2026-04-05,Greuther Fürth,SC Paderborn,O/U,Over,2.141666666666667,1.31,13.06,Bundesliga2,bets_20260328.csv,,,
+2026-04-05,Angers,Lyon,O/U,Over,2.134615384615385,0.99,9.86,Ligue_1,bets_20260328.csv,Under,False,-9.86
+2026-04-05,Le Havre,Auxerre,O/U,Over,2.1538461538461533,0.14,1.36,Ligue_1,bets_20260328.csv,Under,False,-1.36
+2026-04-05,Lorient,Paris FC,O/U,Over,2.106923076923077,2.26,22.61,Ligue_1,bets_20260328.csv,Under,False,-22.61
+2026-04-05,Metz,Nantes,O/U,Over,2.1361538461538463,0.88,8.78,Ligue_1,bets_20260328.csv,Under,False,-8.78
+2026-04-05,AS Monaco,Marseille,O/U,Over,2.156923076923077,1.64,16.38,Ligue_1,bets_20260328.csv,,,
+2026-04-06,Casa Pia,Benfica,O/U,Over,2.0700000000000003,1.71,17.08,Liga_Portugal,bets_20260328.csv,Under,False,-17.08
+2026-04-11,Auxerre,Nantes,O/U,Over,2.2983333333333333,0.91,9.13,Ligue_1,bets_20260328.csv,Under,False,-9.13
+2026-04-12,Toulouse,Lille,O/U,Over,2.115,1.41,14.14,Ligue_1,bets_20260328.csv,Over,True,15.17
+2026-04-03,Middlesbrough,Millwall,O/U,Under,2.096,0.52,5.18,EFL_Championship,bets_20260328.csv,Over,False,-5.18
+2026-04-03,Stoke City,Sheffield Wednesday,O/U,Under,2.1583333333333337,1.97,19.67,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,Coventry City,Derby County,O/U,Under,2.1246666666666667,0.82,8.21,EFL_Championship,bets_20260328.csv,,,
+2026-04-03,Chesterfield FC,Cheltenham Town,O/U,Under,2.1263636363636365,1.47,14.73,EFL_League2,bets_20260328.csv,,,
+2026-04-04,1. FC Kaiserslautern,Fortuna Düsseldorf,O/U,Under,2.25,2.58,25.82,Bundesliga2,bets_20260328.csv,,,
+2026-04-04,Arminia Bielefeld,SV Darmstadt 98,O/U,Under,2.27,2.86,28.61,Bundesliga2,bets_20260328.csv,,,
+2026-04-04,Dynamo Dresden,Hertha Berlin,O/U,Under,2.168333333333333,1.69,16.87,Bundesliga2,bets_20260328.csv,,,
+2026-04-04,Lille,RC Lens,O/U,Under,1.963846153846154,0.09,0.9,Ligue_1,bets_20260328.csv,Over,False,-0.9
+2026-04-04,Gazişehir Gaziantep,Alanyaspor,O/U,Under,2.0,0.7,7.01,Super_Lig,bets_20260328.csv,,,
+2026-04-05,Eintracht Braunschweig,1. FC Nürnberg,O/U,Under,2.0316666666666667,0.49,4.95,Bundesliga2,bets_20260328.csv,,,
+2026-04-05,Hannover 96,Elversberg,O/U,Under,2.11,0.29,2.9,Bundesliga2,bets_20260328.csv,,,
+2026-04-05,FC Schalke 04,Karlsruher SC,O/U,Under,2.303333333333333,3.35,33.5,Bundesliga2,bets_20260328.csv,,,
+2026-04-05,Holstein Kiel,SC Preußen Münster,O/U,Under,2.04,0.14,1.36,Bundesliga2,bets_20260328.csv,Under,True,1.36
+2026-04-05,Fenerbahce,Besiktas JK,O/U,Under,2.19,2.49,24.93,Super_Lig,bets_20260328.csv,Under,True,28.54
+2026-04-06,Arouca,Estoril,O/U,Under,2.025,0.68,6.78,Liga_Portugal,bets_20260328.csv,Over,False,-6.78
+2026-04-10,Paris FC,AS Monaco,O/U,Under,2.1925000000000003,1.18,11.76,Ligue_1,bets_20260328.csv,Over,False,-11.76
+2026-04-11,Rennes,Angers,O/U,Under,2.2008333333333336,1.07,10.72,Ligue_1,bets_20260328.csv,Over,False,-10.72
+2026-04-05,Heerenveen,Heracles Almelo,1X2,A,5.248235294117647,0.11,1.07,Eredivisie,bets_20260401.csv,H,False,-1.07
+2026-04-03,Birmingham City,Blackburn Rovers,O/U,Over,2.131666666666668,0.27,2.69,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Charlton Athletic,Bristol City,O/U,Over,2.077692307692308,0.44,4.43,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Oxford United,Hull City,O/U,Over,2.0138461538461536,0.74,7.39,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Norwich City,Portsmouth,O/U,Over,2.003076923076923,0.47,4.74,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,West Bromwich Albion,Wrexham AFC,O/U,Over,2.0423076923076926,1.07,10.74,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Walsall,Gillingham,O/U,Over,1.9853846153846155,0.33,3.3,EFL_League2,bets_20260401.csv,Over,True,3.13
+2026-04-03,Vitória SC,Tondela,O/U,Over,1.9715384615384608,0.07,0.69,Liga_Portugal,bets_20260401.csv,,,
+2026-04-04,Ajax,FC Twente Enschede,O/U,Over,2.0872727272727274,0.74,7.41,Eredivisie,bets_20260401.csv,Over,True,7.75
+2026-04-05,Greuther Fürth,SC Paderborn,O/U,Over,2.190909090909091,1.77,17.73,Bundesliga2,bets_20260401.csv,,,
+2026-04-05,Angers,Lyon,O/U,Over,2.117692307692308,0.87,8.74,Ligue_1,bets_20260401.csv,Under,False,-8.74
+2026-04-05,Le Havre,Auxerre,O/U,Over,2.1592857142857143,0.13,1.34,Ligue_1,bets_20260401.csv,Under,False,-1.34
+2026-04-05,Lorient,Paris FC,O/U,Over,2.097857142857144,1.35,13.53,Ligue_1,bets_20260401.csv,Under,False,-13.53
+2026-04-05,Metz,Nantes,O/U,Over,2.125714285714286,1.08,10.81,Ligue_1,bets_20260401.csv,Under,False,-10.81
+2026-04-05,AS Monaco,Marseille,O/U,Over,2.1823076923076923,1.99,19.94,Ligue_1,bets_20260401.csv,,,
+2026-04-05,Samsunspor,Torku Konyaspor,O/U,Over,2.037272727272727,0.24,2.35,Super_Lig,bets_20260401.csv,Over,True,2.34
+2026-04-05,Antalyaspor,Eyüpspor,O/U,Over,2.1809090909090907,1.31,13.13,Super_Lig,bets_20260401.csv,Over,True,14.92
+2026-04-06,Cesena FC,Südtirol,O/U,Over,2.0263636363636364,0.36,3.64,Serie_B,bets_20260401.csv,,,
+2026-04-06,Bari,Modena,O/U,Over,2.0327272727272727,0.38,3.76,Serie_B,bets_20260401.csv,Over,True,3.74
+2026-04-06,Sampdoria,Empoli,O/U,Over,2.1290909090909094,1.12,11.17,Serie_B,bets_20260401.csv,Under,False,-11.17
+2026-04-06,Carrarese,Spezia,O/U,Over,1.9627272727272729,0.42,4.21,Serie_B,bets_20260401.csv,Over,True,3.9
+2026-04-11,Auxerre,Nantes,O/U,Over,2.2950000000000004,0.89,8.86,Ligue_1,bets_20260401.csv,Under,False,-8.86
+2026-04-12,Toulouse,Lille,O/U,Over,2.1090000000000004,1.35,13.52,Ligue_1,bets_20260401.csv,Over,True,14.42
+2026-04-03,Middlesbrough,Millwall,O/U,Under,2.0900000000000003,0.45,4.52,EFL_Championship,bets_20260401.csv,Over,False,-4.52
+2026-04-03,Stoke City,Sheffield Wednesday,O/U,Under,2.087,1.63,16.32,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Coventry City,Derby County,O/U,Under,2.111538461538462,0.81,8.1,EFL_Championship,bets_20260401.csv,,,
+2026-04-03,Milton Keynes Dons,Barrow,O/U,Under,2.066923076923077,0.52,5.17,EFL_League2,bets_20260401.csv,Under,True,5.31
+2026-04-03,Chesterfield FC,Cheltenham Town,O/U,Under,2.0761538461538462,0.95,9.46,EFL_League2,bets_20260401.csv,,,
+2026-04-03,Grimsby Town,Harrogate Town,O/U,Under,2.0215384615384613,0.51,5.12,EFL_League2,bets_20260401.csv,,,
+2026-04-03,Paris Saint Germain,Toulouse,O/U,Under,2.066923076923077,0.32,3.21,Ligue_1,bets_20260401.csv,,,
+2026-04-04,1. FC Kaiserslautern,Fortuna Düsseldorf,O/U,Under,2.1763636363636363,1.76,17.62,Bundesliga2,bets_20260401.csv,,,
+2026-04-04,Arminia Bielefeld,SV Darmstadt 98,O/U,Under,2.1936363636363634,2.59,25.89,Bundesliga2,bets_20260401.csv,,,
+2026-04-04,Strasbourg,Nice,O/U,Under,2.0678571428571426,0.2,2.05,Ligue_1,bets_20260401.csv,Over,False,-2.05
+2026-04-04,SC Telstar,Groningen,O/U,Under,2.244545454545454,1.94,19.4,Eredivisie,bets_20260401.csv,,,
+2026-04-05,Eintracht Braunschweig,1. FC Nürnberg,O/U,Under,2.02,0.29,2.87,Bundesliga2,bets_20260401.csv,,,
+2026-04-05,FC Schalke 04,Karlsruher SC,O/U,Under,1.991818181818182,0.27,2.68,Bundesliga2,bets_20260401.csv,,,
+2026-04-05,Holstein Kiel,SC Preußen Münster,O/U,Under,2.11,0.92,9.2,Bundesliga2,bets_20260401.csv,Under,True,9.82
+2026-04-05,Frosinone,Padova,O/U,Under,2.1500000000000004,1.7,16.97,Serie_B,bets_20260401.csv,Under,True,18.77
+2026-04-05,Fenerbahce,Besiktas JK,O/U,Under,2.1872727272727275,2.53,25.33,Super_Lig,bets_20260401.csv,Under,True,28.93
+2026-04-06,Arouca,Estoril,O/U,Under,2.041818181818182,0.75,7.45,Liga_Portugal,bets_20260401.csv,Over,False,-7.45
+2026-04-06,Kocaelispor,Basaksehir,O/U,Under,2.050909090909091,1.75,17.5,Super_Lig,bets_20260401.csv,Under,True,17.69
+2026-04-10,Paris FC,AS Monaco,O/U,Under,2.185555555555556,1.11,11.11,Ligue_1,bets_20260401.csv,Over,False,-11.11
+2026-04-11,Rennes,Angers,O/U,Under,2.198,1.05,10.46,Ligue_1,bets_20260401.csv,Over,False,-10.46
+2026-04-05,Heerenveen,Heracles Almelo,1X2,A,5.61891891891892,0.03,0.27,Eredivisie,bets_20260404.csv,H,False,-0.27
+2026-04-10,Real Madrid,Girona,1X2,A,11.7,0.22,2.18,La_Liga,bets_20260404.csv,D,False,-2.18
+2026-04-04,1. FC Magdeburg,VfL Bochum,O/U,Over,2.026666666666667,0.68,6.84,Bundesliga2,bets_20260404.csv,,,
+2026-04-04,Sassuolo,Cagliari,O/U,Over,2.113125,1.07,10.75,Serie_A,bets_20260404.csv,Over,True,11.51
+2026-04-04,Hellas Verona,Fiorentina,O/U,Over,2.2353333333333336,0.11,1.12,Serie_A,bets_20260404.csv,,,
+2026-04-04,Lazio,Parma,O/U,Over,2.118,0.88,8.78,Serie_A,bets_20260404.csv,Under,False,-8.78
+2026-04-04,Excelsior,NEC Nijmegen,O/U,Over,2.1546666666666665,2.46,24.65,Eredivisie,bets_20260404.csv,Under,False,-24.65
+2026-04-04,Rio Ave FC,Alverca,O/U,Over,2.002857142857143,0.33,3.31,Liga_Portugal,bets_20260404.csv,,,
+2026-04-05,Hannover 96,Elversberg,O/U,Over,1.9515384615384617,0.06,0.64,Bundesliga2,bets_20260404.csv,,,
+2026-04-05,Greuther Fürth,SC Paderborn,O/U,Over,2.1623076923076923,1.51,15.05,Bundesliga2,bets_20260404.csv,,,
+2026-04-05,Pisa,Torino,O/U,Over,2.221250000000001,0.55,5.55,Serie_A,bets_20260404.csv,Under,False,-5.55
+2026-04-05,Angers,Lyon,O/U,Over,2.126428571428572,1.09,10.89,Ligue_1,bets_20260404.csv,Under,False,-10.89
+2026-04-05,Le Havre,Auxerre,O/U,Over,2.196,0.44,4.37,Ligue_1,bets_20260404.csv,Under,False,-4.37
+2026-04-05,Lorient,Paris FC,O/U,Over,2.094666666666667,1.38,13.84,Ligue_1,bets_20260404.csv,Under,False,-13.84
+2026-04-05,Metz,Nantes,O/U,Over,2.119333333333333,0.89,8.92,Ligue_1,bets_20260404.csv,Under,False,-8.92
+2026-04-05,AS Monaco,Marseille,O/U,Over,2.172142857142857,1.84,18.39,Ligue_1,bets_20260404.csv,,,
+2026-04-05,Samsunspor,Torku Konyaspor,O/U,Over,2.147692307692308,1.18,11.78,Super_Lig,bets_20260404.csv,Over,True,13.01
+2026-04-05,Antalyaspor,Eyüpspor,O/U,Over,2.2145454545454544,1.74,17.41,Super_Lig,bets_20260404.csv,Over,True,20.34
+2026-04-06,Blackburn Rovers,West Bromwich Albion,O/U,Over,2.142666666666666,0.01,0.1,EFL_Championship,bets_20260404.csv,,,
+2026-04-06,Preston North End,Queens Park Rangers,O/U,Over,1.9993333333333327,0.43,4.27,EFL_Championship,bets_20260404.csv,,,
+2026-04-06,Gillingham,Accrington Stanley,O/U,Over,2.026153846153846,0.5,5.03,EFL_League2,bets_20260404.csv,Under,False,-5.03
+2026-04-06,Tranmere Rovers,Colchester United,O/U,Over,1.9263636363636365,0.01,0.09,EFL_League2,bets_20260404.csv,,,
+2026-04-06,Oldham Athletic,Milton Keynes Dons,O/U,Over,1.9733333333333336,0.31,3.1,EFL_League2,bets_20260404.csv,,,
+2026-04-06,Swindon Town,Walsall,O/U,Over,1.955454545454545,0.35,3.47,EFL_League2,bets_20260404.csv,,,
+2026-04-06,Udinese,Como,O/U,Over,2.009333333333333,1.25,12.49,Serie_A,bets_20260404.csv,Under,False,-12.49
+2026-04-06,Napoli,AC Milan,O/U,Over,2.21625,0.68,6.84,Serie_A,bets_20260404.csv,Under,False,-6.84
+2026-04-06,Cesena FC,Südtirol,O/U,Over,2.0328571428571425,0.44,4.42,Serie_B,bets_20260404.csv,,,
+2026-04-06,Bari,Modena,O/U,Over,2.028461538461538,0.39,3.89,Serie_B,bets_20260404.csv,Over,True,3.85
+2026-04-06,Mantova,Virtus Entella,O/U,Over,1.92,0.17,1.7,Serie_B,bets_20260404.csv,Under,False,-1.7
+2026-04-06,Sampdoria,Empoli,O/U,Over,2.113571428571429,0.71,7.06,Serie_B,bets_20260404.csv,Under,False,-7.06
+2026-04-06,Carrarese,Spezia,O/U,Over,1.9842857142857144,0.83,8.34,Serie_B,bets_20260404.csv,Over,True,7.9
+2026-04-06,Casa Pia,Benfica,O/U,Over,2.0935714285714284,1.38,13.84,Liga_Portugal,bets_20260404.csv,Under,False,-13.84
+2026-04-06,Kocaelispor,Basaksehir,O/U,Over,1.9615384615384608,0.41,4.05,Super_Lig,bets_20260404.csv,Under,False,-4.05
+2026-04-11,Cagliari,Cremonese,O/U,Over,2.271818181818182,1.16,11.62,Serie_A,bets_20260404.csv,Under,False,-11.62
+2026-04-11,Torino,Hellas Verona,O/U,Over,2.3572727272727274,1.49,14.93,Serie_A,bets_20260404.csv,Over,True,19.49
+2026-04-11,Auxerre,Nantes,O/U,Over,2.2910000000000004,0.85,8.53,Ligue_1,bets_20260404.csv,Under,False,-8.53
+2026-04-12,Genoa,Sassuolo,O/U,Over,2.0990909090909096,0.8,8.04,Serie_A,bets_20260404.csv,Over,True,8.5
+2026-04-12,Parma,Napoli,O/U,Over,2.113636363636364,0.2,2.03,Serie_A,bets_20260404.csv,Under,False,-2.03
+2026-04-12,Bologna,Lecce,O/U,Over,2.117272727272728,1.31,13.11,Serie_A,bets_20260404.csv,Under,False,-13.11
+2026-04-12,Toulouse,Lille,O/U,Over,2.124,1.51,15.05,Ligue_1,bets_20260404.csv,Over,True,16.27
+2026-04-13,Fiorentina,Lazio,O/U,Over,2.1318181818181823,1.14,11.44,Serie_A,bets_20260404.csv,Under,False,-11.44
+2026-04-04,1. FC Kaiserslautern,Fortuna Düsseldorf,O/U,Under,2.015,0.48,4.81,Bundesliga2,bets_20260404.csv,,,
+2026-04-04,Dynamo Dresden,Hertha Berlin,O/U,Under,2.095,1.82,18.24,Bundesliga2,bets_20260404.csv,,,
+2026-04-04,Strasbourg,Nice,O/U,Under,2.1021428571428573,0.28,2.76,Ligue_1,bets_20260404.csv,Over,False,-2.76
+2026-04-04,SC Telstar,Groningen,O/U,Under,2.142,1.74,17.37,Eredivisie,bets_20260404.csv,,,
+2026-04-04,Ajax,FC Twente Enschede,O/U,Under,2.0766666666666667,0.62,6.21,Eredivisie,bets_20260404.csv,Over,False,-6.21
+2026-04-04,Trabzonspor,Galatasaray,O/U,Under,2.1814285714285715,0.35,3.54,Super_Lig,bets_20260404.csv,Over,False,-3.54
+2026-04-05,Eintracht Braunschweig,1. FC Nürnberg,O/U,Under,2.0053846153846155,0.17,1.7,Bundesliga2,bets_20260404.csv,,,
+2026-04-05,Holstein Kiel,SC Preußen Münster,O/U,Under,2.096153846153846,0.71,7.09,Bundesliga2,bets_20260404.csv,Under,True,7.48
+2026-04-05,Fatih Karagümrük,Çaykur Rizespor,O/U,Under,1.95,0.18,1.79,Super_Lig,bets_20260404.csv,,,
+2026-04-05,Fenerbahce,Besiktas JK,O/U,Under,2.169230769230769,2.42,24.24,Super_Lig,bets_20260404.csv,Under,True,27.27
+2026-04-06,Bristol City,Sheffield United,O/U,Under,1.9613333333333327,0.4,4.03,EFL_Championship,bets_20260404.csv,Under,True,3.73
+2026-04-06,Hull City,Coventry City,O/U,Under,2.0292857142857144,0.85,8.55,EFL_Championship,bets_20260404.csv,,,
+2026-04-06,Crawley Town,Grimsby Town,O/U,Under,2.03,0.88,8.79,EFL_League2,bets_20260404.csv,Under,True,8.71
+2026-04-06,Notts County,Newport County,O/U,Under,2.015,0.7,7.0,EFL_League2,bets_20260404.csv,Over,False,-7.0
+2026-04-06,Arouca,Estoril,O/U,Under,2.0323076923076924,0.63,6.33,Liga_Portugal,bets_20260404.csv,Over,False,-6.33
+2026-04-10,Paris FC,AS Monaco,O/U,Under,2.1772727272727272,1.03,10.33,Ligue_1,bets_20260404.csv,Over,False,-10.33
+2026-04-11,Rennes,Angers,O/U,Under,2.2,1.06,10.64,Ligue_1,bets_20260404.csv,Over,False,-10.64
+2026-04-09,Çaykur Rizespor,Samsunspor,O/U,Over,2.0984615384615384,0.35,3.55,Super_Lig,bets_20260408.csv,,,
+2026-04-10,West Bromwich Albion,Millwall,O/U,Over,2.0246666666666666,0.74,7.37,EFL_Championship,bets_20260408.csv,,,
+2026-04-10,Famalicão,Moreirense FC,O/U,Over,1.9785714285714284,0.43,4.3,Liga_Portugal,bets_20260408.csv,,,
+2026-04-10,Besiktas JK,Antalyaspor,O/U,Over,2.186363636363637,2.4,24.02,Super_Lig,bets_20260408.csv,,,
+2026-04-11,Stoke City,Blackburn Rovers,O/U,Over,2.0800000000000005,0.6,5.97,EFL_Championship,bets_20260408.csv,,,
+2026-04-11,Charlton Athletic,Preston North End,O/U,Over,2.030714285714286,0.55,5.47,EFL_Championship,bets_20260408.csv,,,
+2026-04-11,Oxford United,Watford,O/U,Over,2.003571428571429,1.01,10.1,EFL_Championship,bets_20260408.csv,,,
+2026-04-11,Shrewsbury Town,Oldham Athletic,O/U,Over,2.0681818181818183,0.47,4.66,EFL_League2,bets_20260408.csv,,,
+2026-04-11,Cagliari,Cremonese,O/U,Over,2.2425000000000006,0.39,3.94,Serie_A,bets_20260408.csv,Under,False,-3.94
+2026-04-11,Torino,Hellas Verona,O/U,Over,2.2486666666666664,3.68,36.76,Serie_A,bets_20260408.csv,Over,True,44.16
+2026-04-11,Südtirol,Modena,O/U,Over,2.174166666666667,0.82,8.2,Serie_B,bets_20260408.csv,,,
+2026-04-11,Avellino,US Catanzaro 1929,O/U,Over,1.988181818181818,0.62,6.17,Serie_B,bets_20260408.csv,Under,False,-6.17
+2026-04-11,Auxerre,Nantes,O/U,Over,2.2646666666666664,0.82,8.24,Ligue_1,bets_20260408.csv,Under,False,-8.24
+2026-04-11,Santa Clara,Rio Ave FC,O/U,Over,2.2225,1.03,10.28,Liga_Portugal,bets_20260408.csv,Under,False,-10.28
+2026-04-12,Genoa,Sassuolo,O/U,Over,2.12125,1.59,15.93,Serie_A,bets_20260408.csv,Over,True,17.18
+2026-04-12,Parma,Napoli,O/U,Over,2.1413333333333333,0.38,3.77,Serie_A,bets_20260408.csv,Under,False,-3.77
+2026-04-12,Bologna,Lecce,O/U,Over,2.138125,1.21,12.06,Serie_A,bets_20260408.csv,Under,False,-12.06
+2026-04-12,Reggiana,Carrarese,O/U,Over,2.106666666666667,0.88,8.85,Serie_B,bets_20260408.csv,Under,False,-8.85
+2026-04-12,Toulouse,Lille,O/U,Over,2.127333333333334,0.79,7.89,Ligue_1,bets_20260408.csv,Over,True,8.56
+2026-04-12,Alverca,Casa Pia,O/U,Over,2.111666666666667,0.37,3.69,Liga_Portugal,bets_20260408.csv,Over,True,3.95
+2026-04-13,Fiorentina,Lazio,O/U,Over,2.1381250000000005,0.96,9.6,Serie_A,bets_20260408.csv,Under,False,-9.6
+2026-04-18,Udinese,Parma,O/U,Over,2.2963636363636364,1.13,11.31,Serie_A,bets_20260408.csv,Under,False,-11.31
+2026-04-18,Napoli,Lazio,O/U,Over,2.178181818181818,0.8,7.96,Serie_A,bets_20260408.csv,Under,False,-7.96
+2026-04-18,Angers,Le Havre,O/U,Over,2.286,0.81,8.11,Ligue_1,bets_20260408.csv,Under,False,-8.11
+2026-04-19,Cremonese,Torino,O/U,Over,2.0963636363636367,0.78,7.75,Serie_A,bets_20260408.csv,Under,False,-7.75
+2026-04-19,Hellas Verona,AC Milan,O/U,Over,2.091818181818182,1.17,11.72,Serie_A,bets_20260408.csv,,,
+2026-04-19,Pisa,Genoa,O/U,Over,2.3190909090909084,3.98,39.85,Serie_A,bets_20260408.csv,Over,True,50.57
+2026-04-19,Nantes,Brest,O/U,Over,2.039,1.04,10.36,Ligue_1,bets_20260408.csv,Under,False,-10.36
+2026-04-20,Lecce,Fiorentina,O/U,Over,2.0454545454545454,0.72,7.2,Serie_A,bets_20260408.csv,Under,False,-7.2
+2026-04-10,Paris FC,AS Monaco,O/U,Under,2.1157142857142857,0.17,1.71,Ligue_1,bets_20260408.csv,Over,False,-1.71
+2026-04-11,Southampton,Derby County,O/U,Under,2.0292857142857144,1.25,12.46,EFL_Championship,bets_20260408.csv,Over,False,-12.46
+2026-04-11,Sheffield United,Hull City,O/U,Under,2.156923076923077,0.4,4.03,EFL_Championship,bets_20260408.csv,Over,False,-4.03
+2026-04-11,Middlesbrough,Portsmouth,O/U,Under,1.9978571428571428,0.47,4.73,EFL_Championship,bets_20260408.csv,Under,True,4.54
+2026-04-11,Grimsby Town,Crewe Alexandra,O/U,Under,1.982727272727273,0.09,0.94,EFL_League2,bets_20260408.csv,,,
+2026-04-11,Rennes,Angers,O/U,Under,2.1292857142857144,0.19,1.92,Ligue_1,bets_20260408.csv,Over,False,-1.92
+2026-04-11,Basaksehir,Genclerbirligi SK,O/U,Under,2.1025000000000005,1.6,16.0,Super_Lig,bets_20260408.csv,,,
+2026-04-12,Benfica,Nacional,O/U,Under,2.1908333333333334,1.59,15.89,Liga_Portugal,bets_20260408.csv,Under,True,18.2
+2026-04-12,Estoril,FC Porto,O/U,Under,2.158333333333333,0.48,4.77,Liga_Portugal,bets_20260408.csv,Over,False,-4.77
+2026-04-17,Sassuolo,Como,O/U,Under,1.9972727272727275,0.34,3.37,Serie_A,bets_20260408.csv,Over,False,-3.37
+2026-04-17,Inter Milan,Cagliari,O/U,Under,2.337272727272727,3.07,30.75,Serie_A,bets_20260408.csv,,,
+2026-04-17,RC Lens,Toulouse,O/U,Under,2.03625,0.68,6.8,Ligue_1,bets_20260408.csv,,,
+2026-04-18,Lorient,Marseille,O/U,Under,2.063,0.6,5.99,Ligue_1,bets_20260408.csv,Under,True,6.13
+2026-04-19,Juventus,Bologna,O/U,Under,2.028181818181818,0.52,5.17,Serie_A,bets_20260408.csv,Under,True,5.11
+2026-04-19,AS Monaco,Auxerre,O/U,Under,2.1140000000000003,0.84,8.36,Ligue_1,bets_20260408.csv,,,
+2026-04-19,Strasbourg,Rennes,O/U,Under,2.168,0.57,5.73,Ligue_1,bets_20260408.csv,Over,False,-5.73
+2026-04-11,Charlton Athletic,Preston North End,O/U,Over,2.024,0.78,7.82,EFL_Championship,bets_20260411.csv,,,
+2026-04-11,Oxford United,Watford,O/U,Over,2.012,0.9,8.98,EFL_Championship,bets_20260411.csv,,,
+2026-04-11,Accrington Stanley,Fleetwood Town,O/U,Over,2.087692307692308,0.11,1.07,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Cambridge United,Notts County,O/U,Over,2.123076923076923,0.11,1.13,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Shrewsbury Town,Oldham Athletic,O/U,Over,2.1107692307692307,0.61,6.12,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Cagliari,Cremonese,O/U,Over,2.28875,0.64,6.36,Serie_A,bets_20260411.csv,Under,False,-6.36
+2026-04-11,Torino,Hellas Verona,O/U,Over,2.292,3.19,31.93,Serie_A,bets_20260411.csv,Over,True,39.69
+2026-04-11,Südtirol,Modena,O/U,Over,2.145,0.23,2.32,Serie_B,bets_20260411.csv,,,
+2026-04-11,Avellino,US Catanzaro 1929,O/U,Over,1.9815384615384608,0.98,9.78,Serie_B,bets_20260411.csv,Under,False,-9.78
+2026-04-11,Auxerre,Nantes,O/U,Over,2.2335714285714285,1.2,12.01,Ligue_1,bets_20260411.csv,Under,False,-12.01
+2026-04-11,Santa Clara,Rio Ave FC,O/U,Over,2.19,0.68,6.78,Liga_Portugal,bets_20260411.csv,Under,False,-6.78
+2026-04-12,Genoa,Sassuolo,O/U,Over,2.11,1.54,15.43,Serie_A,bets_20260411.csv,Over,True,16.48
+2026-04-12,Parma,Napoli,O/U,Over,2.108,0.34,3.37,Serie_A,bets_20260411.csv,Under,False,-3.37
+2026-04-12,Bologna,Lecce,O/U,Over,2.1486666666666667,1.19,11.88,Serie_A,bets_20260411.csv,Under,False,-11.88
+2026-04-12,Reggiana,Carrarese,O/U,Over,2.1028571428571428,0.4,4.03,Serie_B,bets_20260411.csv,Under,False,-4.03
+2026-04-12,Toulouse,Lille,O/U,Over,2.139333333333333,0.79,7.88,Ligue_1,bets_20260411.csv,Over,True,8.64
+2026-04-12,Alverca,Casa Pia,O/U,Over,2.092857142857143,0.55,5.47,Liga_Portugal,bets_20260411.csv,Over,True,5.75
+2026-04-12,Goztepe,Kasimpasa SK,O/U,Over,2.04,0.46,4.6,Super_Lig,bets_20260411.csv,,,
+2026-04-12,Galatasaray,Kocaelispor,O/U,Over,2.063846153846154,1.19,11.87,Super_Lig,bets_20260411.csv,Under,False,-11.87
+2026-04-13,Fiorentina,Lazio,O/U,Over,2.151250000000001,1.21,12.13,Serie_A,bets_20260411.csv,Under,False,-12.13
+2026-04-18,Udinese,Parma,O/U,Over,2.285454545454545,1.04,10.41,Serie_A,bets_20260411.csv,Under,False,-10.41
+2026-04-18,Napoli,Lazio,O/U,Over,2.174545454545455,0.82,8.24,Serie_A,bets_20260411.csv,Under,False,-8.24
+2026-04-18,Angers,Le Havre,O/U,Over,2.291,0.85,8.53,Ligue_1,bets_20260411.csv,Under,False,-8.53
+2026-04-19,Cremonese,Torino,O/U,Over,2.100909090909091,0.82,8.24,Serie_A,bets_20260411.csv,Under,False,-8.24
+2026-04-19,Hellas Verona,AC Milan,O/U,Over,2.0900000000000003,1.15,11.53,Serie_A,bets_20260411.csv,,,
+2026-04-19,Pisa,Genoa,O/U,Over,2.3190909090909084,3.98,39.85,Serie_A,bets_20260411.csv,Over,True,50.57
+2026-04-19,Nantes,Brest,O/U,Over,2.029,0.92,9.19,Ligue_1,bets_20260411.csv,Under,False,-9.19
+2026-04-20,Lecce,Fiorentina,O/U,Over,2.0454545454545454,0.72,7.2,Serie_A,bets_20260411.csv,Under,False,-7.2
+2026-04-11,Southampton,Derby County,O/U,Under,2.0766666666666667,0.62,6.21,EFL_Championship,bets_20260411.csv,Over,False,-6.21
+2026-04-11,Sheffield United,Hull City,O/U,Under,2.1550000000000007,2.77,27.69,EFL_Championship,bets_20260411.csv,Over,False,-27.69
+2026-04-11,Middlesbrough,Portsmouth,O/U,Under,2.046666666666668,0.09,0.86,EFL_Championship,bets_20260411.csv,Under,True,0.87
+2026-04-11,Chesterfield FC,Tranmere Rovers,O/U,Under,2.0184615384615388,0.93,9.26,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Grimsby Town,Crewe Alexandra,O/U,Under,1.9869230769230768,0.27,2.7,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Salford City,Gillingham,O/U,Under,1.984615384615385,0.57,5.71,EFL_League2,bets_20260411.csv,,,
+2026-04-11,Hertha Berlin,1. FC Kaiserslautern,O/U,Under,2.2,1.55,15.52,Bundesliga2,bets_20260411.csv,,,
+2026-04-11,1. FC Nürnberg,Dynamo Dresden,O/U,Under,2.1092857142857144,2.28,22.76,Bundesliga2,bets_20260411.csv,,,
+2026-04-11,Rennes,Angers,O/U,Under,2.174285714285714,2.88,28.78,Ligue_1,bets_20260411.csv,Over,False,-28.78
+2026-04-11,FC Utrecht,SC Telstar,O/U,Under,2.076,1.94,19.36,Eredivisie,bets_20260411.csv,,,
+2026-04-11,Sparta Rotterdam,PSV Eindhoven,O/U,Under,2.1866666666666665,0.64,6.41,Eredivisie,bets_20260411.csv,Under,True,7.32
+2026-04-11,Basaksehir,Genclerbirligi SK,O/U,Under,2.079285714285714,0.02,0.19,Super_Lig,bets_20260411.csv,,,
+2026-04-12,Elversberg,FC Schalke 04,O/U,Under,1.9907142857142857,0.45,4.46,Bundesliga2,bets_20260411.csv,Over,False,-4.46
+2026-04-12,FC Zwolle,Excelsior,O/U,Under,2.162857142857143,2.55,25.53,Eredivisie,bets_20260411.csv,,,
+2026-04-12,NEC Nijmegen,Feyenoord,O/U,Under,2.054285714285714,1.01,10.14,Eredivisie,bets_20260411.csv,,,
+2026-04-12,AZ Alkmaar,Heerenveen,O/U,Under,2.0821428571428577,0.56,5.56,Eredivisie,bets_20260411.csv,Over,False,-5.56
+2026-04-12,Benfica,Nacional,O/U,Under,2.125,1.08,10.75,Liga_Portugal,bets_20260411.csv,Under,True,11.63
+2026-04-17,Sassuolo,Como,O/U,Under,2.0058333333333334,0.57,5.72,Serie_A,bets_20260411.csv,Over,False,-5.72
+2026-04-17,Inter Milan,Cagliari,O/U,Under,2.2766666666666664,2.62,26.2,Serie_A,bets_20260411.csv,,,
+2026-04-17,RC Lens,Toulouse,O/U,Under,2.043333333333333,0.57,5.66,Ligue_1,bets_20260411.csv,,,
+2026-04-18,Lorient,Marseille,O/U,Under,2.055,0.51,5.08,Ligue_1,bets_20260411.csv,Under,True,5.16
+2026-04-19,Juventus,Bologna,O/U,Under,2.0318181818181817,0.56,5.6,Serie_A,bets_20260411.csv,Under,True,5.56
+2026-04-19,AS Monaco,Auxerre,O/U,Under,2.1060000000000003,0.75,7.52,Ligue_1,bets_20260411.csv,,,
+2026-04-19,Strasbourg,Rennes,O/U,Under,2.168,0.57,5.73,Ligue_1,bets_20260411.csv,Over,False,-5.73
+2026-04-17,Sampdoria,Monza,O/U,Over,2.122,0.79,7.94,Serie_B,bets_20260415.csv,Over,True,8.57
+2026-04-17,Fenerbahce,Çaykur Rizespor,O/U,Over,2.076923076923077,1.27,12.68,Super_Lig,bets_20260415.csv,Over,True,13.14
+2026-04-18,Derby County,Oxford United,O/U,Over,1.9493333333333327,0.31,3.13,EFL_Championship,bets_20260415.csv,,,
+2026-04-18,Portsmouth,Leicester City,O/U,Over,2.0325,0.37,3.74,EFL_Championship,bets_20260415.csv,Under,False,-3.74
+2026-04-18,Sheffield Wednesday,Charlton Athletic,O/U,Over,1.9978571428571428,0.88,8.78,EFL_Championship,bets_20260415.csv,,,
+2026-04-18,Preston North End,West Bromwich Albion,O/U,Over,2.0425000000000004,0.56,5.56,EFL_Championship,bets_20260415.csv,,,
+2026-04-18,1. FC Magdeburg,Fortuna Düsseldorf,O/U,Over,1.9484615384615387,0.16,1.65,Bundesliga2,bets_20260415.csv,,,
+2026-04-18,Udinese,Parma,O/U,Over,2.2547058823529413,0.85,8.55,Serie_A,bets_20260415.csv,Under,False,-8.55
+2026-04-18,Napoli,Lazio,O/U,Over,2.10625,0.0,0.04,Serie_A,bets_20260415.csv,Under,False,-0.04
+2026-04-18,Mantova,Avellino,O/U,Over,1.9341666666666668,0.03,0.31,Serie_B,bets_20260415.csv,Under,False,-0.31
+2026-04-18,Spezia,Südtirol,O/U,Over,2.092142857142857,1.49,14.92,Serie_B,bets_20260415.csv,Over,True,15.68
+2026-04-18,Juve Stabia,US Catanzaro 1929,O/U,Over,2.001428571428572,0.59,5.86,Serie_B,bets_20260415.csv,Under,False,-5.86
+2026-04-18,Angers,Le Havre,O/U,Over,2.2818749999999994,4.1,40.96,Ligue_1,bets_20260415.csv,Under,False,-40.96
+2026-04-18,Casa Pia,Santa Clara,O/U,Over,1.9430769230769231,0.09,0.91,Liga_Portugal,bets_20260415.csv,Under,False,-0.91
+2026-04-18,Gil Vicente,Vitória SC,O/U,Over,2.015384615384616,0.63,6.25,Liga_Portugal,bets_20260415.csv,Under,False,-6.25
+2026-04-18,Kocaelispor,Goztepe,O/U,Over,2.1983333333333333,1.54,15.35,Super_Lig,bets_20260415.csv,Under,False,-15.35
+2026-04-19,Pisa,Genoa,O/U,Over,2.264117647058823,3.51,35.06,Serie_A,bets_20260415.csv,Over,True,42.64
+2026-04-19,Padova,Reggiana,O/U,Over,2.0792307692307697,0.78,7.81,Serie_B,bets_20260415.csv,Under,False,-7.81
+2026-04-19,Empoli,Virtus Entella,O/U,Over,2.0485714285714285,0.24,2.38,Serie_B,bets_20260415.csv,Under,False,-2.38
+2026-04-19,Nantes,Brest,O/U,Over,2.075625,0.55,5.47,Ligue_1,bets_20260415.csv,Under,False,-5.47
+2026-04-19,Kasimpasa SK,Alanyaspor,O/U,Over,1.9469230769230768,0.34,3.44,Super_Lig,bets_20260415.csv,,,
+2026-04-20,Lecce,Fiorentina,O/U,Over,2.093125,0.8,8.01,Serie_A,bets_20260415.csv,Under,False,-8.01
+2026-04-25,Parma,Pisa,O/U,Over,2.2383333333333333,0.69,6.9,Serie_A,bets_20260415.csv,Under,False,-6.9
+2026-04-25,Bologna,AS Roma,O/U,Over,2.069166666666668,1.44,14.35,Serie_A,bets_20260415.csv,Under,False,-14.35
+2026-04-26,Genoa,Como,O/U,Over,2.0558333333333336,1.1,10.98,Serie_A,bets_20260415.csv,Under,False,-10.98
+2026-04-27,Lazio,Udinese,O/U,Over,2.159166666666667,1.04,10.42,Serie_A,bets_20260415.csv,Over,True,11.62
+2026-04-17,Sassuolo,Como,O/U,Under,2.0276470588235296,0.63,6.33,Serie_A,bets_20260415.csv,Over,False,-6.33
+2026-04-17,Inter Milan,Cagliari,O/U,Under,2.266875,2.18,21.85,Serie_A,bets_20260415.csv,,,
+2026-04-18,Swansea City,Southampton,O/U,Under,1.9913333333333327,0.73,7.26,EFL_Championship,bets_20260415.csv,,,
+2026-04-18,Arminia Bielefeld,1. FC Nürnberg,O/U,Under,2.0857142857142863,0.53,5.32,Bundesliga2,bets_20260415.csv,,,
+2026-04-18,Dynamo Dresden,VfL Bochum,O/U,Under,2.065384615384616,0.18,1.75,Bundesliga2,bets_20260415.csv,,,
+2026-04-18,Hannover 96,SC Paderborn,O/U,Under,2.0500000000000003,0.25,2.55,Bundesliga2,bets_20260415.csv,,,
+2026-04-18,Bari,Venezia,O/U,Under,2.1164285714285715,1.93,19.27,Serie_B,bets_20260415.csv,Over,False,-19.27
+2026-04-18,Modena,Frosinone,O/U,Under,1.971428571428571,0.13,1.32,Serie_B,bets_20260415.csv,Over,False,-1.32
+2026-04-18,Lorient,Marseille,O/U,Under,2.115,0.29,2.88,Ligue_1,bets_20260415.csv,Under,True,3.09
+2026-04-18,Lille,Nice,O/U,Under,1.97625,0.45,4.51,Ligue_1,bets_20260415.csv,Under,True,4.24
+2026-04-18,Genclerbirligi SK,Galatasaray,O/U,Under,2.0946153846153845,0.95,9.48,Super_Lig,bets_20260415.csv,,,
+2026-04-19,Eintracht Braunschweig,Hertha Berlin,O/U,Under,2.1123076923076924,2.14,21.37,Bundesliga2,bets_20260415.csv,,,
+2026-04-19,Greuther Fürth,SV Darmstadt 98,O/U,Under,2.0621428571428573,0.27,2.66,Bundesliga2,bets_20260415.csv,,,
+2026-04-19,Juventus,Bologna,O/U,Under,2.0723529411764705,0.51,5.1,Serie_A,bets_20260415.csv,Under,True,5.26
+2026-04-19,AS Monaco,Auxerre,O/U,Under,2.0975000000000006,0.54,5.35,Ligue_1,bets_20260415.csv,,,
+2026-04-19,Strasbourg,Rennes,O/U,Under,2.125,0.45,4.54,Ligue_1,bets_20260415.csv,Over,False,-4.54
+2026-04-19,Sporting Lisbon,Benfica,O/U,Under,2.0546153846153845,0.5,5.03,Liga_Portugal,bets_20260415.csv,,,
+2026-04-19,Samsunspor,Besiktas JK,O/U,Under,1.99,0.31,3.09,Super_Lig,bets_20260415.csv,Over,False,-3.09
+2026-04-19,Trabzonspor,Basaksehir,O/U,Under,2.1936363636363634,2.22,22.23,Super_Lig,bets_20260415.csv,Under,True,25.53
+2026-04-24,Brest,RC Lens,O/U,Under,2.118181818181818,0.44,4.39,Ligue_1,bets_20260415.csv,Over,False,-4.39
+2026-04-25,Hellas Verona,Lecce,O/U,Under,2.1675,2.66,26.59,Serie_A,bets_20260415.csv,,,
+2026-04-25,Toulouse,AS Monaco,O/U,Under,2.06,0.56,5.65,Ligue_1,bets_20260415.csv,Over,False,-5.65
+2026-04-26,Torino,Inter Milan,O/U,Under,2.1875,0.21,2.15,Serie_A,bets_20260415.csv,Over,False,-2.15
+2026-04-26,Rennes,Nantes,O/U,Under,2.2354545454545454,1.26,12.63,Ligue_1,bets_20260415.csv,Over,False,-12.63
+2026-04-25,Getafe,Barcelona,1X2,H,5.516538461538461,0.14,1.42,La_Liga,bets_20260418.csv,A,False,-1.42
+2026-04-18,Sheffield Wednesday,Charlton Athletic,O/U,Over,2.0430769230769235,0.49,4.94,EFL_Championship,bets_20260418.csv,,,
+2026-04-18,Preston North End,West Bromwich Albion,O/U,Over,2.06,0.43,4.33,EFL_Championship,bets_20260418.csv,,,
+2026-04-18,Barrow,Walsall,O/U,Over,2.1614285714285715,3.03,30.31,EFL_League2,bets_20260418.csv,Over,True,33.87
+2026-04-18,Udinese,Parma,O/U,Over,2.2723529411764702,4.19,41.95,Serie_A,bets_20260418.csv,Under,False,-41.95
+2026-04-18,Spezia,Südtirol,O/U,Over,2.086666666666667,0.73,7.31,Serie_B,bets_20260418.csv,Over,True,7.64
+2026-04-18,Juve Stabia,US Catanzaro 1929,O/U,Over,2.0133333333333336,0.39,3.93,Serie_B,bets_20260418.csv,Under,False,-3.93
+2026-04-18,Angers,Le Havre,O/U,Over,2.2625,4.12,41.22,Ligue_1,bets_20260418.csv,Under,False,-41.22
+2026-04-18,Gil Vicente,Vitória SC,O/U,Over,2.0580000000000003,0.22,2.19,Liga_Portugal,bets_20260418.csv,Under,False,-2.19
+2026-04-18,Fatih Karagümrük,Eyüpspor,O/U,Over,2.026,0.55,5.47,Super_Lig,bets_20260418.csv,,,
+2026-04-18,Kocaelispor,Goztepe,O/U,Over,2.325333333333334,2.93,29.26,Super_Lig,bets_20260418.csv,Under,False,-29.26
+2026-04-19,Cremonese,Torino,O/U,Over,2.1182352941176474,0.07,0.74,Serie_A,bets_20260418.csv,Under,False,-0.74
+2026-04-19,Pisa,Genoa,O/U,Over,2.2717647058823527,4.02,40.21,Serie_A,bets_20260418.csv,Over,True,49.19
+2026-04-19,Padova,Reggiana,O/U,Over,2.087333333333333,1.18,11.83,Serie_B,bets_20260418.csv,Under,False,-11.83
+2026-04-19,Empoli,Virtus Entella,O/U,Over,2.0746666666666664,0.47,4.73,Serie_B,bets_20260418.csv,Under,False,-4.73
+2026-04-19,Nantes,Brest,O/U,Over,2.088125,0.56,5.59,Ligue_1,bets_20260418.csv,Under,False,-5.59
+2026-04-20,Lecce,Fiorentina,O/U,Over,2.0800000000000005,0.66,6.58,Serie_A,bets_20260418.csv,Under,False,-6.58
+2026-04-23,Go Ahead Eagles,AZ Alkmaar,O/U,Over,1.963076923076924,0.23,2.26,Eredivisie,bets_20260418.csv,Under,False,-2.26
+2026-04-25,Parma,Pisa,O/U,Over,2.2383333333333333,0.69,6.9,Serie_A,bets_20260418.csv,Under,False,-6.9
+2026-04-25,Bologna,AS Roma,O/U,Over,2.069166666666668,1.44,14.35,Serie_A,bets_20260418.csv,Under,False,-14.35
+2026-04-25,Feyenoord,Groningen,O/U,Over,2.0050000000000003,0.04,0.36,Eredivisie,bets_20260418.csv,Over,True,0.35
+2026-04-26,Genoa,Como,O/U,Over,2.055,1.09,10.88,Serie_A,bets_20260418.csv,Under,False,-10.88
+2026-04-27,Lazio,Udinese,O/U,Over,2.155,0.82,8.16,Serie_A,bets_20260418.csv,Over,True,9.07
+2026-04-18,Millwall,Queens Park Rangers,O/U,Under,1.9775,0.27,2.65,EFL_Championship,bets_20260418.csv,Under,True,2.49
+2026-04-18,Swansea City,Southampton,O/U,Under,2.018,0.71,7.1,EFL_Championship,bets_20260418.csv,,,
+2026-04-18,Arminia Bielefeld,1. FC Nürnberg,O/U,Under,2.0692857142857144,0.22,2.21,Bundesliga2,bets_20260418.csv,,,
+2026-04-18,Hannover 96,SC Paderborn,O/U,Under,2.1928571428571426,2.39,23.89,Bundesliga2,bets_20260418.csv,,,
+2026-04-18,Bari,Venezia,O/U,Under,2.0971428571428574,0.78,7.82,Serie_B,bets_20260418.csv,Over,False,-7.82
+2026-04-18,Palermo,Cesena FC,O/U,Under,2.0546666666666664,0.37,3.71,Serie_B,bets_20260418.csv,Under,True,3.76
+2026-04-18,Lille,Nice,O/U,Under,2.0625,0.02,0.17,Ligue_1,bets_20260418.csv,Under,True,0.17
+2026-04-18,Genclerbirligi SK,Galatasaray,O/U,Under,2.2146666666666666,0.49,4.94,Super_Lig,bets_20260418.csv,,,
+2026-04-19,Ipswich Town,Middlesbrough,O/U,Under,2.023125,0.78,7.82,EFL_Championship,bets_20260418.csv,,,
+2026-04-19,Eintracht Braunschweig,Hertha Berlin,O/U,Under,2.12,2.21,22.06,Bundesliga2,bets_20260418.csv,,,
+2026-04-19,Greuther Fürth,SV Darmstadt 98,O/U,Under,2.099333333333333,0.68,6.8,Bundesliga2,bets_20260418.csv,,,
+2026-04-19,Juventus,Bologna,O/U,Under,2.0347058823529416,0.78,7.79,Serie_A,bets_20260418.csv,Under,True,7.75
+2026-04-19,AS Monaco,Auxerre,O/U,Under,2.10875,0.47,4.69,Ligue_1,bets_20260418.csv,,,
+2026-04-19,Strasbourg,Rennes,O/U,Under,2.106666666666667,0.2,1.98,Ligue_1,bets_20260418.csv,Over,False,-1.98
+2026-04-19,Sporting Lisbon,Benfica,O/U,Under,2.0442857142857145,0.64,6.4,Liga_Portugal,bets_20260418.csv,,,
+2026-04-19,Trabzonspor,Basaksehir,O/U,Under,2.222857142857143,2.41,24.15,Super_Lig,bets_20260418.csv,Under,True,28.41
+2026-04-22,Paris Saint Germain,Nantes,O/U,Under,2.286923076923077,1.46,14.57,Ligue_1,bets_20260418.csv,,,
+2026-04-23,PSV Eindhoven,FC Zwolle,O/U,Under,2.2784615384615385,2.1,20.99,Eredivisie,bets_20260418.csv,Over,False,-20.99
+2026-04-24,Brest,RC Lens,O/U,Under,2.119166666666667,0.45,4.49,Ligue_1,bets_20260418.csv,Over,False,-4.49
+2026-04-25,Hellas Verona,Lecce,O/U,Under,2.1408333333333336,2.41,24.13,Serie_A,bets_20260418.csv,,,
+2026-04-25,Toulouse,AS Monaco,O/U,Under,2.067272727272728,0.45,4.54,Ligue_1,bets_20260418.csv,Over,False,-4.54
+2026-04-25,NAC Breda,Ajax,O/U,Under,2.1975,1.16,11.63,Eredivisie,bets_20260418.csv,Under,True,13.4
+2026-04-26,Torino,Inter Milan,O/U,Under,2.1925,0.33,3.28,Serie_A,bets_20260418.csv,Over,False,-3.28
+2026-04-26,Rennes,Nantes,O/U,Under,2.22,1.13,11.26,Ligue_1,bets_20260418.csv,Over,False,-11.26
+2026-04-26,Excelsior,FC Utrecht,O/U,Under,2.054166666666667,0.63,6.28,Eredivisie,bets_20260418.csv,Over,False,-6.28
+2026-04-26,Heracles Almelo,FC Volendam,O/U,Under,2.2658333333333336,3.54,35.39,Eredivisie,bets_20260418.csv,,,
+2026-04-26,Granada CF,Almería,1X2,D,3.0927272727272723,0.02,0.16,La_Liga2,bets_20260422.csv,,,
+2026-04-22,SC Telstar,Sparta Rotterdam,O/U,Over,2.035,0.07,0.75,Eredivisie,bets_20260422.csv,,,
+2026-04-24,Avellino,Bari,O/U,Over,2.0215384615384613,0.76,7.63,Serie_B,bets_20260422.csv,Under,False,-7.63
+2026-04-24,Alverca,Arouca,O/U,Over,1.9853333333333327,0.52,5.17,Liga_Portugal,bets_20260422.csv,Over,True,4.9
+2026-04-25,Stoke City,Portsmouth,O/U,Over,1.992307692307692,0.47,4.72,EFL_Championship,bets_20260422.csv,,,
+2026-04-25,Accrington Stanley,Crawley Town,O/U,Over,1.9615384615384608,0.63,6.29,EFL_League2,bets_20260422.csv,,,
+2026-04-25,Shrewsbury Town,Fleetwood Town,O/U,Over,2.0976923076923084,0.53,5.34,EFL_League2,bets_20260422.csv,,,
+2026-04-25,Parma,Pisa,O/U,Over,2.2041176470588235,0.28,2.76,Serie_A,bets_20260422.csv,Under,False,-2.76
+2026-04-25,Bologna,AS Roma,O/U,Over,2.061176470588235,1.27,12.7,Serie_A,bets_20260422.csv,Under,False,-12.7
+2026-04-25,Südtirol,Mantova,O/U,Over,2.0785714285714287,0.77,7.73,Serie_B,bets_20260422.csv,,,
+2026-04-25,Virtus Entella,Padova,O/U,Over,2.0764285714285715,1.32,13.25,Serie_B,bets_20260422.csv,Under,False,-13.25
+2026-04-25,Cesena FC,Sampdoria,O/U,Over,2.064285714285714,0.93,9.35,Serie_B,bets_20260422.csv,,,
+2026-04-26,1. FC Nürnberg,1. FC Magdeburg,O/U,Over,2.005714285714286,0.77,7.72,Bundesliga2,bets_20260422.csv,,,
+2026-04-27,Lazio,Udinese,O/U,Over,2.110625,0.49,4.89,Serie_A,bets_20260422.csv,Over,True,5.22
+2026-05-01,Pisa,Lecce,O/U,Over,2.3416666666666663,4.54,45.39,Serie_A,bets_20260422.csv,Over,True,58.58
+2026-05-02,Udinese,Torino,O/U,Over,2.116666666666667,0.74,7.38,Serie_A,bets_20260422.csv,Under,False,-7.38
+2026-05-02,Como,Napoli,O/U,Over,2.105833333333333,1.32,13.2,Serie_A,bets_20260422.csv,Under,False,-13.2
+2026-05-02,Metz,AS Monaco,O/U,Over,2.08,0.02,0.2,Ligue_1,bets_20260422.csv,Over,True,0.21
+2026-05-03,Bologna,Cagliari,O/U,Over,1.9941666666666669,0.43,4.26,Serie_A,bets_20260422.csv,Under,False,-4.26
+2026-05-03,Auxerre,Angers,O/U,Over,2.2522222222222217,0.64,6.38,Ligue_1,bets_20260422.csv,Over,True,7.69
+2026-04-22,Birmingham City,Preston North End,O/U,Under,2.02,0.35,3.48,EFL_Championship,bets_20260422.csv,,,
+2026-04-22,Paris Saint Germain,Nantes,O/U,Under,2.301333333333333,2.69,26.88,Ligue_1,bets_20260422.csv,,,
+2026-04-24,1. FC Kaiserslautern,Eintracht Braunschweig,O/U,Under,2.1842857142857146,1.96,19.57,Bundesliga2,bets_20260422.csv,,,
+2026-04-24,Brest,RC Lens,O/U,Under,2.116875,0.06,0.59,Ligue_1,bets_20260422.csv,Over,False,-0.59
+2026-04-25,Norwich City,Swansea City,O/U,Under,2.06,0.44,4.36,EFL_Championship,bets_20260422.csv,,,
+2026-04-25,Grimsby Town,Swindon Town,O/U,Under,2.0576923076923075,0.08,0.84,EFL_League2,bets_20260422.csv,,,
+2026-04-25,Milton Keynes Dons,Tranmere Rovers,O/U,Under,2.08,0.86,8.58,EFL_League2,bets_20260422.csv,Over,False,-8.58
+2026-04-25,Barnet,Gillingham,O/U,Under,1.963076923076923,0.38,3.76,EFL_League2,bets_20260422.csv,Over,False,-3.76
+2026-04-25,SV Darmstadt 98,Elversberg,O/U,Under,2.19,2.01,20.09,Bundesliga2,bets_20260422.csv,,,
+2026-04-25,Hellas Verona,Lecce,O/U,Under,2.1429411764705883,2.78,27.8,Serie_A,bets_20260422.csv,,,
+2026-04-25,Frosinone,Carrarese,O/U,Under,2.148571428571429,1.75,17.47,Serie_B,bets_20260422.csv,Over,False,-17.47
+2026-04-25,NAC Breda,Ajax,O/U,Under,2.157142857142857,0.41,4.06,Eredivisie,bets_20260422.csv,Under,True,4.52
+2026-04-25,Kayserispor,Çaykur Rizespor,O/U,Under,2.075714285714286,0.61,6.13,Super_Lig,bets_20260422.csv,Under,True,6.34
+2026-04-26,Coventry City,Wrexham AFC,O/U,Under,2.0915384615384616,0.47,4.69,EFL_Championship,bets_20260422.csv,,,
+2026-04-26,SC Paderborn,FC Schalke 04,O/U,Under,2.0700000000000003,0.48,4.85,Bundesliga2,bets_20260422.csv,,,
+2026-04-26,Lorient,Strasbourg,O/U,Under,1.961875,0.26,2.62,Ligue_1,bets_20260422.csv,Over,False,-2.62
+2026-04-26,Rennes,Nantes,O/U,Under,2.2243750000000007,0.47,4.65,Ligue_1,bets_20260422.csv,Over,False,-4.65
+2026-04-26,Excelsior,FC Utrecht,O/U,Under,2.0492307692307694,0.57,5.71,Eredivisie,bets_20260422.csv,Over,False,-5.71
+2026-04-26,Heracles Almelo,FC Volendam,O/U,Under,2.2192857142857148,2.99,29.86,Eredivisie,bets_20260422.csv,,,
+2026-04-26,AVS Futebol SAD,Sporting Lisbon,O/U,Under,2.299166666666667,3.68,36.76,Liga_Portugal,bets_20260422.csv,,,
+2026-04-26,Galatasaray,Fenerbahce,O/U,Under,2.065714285714286,1.53,15.26,Super_Lig,bets_20260422.csv,Over,False,-15.26
+2026-05-02,Nantes,Marseille,O/U,Under,2.267777777777778,1.01,10.1,Ligue_1,bets_20260422.csv,Over,False,-10.1
+2026-05-02,Nice,RC Lens,O/U,Under,2.1933333333333334,1.43,14.28,Ligue_1,bets_20260422.csv,Under,True,16.39
+2026-05-03,Sassuolo,AC Milan,O/U,Under,2.1533333333333333,0.37,3.67,Serie_A,bets_20260422.csv,Under,True,4.07
+2026-05-03,Juventus,Hellas Verona,O/U,Under,2.0925000000000007,0.42,4.15,Serie_A,bets_20260422.csv,Under,True,4.36
+2026-05-03,Lyon,Rennes,O/U,Under,2.107777777777778,0.77,7.7,Ligue_1,bets_20260422.csv,Over,False,-7.7
+2026-04-25,Middlesbrough,Watford,O/U,Over,2.028666666666667,1.1,10.96,EFL_Championship,bets_20260425.csv,Over,True,10.85
+2026-04-25,Shrewsbury Town,Fleetwood Town,O/U,Over,2.0735714285714284,0.97,9.75,EFL_League2,bets_20260425.csv,,,
+2026-04-25,Karlsruher SC,Hannover 96,O/U,Over,2.0326666666666666,1.27,12.71,Bundesliga2,bets_20260425.csv,,,
+2026-04-25,Bologna,AS Roma,O/U,Over,2.06,1.06,10.65,Serie_A,bets_20260425.csv,Under,False,-10.65
+2026-04-25,Südtirol,Mantova,O/U,Over,2.044,1.14,11.44,Serie_B,bets_20260425.csv,,,
+2026-04-25,Cesena FC,Sampdoria,O/U,Over,2.0546666666666664,0.75,7.54,Serie_B,bets_20260425.csv,,,
+2026-04-25,Feyenoord,Groningen,O/U,Over,2.11625,1.61,16.06,Eredivisie,bets_20260425.csv,Over,True,17.25
+2026-04-26,1. FC Nürnberg,1. FC Magdeburg,O/U,Over,2.023333333333333,0.78,7.84,Bundesliga2,bets_20260425.csv,,,
+2026-04-27,Lazio,Udinese,O/U,Over,2.14,0.36,3.63,Serie_A,bets_20260425.csv,Over,True,3.98
+2026-04-27,Gil Vicente,Casa Pia,O/U,Over,1.9913333333333327,0.79,7.89,Liga_Portugal,bets_20260425.csv,Over,True,7.52
+2026-05-01,Pisa,Lecce,O/U,Over,2.3469230769230767,4.41,44.06,Serie_A,bets_20260425.csv,Over,True,57.09
+2026-05-02,Udinese,Torino,O/U,Over,2.1250000000000004,0.76,7.62,Serie_A,bets_20260425.csv,Under,False,-7.62
+2026-05-02,Como,Napoli,O/U,Over,2.105,1.31,13.11,Serie_A,bets_20260425.csv,Under,False,-13.11
+2026-05-02,Metz,AS Monaco,O/U,Over,2.1,0.24,2.43,Ligue_1,bets_20260425.csv,Over,True,2.57
+2026-05-03,Bologna,Cagliari,O/U,Over,2.003333333333334,0.48,4.77,Serie_A,bets_20260425.csv,Under,False,-4.77
+2026-05-03,Inter Milan,Parma,O/U,Over,2.055,0.57,5.73,Serie_A,bets_20260425.csv,,,
+2026-05-03,Auxerre,Angers,O/U,Over,2.261111111111111,0.72,7.16,Ligue_1,bets_20260425.csv,Over,True,8.69
+2026-05-04,Cremonese,Lazio,O/U,Over,2.0283333333333333,0.06,0.61,Serie_A,bets_20260425.csv,Over,True,0.6
+2026-04-25,Norwich City,Swansea City,O/U,Under,2.091333333333333,1.1,10.97,EFL_Championship,bets_20260425.csv,,,
+2026-04-25,Sheffield United,Preston North End,O/U,Under,2.2431250000000005,2.58,25.81,EFL_Championship,bets_20260425.csv,Over,False,-25.81
+2026-04-25,Milton Keynes Dons,Tranmere Rovers,O/U,Under,2.0471428571428576,0.68,6.77,EFL_League2,bets_20260425.csv,Over,False,-6.77
+2026-04-25,Hertha Berlin,Holstein Kiel,O/U,Under,2.152666666666667,1.84,18.4,Bundesliga2,bets_20260425.csv,,,
+2026-04-25,SV Darmstadt 98,Elversberg,O/U,Under,2.102,2.15,21.45,Bundesliga2,bets_20260425.csv,,,
+2026-04-25,Lyon,Auxerre,O/U,Under,2.0050000000000003,0.94,9.37,Ligue_1,bets_20260425.csv,Over,False,-9.37
+2026-04-25,Toulouse,AS Monaco,O/U,Under,2.173333333333333,2.45,24.51,Ligue_1,bets_20260425.csv,Over,False,-24.51
+2026-04-25,Heerenveen,Fortuna Sittard,O/U,Under,2.0125,0.84,8.36,Eredivisie,bets_20260425.csv,Over,False,-8.36
+2026-04-25,NAC Breda,Ajax,O/U,Under,2.115,0.97,9.71,Eredivisie,bets_20260425.csv,Under,True,10.42
+2026-04-25,Kayserispor,Çaykur Rizespor,O/U,Under,2.035333333333333,1.17,11.73,Super_Lig,bets_20260425.csv,Under,True,11.68
+2026-04-26,Coventry City,Wrexham AFC,O/U,Under,2.056,1.09,10.95,EFL_Championship,bets_20260425.csv,,,
+2026-04-26,SC Paderborn,FC Schalke 04,O/U,Under,2.03,1.06,10.56,Bundesliga2,bets_20260425.csv,,,
+2026-04-26,VfL Bochum,Greuther Fürth,O/U,Under,2.089285714285714,0.0,0.0,Bundesliga2,bets_20260425.csv,,,
+2026-04-26,Torino,Inter Milan,O/U,Under,2.15,0.04,0.39,Serie_A,bets_20260425.csv,Over,False,-0.39
+2026-04-26,Lorient,Strasbourg,O/U,Under,1.976,0.11,1.13,Ligue_1,bets_20260425.csv,Over,False,-1.13
+2026-04-26,Rennes,Nantes,O/U,Under,2.2293333333333334,0.51,5.11,Ligue_1,bets_20260425.csv,Over,False,-5.11
+2026-04-26,Excelsior,FC Utrecht,O/U,Under,2.0280000000000005,0.45,4.48,Eredivisie,bets_20260425.csv,Over,False,-4.48
+2026-04-26,Heracles Almelo,FC Volendam,O/U,Under,2.182,2.85,28.46,Eredivisie,bets_20260425.csv,,,
+2026-04-26,AVS Futebol SAD,Sporting Lisbon,O/U,Under,2.2723076923076926,1.17,11.66,Liga_Portugal,bets_20260425.csv,,,
+2026-04-26,Galatasaray,Fenerbahce,O/U,Under,2.0828571428571427,1.64,16.43,Super_Lig,bets_20260425.csv,Over,False,-16.43
+2026-05-02,Nantes,Marseille,O/U,Under,2.245555555555556,0.82,8.17,Ligue_1,bets_20260425.csv,Over,False,-8.17
+2026-05-02,Nice,RC Lens,O/U,Under,2.1933333333333334,1.43,14.28,Ligue_1,bets_20260425.csv,Under,True,16.39
+2026-05-03,Sassuolo,AC Milan,O/U,Under,2.1475000000000004,0.43,4.32,Serie_A,bets_20260425.csv,Under,True,4.77
+2026-05-03,Juventus,Hellas Verona,O/U,Under,2.0958333333333337,0.2,1.97,Serie_A,bets_20260425.csv,Under,True,2.08
+2026-05-03,Lyon,Rennes,O/U,Under,2.1,0.69,6.87,Ligue_1,bets_20260425.csv,Over,False,-6.87
+2026-04-25,Middlesbrough,Watford,O/U,Over,2.028666666666667,1.1,10.96,EFL_Championship,bets_20260429.csv,Over,True,10.85
+2026-04-25,Shrewsbury Town,Fleetwood Town,O/U,Over,2.0735714285714284,0.97,9.75,EFL_League2,bets_20260429.csv,,,
+2026-04-25,Karlsruher SC,Hannover 96,O/U,Over,2.0326666666666666,1.27,12.71,Bundesliga2,bets_20260429.csv,,,
+2026-04-25,Bologna,AS Roma,O/U,Over,2.06,1.06,10.65,Serie_A,bets_20260429.csv,Under,False,-10.65
+2026-04-25,Südtirol,Mantova,O/U,Over,2.044,1.14,11.44,Serie_B,bets_20260429.csv,,,
+2026-04-25,Cesena FC,Sampdoria,O/U,Over,2.0546666666666664,0.75,7.54,Serie_B,bets_20260429.csv,,,
+2026-04-25,Feyenoord,Groningen,O/U,Over,2.11625,1.61,16.06,Eredivisie,bets_20260429.csv,Over,True,17.25
+2026-04-26,1. FC Nürnberg,1. FC Magdeburg,O/U,Over,2.023333333333333,0.78,7.84,Bundesliga2,bets_20260429.csv,,,
+2026-04-27,Lazio,Udinese,O/U,Over,2.14,0.36,3.63,Serie_A,bets_20260429.csv,Over,True,3.98
+2026-04-27,Gil Vicente,Casa Pia,O/U,Over,1.9913333333333327,0.79,7.89,Liga_Portugal,bets_20260429.csv,Over,True,7.52
+2026-05-01,Pisa,Lecce,O/U,Over,2.3469230769230767,4.41,44.06,Serie_A,bets_20260429.csv,Over,True,57.09
+2026-05-02,Udinese,Torino,O/U,Over,2.1250000000000004,0.76,7.62,Serie_A,bets_20260429.csv,Under,False,-7.62
+2026-05-02,Como,Napoli,O/U,Over,2.105,1.31,13.11,Serie_A,bets_20260429.csv,Under,False,-13.11
+2026-05-02,Metz,AS Monaco,O/U,Over,2.1,0.24,2.43,Ligue_1,bets_20260429.csv,Over,True,2.57
+2026-05-03,Bologna,Cagliari,O/U,Over,2.003333333333334,0.48,4.77,Serie_A,bets_20260429.csv,Under,False,-4.77
+2026-05-03,Inter Milan,Parma,O/U,Over,2.055,0.57,5.73,Serie_A,bets_20260429.csv,,,
+2026-05-03,Auxerre,Angers,O/U,Over,2.261111111111111,0.72,7.16,Ligue_1,bets_20260429.csv,Over,True,8.69
+2026-05-04,Cremonese,Lazio,O/U,Over,2.0283333333333333,0.06,0.61,Serie_A,bets_20260429.csv,Over,True,0.6
+2026-04-25,Norwich City,Swansea City,O/U,Under,2.091333333333333,1.1,10.97,EFL_Championship,bets_20260429.csv,,,
+2026-04-25,Sheffield United,Preston North End,O/U,Under,2.2431250000000005,2.58,25.81,EFL_Championship,bets_20260429.csv,Over,False,-25.81
+2026-04-25,Milton Keynes Dons,Tranmere Rovers,O/U,Under,2.0471428571428576,0.68,6.77,EFL_League2,bets_20260429.csv,Over,False,-6.77
+2026-04-25,Hertha Berlin,Holstein Kiel,O/U,Under,2.152666666666667,1.84,18.4,Bundesliga2,bets_20260429.csv,,,
+2026-04-25,SV Darmstadt 98,Elversberg,O/U,Under,2.102,2.15,21.45,Bundesliga2,bets_20260429.csv,,,
+2026-04-25,Lyon,Auxerre,O/U,Under,2.0050000000000003,0.94,9.37,Ligue_1,bets_20260429.csv,Over,False,-9.37
+2026-04-25,Toulouse,AS Monaco,O/U,Under,2.173333333333333,2.45,24.51,Ligue_1,bets_20260429.csv,Over,False,-24.51
+2026-04-25,Heerenveen,Fortuna Sittard,O/U,Under,2.0125,0.84,8.36,Eredivisie,bets_20260429.csv,Over,False,-8.36
+2026-04-25,NAC Breda,Ajax,O/U,Under,2.115,0.97,9.71,Eredivisie,bets_20260429.csv,Under,True,10.42
+2026-04-25,Kayserispor,Çaykur Rizespor,O/U,Under,2.035333333333333,1.17,11.73,Super_Lig,bets_20260429.csv,Under,True,11.68
+2026-04-26,Coventry City,Wrexham AFC,O/U,Under,2.056,1.09,10.95,EFL_Championship,bets_20260429.csv,,,
+2026-04-26,SC Paderborn,FC Schalke 04,O/U,Under,2.03,1.06,10.56,Bundesliga2,bets_20260429.csv,,,
+2026-04-26,VfL Bochum,Greuther Fürth,O/U,Under,2.089285714285714,0.0,0.0,Bundesliga2,bets_20260429.csv,,,
+2026-04-26,Torino,Inter Milan,O/U,Under,2.15,0.04,0.39,Serie_A,bets_20260429.csv,Over,False,-0.39
+2026-04-26,Lorient,Strasbourg,O/U,Under,1.976,0.11,1.13,Ligue_1,bets_20260429.csv,Over,False,-1.13
+2026-04-26,Rennes,Nantes,O/U,Under,2.2293333333333334,0.51,5.11,Ligue_1,bets_20260429.csv,Over,False,-5.11
+2026-04-26,Excelsior,FC Utrecht,O/U,Under,2.0280000000000005,0.45,4.48,Eredivisie,bets_20260429.csv,Over,False,-4.48
+2026-04-26,Heracles Almelo,FC Volendam,O/U,Under,2.182,2.85,28.46,Eredivisie,bets_20260429.csv,,,
+2026-04-26,AVS Futebol SAD,Sporting Lisbon,O/U,Under,2.2723076923076926,1.17,11.66,Liga_Portugal,bets_20260429.csv,,,
+2026-04-26,Galatasaray,Fenerbahce,O/U,Under,2.0828571428571427,1.64,16.43,Super_Lig,bets_20260429.csv,Over,False,-16.43
+2026-05-02,Nantes,Marseille,O/U,Under,2.245555555555556,0.82,8.17,Ligue_1,bets_20260429.csv,Over,False,-8.17
+2026-05-02,Nice,RC Lens,O/U,Under,2.1933333333333334,1.43,14.28,Ligue_1,bets_20260429.csv,Under,True,16.39
+2026-05-03,Sassuolo,AC Milan,O/U,Under,2.1475000000000004,0.43,4.32,Serie_A,bets_20260429.csv,Under,True,4.77
+2026-05-03,Juventus,Hellas Verona,O/U,Under,2.0958333333333337,0.2,1.97,Serie_A,bets_20260429.csv,Under,True,2.08
+2026-05-03,Lyon,Rennes,O/U,Under,2.1,0.69,6.87,Ligue_1,bets_20260429.csv,Over,False,-6.87
+2026-05-02,Gillingham,Shrewsbury Town,O/U,Over,2.075,0.93,9.33,EFL_League2,bets_20260502.csv,Under,False,-9.33
+2026-05-02,Udinese,Torino,O/U,Over,2.0876470588235296,1.43,14.31,Serie_A,bets_20260502.csv,Under,False,-14.31
+2026-05-02,Como,Napoli,O/U,Over,2.118235294117647,1.31,13.12,Serie_A,bets_20260502.csv,Under,False,-13.12
+2026-05-02,Arouca,Santa Clara,O/U,Over,2.276666666666667,1.16,11.59,Liga_Portugal,bets_20260502.csv,Over,True,14.23
+2026-05-02,Moreirense FC,CF Estrela,O/U,Over,2.1566666666666667,3.2,32.04,Liga_Portugal,bets_20260502.csv,,,
+2026-05-03,Bologna,Cagliari,O/U,Over,2.071875,0.69,6.94,Serie_A,bets_20260502.csv,Under,False,-6.94
+2026-05-03,Auxerre,Angers,O/U,Over,2.1340000000000003,0.92,9.18,Ligue_1,bets_20260502.csv,Over,True,10.01
+2026-05-03,Sparta Rotterdam,Go Ahead Eagles,O/U,Over,2.0586666666666664,0.29,2.91,Eredivisie,bets_20260502.csv,Over,True,2.96
+2026-05-03,Casa Pia,Tondela,O/U,Over,2.1373333333333333,1.08,10.75,Liga_Portugal,bets_20260502.csv,Under,False,-10.75
+2026-05-04,Cremonese,Lazio,O/U,Over,2.0958823529411768,0.77,7.69,Serie_A,bets_20260502.csv,Over,True,8.11
+2026-05-08,Avellino,Modena,O/U,Over,2.014,0.81,8.09,Serie_B,bets_20260502.csv,Under,False,-8.09
+2026-05-08,Südtirol,Juve Stabia,O/U,Over,2.036666666666666,0.62,6.21,Serie_B,bets_20260502.csv,,,
+2026-05-08,RC Lens,Nantes,O/U,Over,2.0290909090909093,1.12,11.2,Ligue_1,bets_20260502.csv,,,
+2026-05-09,Cagliari,Udinese,O/U,Over,2.215,1.2,12.02,Serie_A,bets_20260502.csv,Under,False,-12.02
+2026-05-10,Cremonese,Pisa,O/U,Over,2.1333333333333333,0.72,7.22,Serie_A,bets_20260502.csv,Over,True,7.87
+2026-05-10,Fiorentina,Genoa,O/U,Over,2.0341666666666667,0.79,7.86,Serie_A,bets_20260502.csv,Under,False,-7.86
+2026-05-10,Parma,AS Roma,O/U,Over,2.063333333333333,1.12,11.19,Serie_A,bets_20260502.csv,Over,True,11.45
+2026-05-02,Portsmouth,Birmingham City,O/U,Under,1.991875,0.32,3.24,EFL_Championship,bets_20260502.csv,Under,True,3.09
+2026-05-02,Bristol City,Stoke City,O/U,Under,2.158,0.24,2.37,EFL_Championship,bets_20260502.csv,Under,True,2.64
+2026-05-02,Watford,Coventry City,O/U,Under,2.045333333333333,0.01,0.05,EFL_Championship,bets_20260502.csv,Over,False,-0.05
+2026-05-02,Derby County,Sheffield United,O/U,Under,2.069333333333333,1.05,10.49,EFL_Championship,bets_20260502.csv,,,
+2026-05-02,Hull City,Norwich City,O/U,Under,2.203333333333333,2.73,27.25,EFL_Championship,bets_20260502.csv,,,
+2026-05-02,Wrexham AFC,Middlesbrough,O/U,Under,2.06,1.07,10.73,EFL_Championship,bets_20260502.csv,,,
+2026-05-02,Millwall,Oxford United,O/U,Under,2.228666666666667,1.86,18.65,EFL_Championship,bets_20260502.csv,Under,True,22.04
+2026-05-02,Preston North End,Southampton,O/U,Under,2.114,0.84,8.36,EFL_Championship,bets_20260502.csv,,,
+2026-05-02,Bromley FC,Walsall,O/U,Under,2.060714285714285,0.58,5.77,EFL_League2,bets_20260502.csv,,,
+2026-05-02,Crawley Town,Salford City,O/U,Under,2.002857142857143,0.47,4.71,EFL_League2,bets_20260502.csv,Under,True,4.54
+2026-05-02,Arminia Bielefeld,VfL Bochum,O/U,Under,2.1692857142857145,2.84,28.41,Bundesliga2,bets_20260502.csv,,,
+2026-05-02,Atalanta BC,Genoa,O/U,Under,2.0082352941176467,0.26,2.63,Serie_A,bets_20260502.csv,,,
+2026-05-02,Nantes,Marseille,O/U,Under,2.1293333333333333,0.69,6.87,Ligue_1,bets_20260502.csv,Over,False,-6.87
+2026-05-02,Metz,AS Monaco,O/U,Under,2.321333333333333,2.96,29.56,Ligue_1,bets_20260502.csv,Over,False,-29.56
+2026-05-02,Nice,RC Lens,O/U,Under,2.2513333333333336,2.53,25.26,Ligue_1,bets_20260502.csv,Under,True,30.41
+2026-05-02,FC Utrecht,NAC Breda,O/U,Under,2.114375,0.41,4.05,Eredivisie,bets_20260502.csv,,,
+2026-05-02,Groningen,Excelsior,O/U,Under,2.240625,3.15,31.49,Eredivisie,bets_20260502.csv,Over,False,-31.49
+2026-05-02,Ajax,PSV Eindhoven,O/U,Under,2.1100000000000003,0.29,2.95,Eredivisie,bets_20260502.csv,Over,False,-2.95
+2026-05-02,NEC Nijmegen,SC Telstar,O/U,Under,2.0387500000000007,0.83,8.27,Eredivisie,bets_20260502.csv,,,
+2026-05-02,Nacional,AVS Futebol SAD,O/U,Under,2.072857142857143,1.65,16.51,Liga_Portugal,bets_20260502.csv,Over,False,-16.51
+2026-05-02,Famalicão,Benfica,O/U,Under,2.012666666666667,0.65,6.46,Liga_Portugal,bets_20260502.csv,,,
+2026-05-02,FC Porto,Alverca,O/U,Under,2.113333333333333,1.02,10.16,Liga_Portugal,bets_20260502.csv,,,
+2026-05-02,Samsunspor,Galatasaray,O/U,Under,2.14,1.41,14.09,Super_Lig,bets_20260502.csv,Over,False,-14.09
+2026-05-03,Greuther Fürth,1. FC Nürnberg,O/U,Under,2.225,2.79,27.93,Bundesliga2,bets_20260502.csv,,,
+2026-05-03,Sassuolo,AC Milan,O/U,Under,2.0825,0.62,6.23,Serie_A,bets_20260502.csv,Under,True,6.49
+2026-05-03,Juventus,Hellas Verona,O/U,Under,2.1725,2.51,25.12,Serie_A,bets_20260502.csv,Under,True,28.33
+2026-05-03,Strasbourg,Toulouse,O/U,Under,1.96125,0.33,3.3,Ligue_1,bets_20260502.csv,Over,False,-3.3
+2026-05-08,Frosinone,Mantova,O/U,Under,2.2,0.39,3.93,Serie_B,bets_20260502.csv,Over,False,-3.93
+2026-05-08,Venezia,Palermo,O/U,Under,2.0933333333333333,0.36,3.6,Serie_B,bets_20260502.csv,Under,True,3.79
+2026-05-08,Pescara,Spezia,O/U,Under,2.106,2.33,23.34,Serie_B,bets_20260502.csv,Under,True,24.83
+2026-05-09,Lazio,Inter Milan,O/U,Under,2.029166666666667,0.4,3.98,Serie_A,bets_20260502.csv,Over,False,-3.98
+2026-05-09,Lecce,Juventus,O/U,Under,1.985,0.51,5.13,Serie_A,bets_20260502.csv,Under,True,4.86
+2026-05-10,AS Monaco,Lille,O/U,Under,2.3200000000000003,3.41,34.15,Ligue_1,bets_20260502.csv,,,
+2026-05-10,Paris Saint Germain,Brest,O/U,Under,2.334,2.47,24.68,Ligue_1,bets_20260502.csv,,,
+2026-05-10,Le Havre,Marseille,O/U,Under,2.3200000000000003,3.99,39.91,Ligue_1,bets_20260502.csv,Under,True,50.68
+2026-05-10,Metz,Lorient,O/U,Under,2.066,0.63,6.33,Ligue_1,bets_20260502.csv,Over,False,-6.33
+2026-05-10,Rennes,Paris FC,O/U,Under,2.409,4.35,43.5,Ligue_1,bets_20260502.csv,Over,False,-43.5
+2026-05-08,Hull City,Millwall,O/U,Over,2.0142857142857133,0.74,7.44,EFL_Championship,bets_20260506.csv,,,
+2026-05-08,Avellino,Modena,O/U,Over,1.969230769230769,0.51,5.14,Serie_B,bets_20260506.csv,Under,False,-5.14
+2026-05-08,Frosinone,Mantova,O/U,Over,2.022666666666668,1.24,12.38,Serie_B,bets_20260506.csv,Over,True,12.18
+2026-05-08,Südtirol,Juve Stabia,O/U,Over,2.045,1.11,11.1,Serie_B,bets_20260506.csv,,,
+2026-05-08,RC Lens,Nantes,O/U,Over,2.0733333333333333,1.97,19.67,Ligue_1,bets_20260506.csv,,,
+2026-05-09,Middlesbrough,Southampton,O/U,Over,2.0428571428571423,1.08,10.8,EFL_Championship,bets_20260506.csv,,,
+2026-05-09,Cagliari,Udinese,O/U,Over,2.170588235294118,0.73,7.32,Serie_A,bets_20260506.csv,Under,False,-7.32
+2026-05-09,Galatasaray,Antalyaspor,O/U,Over,2.4857142857142853,3.48,34.75,Super_Lig,bets_20260506.csv,Over,True,49.67
+2026-05-09,Genclerbirligi SK,Kasimpasa SK,O/U,Over,2.0450000000000004,0.72,7.15,Super_Lig,bets_20260506.csv,,,
+2026-05-10,Cremonese,Pisa,O/U,Over,2.074117647058824,0.53,5.3,Serie_A,bets_20260506.csv,Over,True,5.48
+2026-05-10,Fiorentina,Genoa,O/U,Over,2.038235294117647,0.82,8.21,Serie_A,bets_20260506.csv,Under,False,-8.21
+2026-05-10,Parma,AS Roma,O/U,Over,2.015882352941176,1.27,12.66,Serie_A,bets_20260506.csv,Over,True,12.37
+2026-05-11,Tondela,Moreirense FC,O/U,Over,2.046428571428572,1.51,15.1,Liga_Portugal,bets_20260506.csv,Under,False,-15.1
+2026-05-11,Santa Clara,Nacional,O/U,Over,2.0975,1.99,19.88,Liga_Portugal,bets_20260506.csv,Under,False,-19.88
+2026-05-17,Cagliari,Torino,O/U,Over,2.2725,1.46,14.61,Serie_A,bets_20260506.csv,Over,True,17.88
+2026-05-17,Udinese,Cremonese,O/U,Over,2.0925,1.62,16.23,Serie_A,bets_20260506.csv,Under,False,-16.23
+2026-05-08,1. FC Kaiserslautern,Arminia Bielefeld,O/U,Under,2.212857142857143,2.27,22.7,Bundesliga2,bets_20260506.csv,,,
+2026-05-09,Eintracht Braunschweig,Dynamo Dresden,O/U,Under,2.020714285714286,0.1,0.99,Bundesliga2,bets_20260506.csv,,,
+2026-05-09,VfL Bochum,Hannover 96,O/U,Under,2.143571428571428,2.32,23.15,Bundesliga2,bets_20260506.csv,,,
+2026-05-09,1. FC Nürnberg,FC Schalke 04,O/U,Under,2.1514285714285712,1.65,16.5,Bundesliga2,bets_20260506.csv,,,
+2026-05-09,Lazio,Inter Milan,O/U,Under,2.015882352941176,0.68,6.85,Serie_A,bets_20260506.csv,Over,False,-6.85
+2026-05-09,Lecce,Juventus,O/U,Under,2.008235294117647,0.52,5.24,Serie_A,bets_20260506.csv,Under,True,5.08
+2026-05-10,Fortuna Düsseldorf,Elversberg,O/U,Under,2.242142857142857,0.96,9.63,Bundesliga2,bets_20260506.csv,,,
+2026-05-10,Hertha Berlin,Greuther Fürth,O/U,Under,2.2478571428571423,1.43,14.29,Bundesliga2,bets_20260506.csv,,,
+2026-05-10,SC Preußen Münster,SV Darmstadt 98,O/U,Under,2.155,1.56,15.6,Bundesliga2,bets_20260506.csv,,,
+2026-05-10,AS Monaco,Lille,O/U,Under,2.238666666666667,3.38,33.83,Ligue_1,bets_20260506.csv,,,
+2026-05-10,Paris Saint Germain,Brest,O/U,Under,2.1940000000000004,1.31,13.11,Ligue_1,bets_20260506.csv,,,
+2026-05-10,Le Havre,Marseille,O/U,Under,2.173333333333333,0.51,5.07,Ligue_1,bets_20260506.csv,Under,True,5.72
+2026-05-10,Metz,Lorient,O/U,Under,2.082,0.04,0.43,Ligue_1,bets_20260506.csv,Over,False,-0.43
+2026-05-10,Feyenoord,AZ Alkmaar,O/U,Under,2.0146153846153854,0.88,8.8,Eredivisie,bets_20260506.csv,Under,True,8.59
+2026-05-10,Ajax,FC Utrecht,O/U,Under,2.0507142857142857,0.13,1.33,Eredivisie,bets_20260506.csv,Over,False,-1.33
+2026-05-10,Go Ahead Eagles,PSV Eindhoven,O/U,Under,2.3076923076923075,1.75,17.46,Eredivisie,bets_20260506.csv,Over,False,-17.46
+2026-05-10,Groningen,NEC Nijmegen,O/U,Under,2.001428571428572,0.52,5.17,Eredivisie,bets_20260506.csv,Over,False,-5.17
+2026-05-10,NAC Breda,Heerenveen,O/U,Under,2.275714285714286,1.84,18.42,Eredivisie,bets_20260506.csv,Under,True,22.61
+2026-05-10,AVS Futebol SAD,FC Porto,O/U,Under,2.246923076923077,3.39,33.93,Liga_Portugal,bets_20260506.csv,,,
+2026-05-11,Benfica,Braga,O/U,Under,2.1157142857142857,2.36,23.55,Liga_Portugal,bets_20260506.csv,Over,False,-23.55
+2026-05-11,Rio Ave FC,Sporting Lisbon,O/U,Under,2.058461538461539,0.87,8.73,Liga_Portugal,bets_20260506.csv,,,
+2026-05-17,Atalanta BC,Bologna,O/U,Under,2.285,1.15,11.55,Serie_A,bets_20260506.csv,,,
+2026-05-17,Como,Parma,O/U,Under,2.185,1.11,11.06,Serie_A,bets_20260506.csv,Under,True,12.61
+2026-05-17,Juventus,Fiorentina,O/U,Under,2.3075,3.79,37.86,Serie_A,bets_20260506.csv,Under,True,47.62
+2026-05-17,Inter Milan,Hellas Verona,O/U,Under,2.4175000000000004,4.07,40.69,Serie_A,bets_20260506.csv,,,
+2026-05-09,VfL Bochum,Hannover 96,O/U,Over,2.0000000000000004,0.49,4.89,Bundesliga2,bets_20260509.csv,,,
+2026-05-09,Cagliari,Udinese,O/U,Over,2.181176470588235,0.72,7.18,Serie_A,bets_20260509.csv,Under,False,-7.18
+2026-05-09,Besiktas JK,Trabzonspor,O/U,Over,2.036666666666667,0.29,2.89,Super_Lig,bets_20260509.csv,,,
+2026-05-09,Kocaelispor,Fatih Karagümrük,O/U,Over,2.0320000000000005,1.59,15.9,Super_Lig,bets_20260509.csv,Under,False,-15.9
+2026-05-10,Cremonese,Pisa,O/U,Over,2.0675,0.52,5.18,Serie_A,bets_20260509.csv,Over,True,5.32
+2026-05-10,Fiorentina,Genoa,O/U,Over,2.076470588235294,1.25,12.5,Serie_A,bets_20260509.csv,Under,False,-12.5
+2026-05-10,Fortuna Sittard,FC Zwolle,O/U,Over,2.0173333333333336,0.52,5.17,Eredivisie,bets_20260509.csv,,,
+2026-05-11,Santa Clara,Nacional,O/U,Over,1.9892857142857143,0.63,6.31,Liga_Portugal,bets_20260509.csv,Under,False,-6.31
+2026-05-17,Cagliari,Torino,O/U,Over,2.2725,1.58,15.79,Serie_A,bets_20260509.csv,Over,True,19.33
+2026-05-17,Udinese,Cremonese,O/U,Over,2.0575,1.44,14.36,Serie_A,bets_20260509.csv,Under,False,-14.36
+2026-05-09,1. FC Nürnberg,FC Schalke 04,O/U,Under,2.162857142857143,1.51,15.1,Bundesliga2,bets_20260509.csv,,,
+2026-05-09,Galatasaray,Antalyaspor,O/U,Under,2.051333333333333,0.21,2.05,Super_Lig,bets_20260509.csv,Over,False,-2.05
+2026-05-09,Basaksehir,Samsunspor,O/U,Under,2.103333333333333,2.16,21.59,Super_Lig,bets_20260509.csv,,,
+2026-05-09,Eyüpspor,Çaykur Rizespor,O/U,Under,1.9686666666666668,0.29,2.88,Super_Lig,bets_20260509.csv,,,
+2026-05-10,SC Preußen Münster,SV Darmstadt 98,O/U,Under,2.245714285714286,2.37,23.67,Bundesliga2,bets_20260509.csv,,,
+2026-05-10,AS Monaco,Lille,O/U,Under,2.2180000000000004,3.09,30.89,Ligue_1,bets_20260509.csv,,,
+2026-05-10,Paris Saint Germain,Brest,O/U,Under,2.18,1.37,13.66,Ligue_1,bets_20260509.csv,,,
+2026-05-10,Le Havre,Marseille,O/U,Under,2.1726666666666667,0.5,5.01,Ligue_1,bets_20260509.csv,Under,True,5.65
+2026-05-10,Toulouse,Lyon,O/U,Under,2.0380000000000003,0.57,5.67,Ligue_1,bets_20260509.csv,Over,False,-5.67
+2026-05-10,FC Twente Enschede,Sparta Rotterdam,O/U,Under,2.0333333333333337,1.16,11.63,Eredivisie,bets_20260509.csv,,,
+2026-05-10,Go Ahead Eagles,PSV Eindhoven,O/U,Under,2.306666666666666,3.14,31.4,Eredivisie,bets_20260509.csv,Over,False,-31.4
+2026-05-11,Benfica,Braga,O/U,Under,2.125333333333333,0.14,1.37,Liga_Portugal,bets_20260509.csv,Over,False,-1.37
+2026-05-17,Atalanta BC,Bologna,O/U,Under,2.285,1.04,10.37,Serie_A,bets_20260509.csv,,,
+2026-05-17,Como,Parma,O/U,Under,2.175,1.44,14.41,Serie_A,bets_20260509.csv,Under,True,16.29
+2026-05-17,Juventus,Fiorentina,O/U,Under,2.3125,3.53,35.33,Serie_A,bets_20260509.csv,Under,True,44.61
+2026-05-17,Inter Milan,Hellas Verona,O/U,Under,2.4175000000000004,4.07,40.69,Serie_A,bets_20260509.csv,,,
+2026-05-15,Notts County,Chesterfield FC,O/U,Over,2.0416666666666665,1.15,11.46,EFL_League2,bets_20260513.csv,,,
+2026-05-17,Cagliari,Torino,O/U,Over,2.1735294117647057,0.58,5.81,Serie_A,bets_20260513.csv,Over,True,6.56
+2026-05-17,Udinese,Cremonese,O/U,Over,2.026470588235294,1.13,11.32,Serie_A,bets_20260513.csv,Under,False,-11.32
+2026-05-17,Sassuolo,Lecce,O/U,Over,2.0058823529411764,1.21,12.07,Serie_A,bets_20260513.csv,Over,True,11.68
+2026-05-17,FC Volendam,SC Telstar,O/U,Over,2.047692307692308,1.14,11.41,Eredivisie,bets_20260513.csv,,,
+2026-05-23,Hull City,Southampton,O/U,Over,2.4325,4.16,41.61,EFL_Championship,bets_20260513.csv,,,
+2026-05-13,Brest,Strasbourg,O/U,Under,2.022,0.24,2.37,Ligue_1,bets_20260513.csv,Over,False,-2.37
+2026-05-16,Nacional,Vitória SC,O/U,Under,2.0138461538461536,0.08,0.81,Liga_Portugal,bets_20260513.csv,Under,True,0.79
+2026-05-17,FC Schalke 04,Eintracht Braunschweig,O/U,Under,2.1607692307692306,2.49,24.87,Bundesliga2,bets_20260513.csv,,,
+2026-05-17,Elversberg,SC Preußen Münster,O/U,Under,2.069230769230769,0.93,9.33,Bundesliga2,bets_20260513.csv,Over,False,-9.33
+2026-05-17,SV Darmstadt 98,SC Paderborn,O/U,Under,1.973846153846154,0.11,1.09,Bundesliga2,bets_20260513.csv,,,
+2026-05-17,Como,Parma,O/U,Under,2.1906250000000003,0.5,5.0,Serie_A,bets_20260513.csv,Under,True,5.73
+2026-05-17,Juventus,Fiorentina,O/U,Under,2.258125,2.94,29.35,Serie_A,bets_20260513.csv,Under,True,35.52
+2026-05-17,Atalanta BC,Bologna,O/U,Under,2.217058823529412,0.52,5.16,Serie_A,bets_20260513.csv,,,
+2026-05-17,Lille,Auxerre,O/U,Under,2.079285714285714,0.27,2.69,Ligue_1,bets_20260513.csv,Under,True,2.79
+2026-05-17,Lyon,RC Lens,O/U,Under,2.275714285714286,2.91,29.05,Ligue_1,bets_20260513.csv,Over,False,-29.05
+2026-05-17,Marseille,Rennes,O/U,Under,2.120714285714286,0.28,2.78,Ligue_1,bets_20260513.csv,Over,False,-2.78
+2026-05-17,Nice,Metz,O/U,Under,2.252857142857143,2.25,22.48,Ligue_1,bets_20260513.csv,Under,True,27.09
+2026-05-17,Nantes,Toulouse,O/U,Under,2.031428571428571,0.36,3.61,Ligue_1,bets_20260513.csv,,,
+2026-05-17,Paris FC,Paris Saint Germain,O/U,Under,2.118666666666668,1.07,10.73,Ligue_1,bets_20260513.csv,Over,False,-10.73
+2026-05-17,AZ Alkmaar,NAC Breda,O/U,Under,2.0578571428571424,0.54,5.42,Eredivisie,bets_20260513.csv,Over,False,-5.42
+2026-05-17,Heerenveen,Ajax,O/U,Under,2.191428571428572,0.61,6.14,Eredivisie,bets_20260513.csv,Under,True,7.04
+2026-05-17,Sparta Rotterdam,Excelsior,O/U,Under,1.9842857142857144,0.44,4.4,Eredivisie,bets_20260513.csv,Over,False,-4.4
+2026-05-17,PSV Eindhoven,FC Twente Enschede,O/U,Under,2.2446153846153845,1.04,10.42,Eredivisie,bets_20260513.csv,Over,False,-10.42
+2026-05-17,FC Utrecht,Fortuna Sittard,O/U,Under,2.025000000000001,0.81,8.09,Eredivisie,bets_20260513.csv,,,
+2026-05-17,FC Zwolle,Feyenoord,O/U,Under,2.086428571428572,0.8,7.96,Eredivisie,bets_20260513.csv,,,
+2026-05-17,NEC Nijmegen,Go Ahead Eagles,O/U,Under,2.1478571428571422,0.87,8.67,Eredivisie,bets_20260513.csv,,,
+2026-05-17,Heracles Almelo,Groningen,O/U,Under,2.0742857142857143,0.15,1.47,Eredivisie,bets_20260513.csv,,,
+2026-05-16,Juve Stabia,Monza,O/U,Over,2.245384615384616,1.3,13.0,Serie_B,bets_20260516.csv,,,
+2026-05-16,Fatih Karagümrük,Alanyaspor,O/U,Over,1.9846666666666664,0.36,3.64,Super_Lig,bets_20260516.csv,,,
+2026-05-17,Dynamo Dresden,Holstein Kiel,O/U,Over,2.025,0.61,6.14,Bundesliga2,bets_20260516.csv,,,
+2026-05-17,Inter Milan,Hellas Verona,O/U,Over,1.9975,0.79,7.89,Serie_A,bets_20260516.csv,,,
+2026-05-17,Cagliari,Torino,O/U,Over,2.166470588235294,0.51,5.12,Serie_A,bets_20260516.csv,Over,True,5.75
+2026-05-17,Udinese,Cremonese,O/U,Over,2.017058823529412,0.76,7.61,Serie_A,bets_20260516.csv,Under,False,-7.61
+2026-05-17,Sassuolo,Lecce,O/U,Over,2.024117647058824,1.1,11.04,Serie_A,bets_20260516.csv,Over,True,10.88
+2026-05-17,FC Volendam,SC Telstar,O/U,Over,2.0493333333333337,1.54,15.43,Eredivisie,bets_20260516.csv,,,
+2026-05-23,Hull City,Southampton,O/U,Over,2.269090909090909,0.67,6.67,EFL_Championship,bets_20260516.csv,,,
+2026-05-25,Notts County,Salford City,O/U,Over,2.17,2.89,28.85,EFL_League2,bets_20260516.csv,,,
+2026-05-16,Nacional,Vitória SC,O/U,Under,1.9906666666666664,0.38,3.77,Liga_Portugal,bets_20260516.csv,Under,True,3.59
+2026-05-16,Estoril,Benfica,O/U,Under,2.034666666666667,0.72,7.21,Liga_Portugal,bets_20260516.csv,Over,False,-7.21
+2026-05-16,Sporting Lisbon,Gil Vicente,O/U,Under,2.022142857142857,0.57,5.72,Liga_Portugal,bets_20260516.csv,,,
+2026-05-16,Samsunspor,Goztepe,O/U,Under,2.026,0.68,6.81,Super_Lig,bets_20260516.csv,Over,False,-6.81
+2026-05-17,Arminia Bielefeld,Hertha Berlin,O/U,Under,2.034,0.26,2.62,Bundesliga2,bets_20260516.csv,,,
+2026-05-17,FC Schalke 04,Eintracht Braunschweig,O/U,Under,2.156428571428571,2.44,24.41,Bundesliga2,bets_20260516.csv,,,
+2026-05-17,Elversberg,SC Preußen Münster,O/U,Under,2.064,1.19,11.89,Bundesliga2,bets_20260516.csv,Over,False,-11.89
+2026-05-17,Karlsruher SC,VfL Bochum,O/U,Under,2.043333333333333,0.37,3.73,Bundesliga2,bets_20260516.csv,,,
+2026-05-17,SV Darmstadt 98,SC Paderborn,O/U,Under,2.044,0.18,1.84,Bundesliga2,bets_20260516.csv,,,
+2026-05-17,Como,Parma,O/U,Under,2.1918750000000005,2.8,28.04,Serie_A,bets_20260516.csv,Under,True,32.15
+2026-05-17,Juventus,Fiorentina,O/U,Under,2.275,2.6,26.0,Serie_A,bets_20260516.csv,Under,True,31.89
+2026-05-17,Pisa,Napoli,O/U,Under,1.984375,0.16,1.59,Serie_A,bets_20260516.csv,Over,False,-1.59
+2026-05-17,Atalanta BC,Bologna,O/U,Under,2.1894117647058824,0.61,6.14,Serie_A,bets_20260516.csv,,,
+2026-05-17,Lille,Auxerre,O/U,Under,2.123571428571428,0.75,7.48,Ligue_1,bets_20260516.csv,Under,True,8.08
+2026-05-17,Lyon,RC Lens,O/U,Under,2.102666666666667,0.15,1.48,Ligue_1,bets_20260516.csv,Over,False,-1.48
+2026-05-17,Marseille,Rennes,O/U,Under,2.110714285714286,0.36,3.61,Ligue_1,bets_20260516.csv,Over,False,-3.61
+2026-05-17,Nice,Metz,O/U,Under,2.271428571428572,2.28,22.8,Ligue_1,bets_20260516.csv,Under,True,27.89
+2026-05-17,Nantes,Toulouse,O/U,Under,2.025,0.48,4.75,Ligue_1,bets_20260516.csv,,,
+2026-05-17,Paris FC,Paris Saint Germain,O/U,Under,2.0686666666666667,1.05,10.46,Ligue_1,bets_20260516.csv,Over,False,-10.46
+2026-05-17,AZ Alkmaar,NAC Breda,O/U,Under,2.041333333333333,1.0,9.95,Eredivisie,bets_20260516.csv,Over,False,-9.95
+2026-05-17,Heerenveen,Ajax,O/U,Under,2.168,0.39,3.91,Eredivisie,bets_20260516.csv,Under,True,4.39
+2026-05-17,PSV Eindhoven,FC Twente Enschede,O/U,Under,2.191333333333333,0.74,7.4,Eredivisie,bets_20260516.csv,Over,False,-7.4
+2026-05-17,NEC Nijmegen,Go Ahead Eagles,O/U,Under,2.177333333333334,0.79,7.87,Eredivisie,bets_20260516.csv,,,
+2026-05-22,Rot-Weiss Essen,Greuther Fürth,O/U,Over,2.0090000000000003,0.35,3.51,Bundesliga2,bets_20260520.csv,,,
+2026-05-22,Südtirol,Bari,O/U,Over,2.0584615384615383,0.74,7.4,Serie_B,bets_20260520.csv,,,
+2026-05-25,Notts County,Salford City,O/U,Over,2.089,1.73,17.25,EFL_League2,bets_20260520.csv,,,
+2026-05-20,Willem II,FC Volendam,O/U,Under,1.995,0.16,1.64,Eredivisie,bets_20260520.csv,,,
+2026-05-22,Fiorentina,Atalanta BC,O/U,Under,2.0966666666666667,0.09,0.88,Serie_A,bets_20260520.csv,Under,True,0.93
+2026-05-23,Bologna,Inter Milan,O/U,Under,2.2256249999999995,2.08,20.76,Serie_A,bets_20260520.csv,Over,False,-20.76
+2026-05-23,Lazio,Pisa,O/U,Under,2.028125,1.28,12.8,Serie_A,bets_20260520.csv,Over,False,-12.8
+2026-05-24,AC Milan,Cagliari,O/U,Under,2.125882352941177,0.96,9.59,Serie_A,bets_20260520.csv,,,
+2026-05-24,Torino,Juventus,O/U,Under,2.06625,0.88,8.85,Serie_A,bets_20260520.csv,Over,False,-8.85
+2026-05-23,Hull City,Middlesbrough,O/U,Over,2.1238461538461544,1.06,10.62,EFL_Championship,bets_20260523.csv,,,
+2026-05-24,Lecce,Genoa,O/U,Over,2.19125,0.15,1.52,Serie_A,bets_20260523.csv,Under,False,-1.52
+2026-05-25,Notts County,Salford City,O/U,Over,2.111666666666667,0.94,9.39,EFL_League2,bets_20260523.csv,,,
+2026-05-23,FC Volendam,Willem II,O/U,Under,2.04,0.13,1.35,Eredivisie,bets_20260523.csv,,,
+2026-05-24,Hellas Verona,AS Roma,O/U,Under,1.9858823529411764,0.44,4.42,Serie_A,bets_20260523.csv,,,
+2026-05-24,Cremonese,Como,O/U,Under,2.1029411764705883,0.16,1.57,Serie_A,bets_20260523.csv,Over,False,-1.57
+2026-05-24,Torino,Juventus,O/U,Under,2.050625,1.09,10.91,Serie_A,bets_20260523.csv,Over,False,-10.91
+2026-05-26,Saint Etienne,Nice,O/U,Under,2.13,0.07,0.66,Ligue_1,bets_20260523.csv,,,
+2026-05-31,Real Racing Club de Santander,Cádiz CF,1X2,D,4.5296666666666665,0.07,0.74,La_Liga2,bets_20260527.csv,,,
+2026-05-29,Monza,US Catanzaro 1929,O/U,Under,1.9838461538461536,0.23,2.3,Serie_B,bets_20260527.csv,,,
